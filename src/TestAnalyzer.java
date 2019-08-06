@@ -3,15 +3,18 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import soot.Body;
+import soot.PatchingChain;
 import soot.Scene;
 import soot.SootClass;
 import soot.SootMethod;
+import soot.Unit;
 import soot.Value;
 import soot.jimple.AssignStmt;
 import soot.jimple.InvokeExpr;
@@ -31,7 +34,7 @@ import com.opencsv.CSVWriter;
 
 public class TestAnalyzer {
 
-	static String className = "Etsy.WelcomeTest";
+	static String className = "Wish.RepresentativeTests";
 	static String outputFile = null;
 	static String sootClassPath = "/Users/felicitia/Documents/workspaces/Eclipse/TestBenchmark/target/classes";
 	static String appiumPath = "/Users/felicitia/Documents/Research/Android_Testing_Research/java-client-7.0.0.jar";
@@ -46,6 +49,7 @@ public class TestAnalyzer {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		sootSetting();
+//		add test body to testBodyList
 		testBodyList = new ArrayList<Body>();
 		for (SootMethod method: sootClass.getMethods()){
 			VisibilityAnnotationTag tag = (VisibilityAnnotationTag) method.getTag("VisibilityAnnotationTag");
@@ -58,7 +62,14 @@ public class TestAnalyzer {
 				}
 			}
 		}
-		
+//		for(Body body: testBodyList){
+//			if(body.getMethod().toString().contains("testAddress"))
+//			printAllUnits(body);
+//		}
+		writeTest2File();
+	}
+	
+	public static void writeTest2File(){
 		File file = new File(testDir + sootClass.getPackageName() + ".csv");
 		// create FileWriter object with file as parameter 
         FileWriter outputfile;
@@ -66,6 +77,9 @@ public class TestAnalyzer {
 			outputfile = new FileWriter(file, true); //true for appending to file
 			CSVWriter writer = new CSVWriter(outputfile); 
 			for(Body body: testBodyList){
+//				if(!body.getMethod().toString().contains("testAddress")){
+//					continue;
+//				}
 				List<String> line = new ArrayList<String>();
 				line.add(body.getMethod().toString());
 				line.add(analyzeTest(body).toString());
@@ -116,7 +130,16 @@ public class TestAnalyzer {
 				System.out.println("successfully analyzed: " + stmt);
 				continue;
 			}
-//			add reource id to guiDic
+			
+//			add xpath to guiDic
+			if(stmt.toString().contains("io.appium.java_client.android.AndroidDriver: org.openqa.selenium.WebElement findElementByXPath(java.lang.String)")){
+				AssignStmt assign = (AssignStmt) stmt;
+				InvokeExpr invoke = stmt.getInvokeExpr();
+				guiMap.put(assign.getLeftOp().toString(), "xpath@" + getStrInQuotes(invoke.getArg(0).toString()));
+				System.out.println("successfully analyzed:" + stmt);
+				continue;
+			}
+//			add resource id to guiDic
 			if(stmt.toString().contains("io.appium.java_client.android.AndroidDriver: org.openqa.selenium.WebElement findElementById(java.lang.String)")){
 				AssignStmt assign = (AssignStmt) stmt;
 				InvokeExpr invoke = stmt.getInvokeExpr();
@@ -152,13 +175,16 @@ public class TestAnalyzer {
 			}
 
 		}
-//		final PatchingChain<Unit> units = body.getUnits();
-//		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
-//			final Stmt stmt = (Stmt) iter.next();
-//				System.out.println("stmt = "+stmt);
-//		}		
-//		System.out.println(dictionary);
+	
 		return eventArray;
+	}
+	
+	public static void printAllUnits(Body body){
+		final PatchingChain<Unit> units = body.getUnits();
+		for (Iterator<Unit> iter = units.snapshotIterator(); iter.hasNext();) {
+			final Stmt stmt = (Stmt) iter.next();
+				System.out.println("stmt: "+stmt);
+		}		
 	}
 	
 	public static void sootSetting() {
@@ -172,9 +198,10 @@ public class TestAnalyzer {
 		sootClass.setApplicationClass();
 	}
 	
+//	$r11 can contrain $r1...
 	public static String getKeyInStmt(Map<String, String> guiMap, String stmt){
 		for(String key: guiMap.keySet()){
-			if(stmt.contains(key)){
+			if(stmt.endsWith(key)){
 				return key;
 			}
 		}
