@@ -9,6 +9,9 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
 import soot.Body;
 import soot.PatchingChain;
 import soot.Scene;
@@ -27,14 +30,12 @@ import soot.toolkits.graph.BriefUnitGraph;
 import soot.toolkits.graph.PseudoTopologicalOrderer;
 import soot.toolkits.graph.UnitGraph;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import com.opencsv.CSVWriter;
 
 
 public class TestAnalyzer {
 
-	static String className = "Wish.RepresentativeTests";
+	static String className = "FiveMiles.RepresentativeTests";
 	static String outputFile = null;
 	static String sootClassPath = "/Users/felicitia/Documents/workspaces/Eclipse/TestBenchmark/target/classes";
 	static String appiumPath = "/Users/felicitia/Documents/Research/Android_Testing_Research/java-client-7.0.0.jar";
@@ -75,16 +76,18 @@ public class TestAnalyzer {
         FileWriter outputfile;
 		try {
 			outputfile = new FileWriter(file, true); //true for appending to file
-			CSVWriter writer = new CSVWriter(outputfile); 
+			CSVWriter writer =  new CSVWriter(outputfile); 
 			for(Body body: testBodyList){
 //				if(!body.getMethod().toString().contains("testAddress")){
 //					continue;
 //				}
 				List<String> line = new ArrayList<String>();
 				line.add(body.getMethod().toString());
-				line.add(analyzeTest(body).toString());
+				JSONArray array = analyzeTest(body);
+				line.add( array.toJSONString().replace("\\\\", ""));
 				String[] lineArray = new String[line.size()];
 				lineArray = line.toArray(lineArray);
+//				System.out.println("line = "+ lineArray[1].replace("\\\\", ""));
 				writer.writeNext(lineArray);
 				System.out.println("finished writing " + body.getMethod() + " to csv file :)" );
 			}
@@ -95,9 +98,9 @@ public class TestAnalyzer {
 		} 
 	}
 
-	public static JsonArray analyzeTest(Body body){
-		JsonArray eventArray = new JsonArray();
-		Gson gson = new Gson();
+	public static JSONArray analyzeTest(Body body){
+		JSONArray eventArray = new JSONArray();
+//		Gson gson =  new GsonBuilder().disableHtmlEscaping().create();;
 		UnitGraph sootCfg = new BriefUnitGraph(body);
 		PseudoTopologicalOrderer pto = new PseudoTopologicalOrderer();
 		List jTopoOrder = pto.newList(sootCfg);
@@ -115,7 +118,9 @@ public class TestAnalyzer {
 				event.input = inputMap.get(invoke.getArg(0).toString()); 
 				String caller = getStrInBrackets(invoke.getUseBoxes().get(0).toString());
 				event.id_or_xpath = guiMap.get(caller);
-				eventArray.add(gson.toJson(event));
+				
+				eventArray.add(event2JSON(event));
+//				System.out.println("yixue: "+ event2JSON(event));
 				System.out.println("successfully analyzed: "+ stmt);
 				continue;
 			}
@@ -126,7 +131,8 @@ public class TestAnalyzer {
 				InvokeExpr invoke = stmt.getInvokeExpr();
 				String caller = getStrInBrackets(invoke.getUseBoxes().get(0).toString());
 				event.id_or_xpath = guiMap.get(caller);
-				eventArray.add(gson.toJson(event));
+				eventArray.add(event2JSON(event));
+//				System.out.println("yixue:"+event2JSON(event));
 				System.out.println("successfully analyzed: " + stmt);
 				continue;
 			}
@@ -135,7 +141,12 @@ public class TestAnalyzer {
 			if(stmt.toString().contains("io.appium.java_client.android.AndroidDriver: org.openqa.selenium.WebElement findElementByXPath(java.lang.String)")){
 				AssignStmt assign = (AssignStmt) stmt;
 				InvokeExpr invoke = stmt.getInvokeExpr();
-				guiMap.put(assign.getLeftOp().toString(), "xpath@" + getStrInQuotes(invoke.getArg(0).toString()));
+				String xpath = invoke.getArg(0).toString();
+				if(xpath.startsWith("\"") && xpath.endsWith("\"")){
+					xpath = xpath.substring(1, xpath.length()-1);
+				}
+				guiMap.put(assign.getLeftOp().toString(), "xpath@" + xpath);
+//				System.out.println("yixue: "+xpath);
 				System.out.println("successfully analyzed:" + stmt);
 				continue;
 			}
@@ -222,5 +233,14 @@ public class TestAnalyzer {
 	       return m.group(1);    
 	     }
 	     return null;
+	}
+	
+	public static JSONObject event2JSON(GUIEvent event){
+		JSONObject obj = new JSONObject();
+		obj.put("id_or_xpath", event.id_or_xpath);
+		obj.put("action", event.action);
+		obj.put("input", event.input);
+		System.out.println(obj);
+		return obj;
 	}
 }
