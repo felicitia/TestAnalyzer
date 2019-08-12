@@ -1,1 +1,4 @@
 .DS_Store
+fse_out/
+perfect_out/
+test_csv/

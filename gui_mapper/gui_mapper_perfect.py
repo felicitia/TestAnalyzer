@@ -41,7 +41,7 @@ if __name__ == "__main__":
                 target_csv = pickle.loads(pickle.dumps(source_csv)) #deep copy
                 i=0
                 target_csv['json'] = target_csv['json'].apply(perfect_map, args=(ground_truth_source, ground_truth_target))
-                print(source_path, i)
+                print(source_path, target_path, i)
 
                 target_csv['json'] = target_csv['json'].apply(json.dumps)
                 target_csv.to_csv("perfect_out/" + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(target_path), index=False)
