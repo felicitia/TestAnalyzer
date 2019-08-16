@@ -22,10 +22,10 @@ def craftdroid_map(test, mapping):
                     else:
                         gui_event['id_or_xpath'] = "id@" + event_row.iloc[0]['target resource id']
                 else:
-                    gui_event['id_or_xpath'] = "NONE_SOURCE"
+                    gui_event['id_or_xpath'] = "NONE"
                     i += 1
             except TypeError:
-                gui_event['id_or_xpath'] = "NONE_SOURCE"
+                gui_event['id_or_xpath'] = "NONE"
                 i += 1
             
         else:
