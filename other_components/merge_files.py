@@ -44,5 +44,5 @@ def get_src_events(src_test, app_name, dir):
 
 
 if __name__ == "__main__":
-    add_src('/Users/felicitia/Documents/Research/Android_Testing_Research/Develop/JustinResults/final_results.csv', 'new_final_result.csv')
+    add_src('final_framework_results.csv', 'final_framework_results_with_src.csv')
     # get_src_events('ss', 'Etsy', '/Users/felicitia/Documents/workspaces/Eclipse/TestAnalyzer/src/test_csv')
