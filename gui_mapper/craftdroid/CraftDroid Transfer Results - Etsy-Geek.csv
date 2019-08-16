@@ -1,0 +1,21 @@
+source resource id,source xpath,info of source event,target resource id,target xpath,info of target event
+Registration Test Case,,,,,
+com.etsy.android:id/btn_link,,,com.contextlogic.geek:id/login_fragment_sign_in_button,,
+com.etsy.android:id/btn_register_dialog,,,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,,
+com.etsy.android:id/edit_email,,,com.contextlogic.geek:id/sign_in_fragment_email_text,,
+com.etsy.android:id/edit_register_password,,,com.contextlogic.geek:id/sign_in_fragment_password_text,,
+com.etsy.android:id/edit_password_confirm,,,com.contextlogic.geek:id/sign_in_fragment_password_text,,
+com.etsy.android:id/edit_last_name,,,,,
+com.etsy.android:id/edit_first_name,,,,,
+com.etsy.android:id/button_register,,,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,,
+,,Navigate up,,,Navigate up
+com.etsy.android:id/etsy_menu_text,,,,,
+,,,,,
+Login Test Case,,,,,
+com.etsy.android:id/btn_link,,,com.contextlogic.geek:id/login_fragment_sign_in_button,,
+com.etsy.android:id/btn_sign_in_dialog,,,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,,
+com.etsy.android:id/edit_password,,,com.contextlogic.geek:id/sign_in_fragment_password_text,,
+com.etsy.android:id/edit_username,,,com.contextlogic.geek:id/sign_in_fragment_email_text,,
+com.etsy.android:id/button_signin,,,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,,
+,,Navigate up,com.contextlogic.geek:id/menu_fragment_row_text,,
+com.etsy.android:id/etsy_menu_text,,,,,open menu

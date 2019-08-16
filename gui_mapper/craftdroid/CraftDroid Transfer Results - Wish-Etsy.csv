@@ -1,0 +1,16 @@
+source resource id,source xpath,info of source event,target resource id,target xpath,info of target event
+Registration Test Case,,,,,
+com.contextlogic.wish:id/sign_in_fragment_create_account_button,,,com.etsy.android:id/btn_register_dialog,,
+com.contextlogic.wish:id/create_account_fragment_email_text,,,com.etsy.android:id/edit_email,,
+com.contextlogic.wish:id/create_account_fragment_password_text,,,com.etsy.android:id/edit_password_confirm,,
+com.contextlogic.wish:id/create_account_fragment_last_name_text,,,com.etsy.android:id/edit_last_name,,
+com.contextlogic.wish:id/create_account_fragment_first_name_text,,,com.etsy.android:id/edit_first_name,,
+com.contextlogic.wish:id/create_account_fragment_create_account_button,,,com.etsy.android:id/button_register,,
+com.contextlogic.wish:id/signup_flow_footer_button,,open menu,,,
+,,,,,
+,,,,,
+Login Test Case,,,,,
+com.contextlogic.wish:id/sign_in_fragment_password_text,,,com.etsy.android:id/menu_search,,
+com.contextlogic.wish:id/sign_in_fragment_email_text,,,com.etsy.android:id/search_src_text,,
+com.contextlogic.wish:id/sign_in_fragment_sign_in_button,,,,,content-desc: navigate up
+,,open menu,,,
