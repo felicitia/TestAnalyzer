@@ -116,7 +116,7 @@ def add_transition(events, app_name):
                 new_transferred.append(find_transition(curAct, next_curAct, app_name))
     # print (event_array, len(event_array))
     new_transferred.append(event_array[len(event_array) - 1])
-    return new_transferred
+    return json.dumps(new_transferred)
 
 # only find one transition if current and next match the ground truth
 def find_transition(curAct, next_curAct, app_name):
@@ -129,7 +129,7 @@ def find_transition(curAct, next_curAct, app_name):
                 event = {}
                 event['id'] = row[0]
                 event['xpath'] = row[1]
-                return json.dumps(event)
+                return event
 
 
 if __name__ == "__main__":
