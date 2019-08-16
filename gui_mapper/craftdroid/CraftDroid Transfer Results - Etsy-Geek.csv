@@ -2,7 +2,7 @@ source resource id,source xpath,info of source event,target resource id,target x
 Registration Test Case,,,,,
 com.etsy.android:id/btn_link,,,com.contextlogic.geek:id/login_fragment_sign_in_button,,
 com.etsy.android:id/btn_register_dialog,,,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,,
-com.etsy.android:id/edit_email,,,com.contextlogic.geek:id/sign_in_fragment_email_text,,
+com.etsy.android:id/edit_email,/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.EditText[1],,com.contextlogic.geek:id/sign_in_fragment_email_text,,
 com.etsy.android:id/edit_register_password,,,com.contextlogic.geek:id/sign_in_fragment_password_text,,
 com.etsy.android:id/edit_password_confirm,,,com.contextlogic.geek:id/sign_in_fragment_password_text,,
 com.etsy.android:id/edit_last_name,,,,,

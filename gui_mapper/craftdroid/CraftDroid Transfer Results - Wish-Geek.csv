@@ -10,8 +10,7 @@ com.contextlogic.wish:id/signup_flow_footer_button,,open menu,,,
 ,,,,,
 ,,,,,
 Login Test Case,,,,,
-com.contextlogic.wish:id/sign_in_fragment_password_text,,,"com.contextlogic.geek:id/sign_in_fragment_password_text
-",,
+com.contextlogic.wish:id/sign_in_fragment_password_text,,,com.contextlogic.geek:id/sign_in_fragment_password_text,,
 com.contextlogic.wish:id/sign_in_fragment_email_text,,,com.contextlogic.geek:id/sign_in_fragment_email_text,,
 com.contextlogic.wish:id/sign_in_fragment_sign_in_button,,,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,,
 ,,open menu,,,open menu
