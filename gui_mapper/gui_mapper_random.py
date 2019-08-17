@@ -47,7 +47,6 @@ if __name__ == "__main__":
 
                 target_csv = pickle.loads(pickle.dumps(source_csv)) #deep copy
                 i=0
-                print(source_path, target_path)
                 target_csv = target_csv.apply(random_map, args=(ground_truth_target,), axis=1)
                 print(source_path, target_path, i)
 
