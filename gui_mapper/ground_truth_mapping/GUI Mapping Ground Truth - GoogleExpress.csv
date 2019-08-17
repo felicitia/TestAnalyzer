@@ -1,5 +1,5 @@
 id,xpath,class,canonical,current Activity,next Activity,type,additional info
-com.google.android.apps.shopping.express:id/account_drop_down_arrow,"//android.widget.ImageView[@content-desc=""Expand arrow""]",android.widget.ImageView,signin_tosignin,.activity.MainActivity,.auth.uiflows.minutemaid.MinuteMaidActivity,transition,
+com.google.android.apps.shopping.express:id/account_drop_down_arrow,"//android.widget.ImageView[@content-desc=""Expand arrow""]",android.widget.ImageView,signin_tosignin,.main.ShoppingMainActivity,.auth.uiflows.minutemaid.MinuteMaidActivity,transition,
 ,"//android.widget.EditText[@content-desc=""Email or phone""]",android.widget.EditText,signin_username_or_email,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
 ,"//android.widget.Button[@content-desc=""Next""]",android.widget.Button,signin_continue,.auth.uiflows.minutemaid.MinuteMaidActivity,,transition,"""Next"" button for signin"
 ,"//android.webkit.WebView[@content-desc=""Welcome""]/android.view.View/android.view.View[3]",android.view.View,signin_password,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
