@@ -37,7 +37,7 @@ def apply_test_processor(final_result, test_processor_result):
 
                 for i in sorted(trans_index, reverse=True):
                     del (transferred_events[i])
-                new_row.append(transferred_events)
+                new_row.append(json.dumps(transferred_events))
 
                 new_row.append(row[source_app])
                 new_row.append(row[target_app])
