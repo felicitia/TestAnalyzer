@@ -2,7 +2,7 @@
 
 The source code for FrUITeR's implementation including different components (e.g., GUI Mapper, Test Processor); and Test Analyzer including ground truth mapping of GUI events to their canonical IDs.
 
-* Static Test Analyzer is located `src/TestAnalyzer.java` and its result on the ground truth tests is located at `src/test_csv/`
+* Static Test Analyzer is located at `src/TestAnalyzer.java`
 
 * Perfect GUI Mapper is located at `gui_mapper/gui_mapper_perfect.py`
 
