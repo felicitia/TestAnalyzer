@@ -7,3 +7,9 @@ fse_results/
 framework_results.csv
 craftdroid_out/
 random_out/
+final_framework_results_with_src.csv
+final_framework_results.csv
+test_processor_results.csv
+test_synthesizer_results.csv
+perfect_out.csv
+post_synthesis_results.csv
