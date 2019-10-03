@@ -11,24 +11,21 @@ tgt_bounds = 5
 
 score = 6
 
-def add_src(final_result, new_final_result):
-    with open(final_result, 'r') as csv_input:
-        with open(new_final_result, 'w') as csv_output:
-            writer = csv.writer(csv_output, lineterminator='\n')
-            reader = csv.reader(csv_input)
-
-            all = []
-            row = next(reader)
-            row.append('src_events')
-            all.append(row)
-
-            for row in reader:
-                app_name = row[source_app]
-                src_test = row[method]
-                row.append(get_src_events(src_test, app_name, '/Users/felicitia/Documents/workspaces/Eclipse/TestAnalyzer/src/test_csv'))
-                all.append(row)
-
-            writer.writerows(all)
+# merge scores read from input_dir and output src_tgt_score.csv
+def merge_scores(input_dir, output_dir):
+    for file in os.listdir(input_dir):
+        if file.endswith('.csv'):
+            src_app = file.split('_')[0]
+            tgt_app = file.split('_')[1]
+            # print (src_app, tgt_app)
+            with open(os.path.join(input_dir, file), 'r') as csv_input:
+                with open(os.path.join(output_dir, src_app+'_'+tgt_app+'_Scores.csv'), 'a') as csv_output:
+                    writer = csv.writer(csv_output, lineterminator='\n')
+                    reader = csv.reader(csv_input)
+                    all = []
+                    for row in reader:
+                        all.append(row)
+                    writer.writerows(all)
 
 # check if the last line is 'done'
 #     if done, then delete 'done'
@@ -54,4 +51,5 @@ def check_if_done(root_dir, extension):
 
 
 if __name__ == "__main__":
-    check_if_done('/Users/felicitia/Documents/workspaces/Eclipse/ATMGuiMapper', '.csv')
+    # check_if_done('/Users/felicitia/Documents/workspaces/Eclipse/ATMGuiMapper', '.csv')
+    # merge_scores('/Users/felicitia/Documents/workspaces/Eclipse/ATMGuiMapper','gui_mapper/atm')
