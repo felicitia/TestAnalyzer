@@ -120,6 +120,7 @@ def find_canonical(id, app):
 
 if __name__ == "__main__":
 
-    src_app = 'Geek'
+    src_app = 'Etsy'
     tgt_app = 'Wish'
     evaluate_atm_mapping(src_app, tgt_app)
+    # result is in 'final_results_atm.csv' with the header 'method,transferred,source,target,gui_mapper,correct,incorrect,missed,nonExist,TP,FP,FN,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall'

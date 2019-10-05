@@ -101,8 +101,8 @@ if __name__ == "__main__":
     # check_if_done('/Users/felicitia/Documents/workspaces/Eclipse/ATMGuiMapper', '.csv')
     # merge_scores('/Users/felicitia/Documents/workspaces/Eclipse/ATMGuiMapper','gui_mapper/atm')
 
-    src_app = 'Geek'
+    src_app = 'Etsy'
     tgt_app = 'Wish'
-    src_ids = get_events_from_tests('/Users/felicitia/Documents/workspaces/Eclipse/TestAnalyzer/src/test_csv/Geek.csv')
+    src_ids = get_events_from_tests('/Users/felicitia/Documents/workspaces/Eclipse/TestAnalyzer/src/test_csv/'+src_app+'.csv')
     mapping = generate_mapping(src_app, tgt_app, src_ids)
     output_mapping(mapping, src_app, tgt_app)
