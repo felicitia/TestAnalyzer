@@ -1,7 +1,44 @@
 import csv
 import os
 import json
+import numpy
+import copy
 
+def levenshtein(seq1, seq2):
+    # delete 'None' events in order to calculate levenshtein distance correctly
+    events1 = copy.deepcopy(seq1)
+    events2 = copy.deepcopy(seq2)
+    for event in events1:
+        if event == 'None':
+            events1.remove(event)
+    for event in events2:
+        if event == 'None':
+            events2.remove(event)
+
+    size_x = len(events1) + 1
+    size_y = len(events2) + 1
+    matrix = numpy.zeros ((size_x, size_y))
+    for x in range(size_x):
+        matrix [x, 0] = x
+    for y in range(size_y):
+        matrix [0, y] = y
+
+    for x in range(1, size_x):
+        for y in range(1, size_y):
+            if events1[x-1] == events2[y-1]:
+                matrix [x,y] = min(
+                    matrix[x-1, y] + 1,
+                    matrix[x-1, y-1],
+                    matrix[x, y-1] + 1
+                )
+            else:
+                matrix [x,y] = min(
+                    matrix[x-1,y] + 1,
+                    matrix[x-1,y-1] + 1,
+                    matrix[x,y-1] + 1
+                )
+    # print (matrix)
+    return (matrix[size_x - 1, size_y - 1])
 
 
 
@@ -11,6 +48,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
             writer = csv.writer(result_output, lineterminator='\n')
             reader = csv.reader(test_input)
             for row in reader:
+                src_test = []
                 trans_test = []
                 correct = []
                 incorrect = []
@@ -22,6 +60,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
                     for event in event_array:
                         if 'id@' in event['id_or_xpath']:
                             src_id = event['id_or_xpath'].split('id@')[1]
+                            src_test.append(src_id)
                             src_can = find_canonical(src_id, src_app)
                             trans_id = get_trans_id(src_id, src_app, tgt_app)
                             trans_can = find_canonical(trans_id, tgt_app)
@@ -39,18 +78,9 @@ def evaluate_atm_mapping(src_app, tgt_app):
                                     #nonExist case
                                     nonExist.append(src_id)
                         else:
+                            src_test.append(event['id_or_xpath'])
                             print ('no id found for event ', event)
-                    # output the current test case's results to the file
-                    current_result = []
-                    current_result.append(row[0])
-                    current_result.append(trans_test)
-                    current_result.append(src_app)
-                    current_result.append(tgt_app)
-                    current_result.append('atm')
-                    current_result.append(correct)
-                    current_result.append(incorrect)
-                    current_result.append(missed)
-                    current_result.append(nonExist)
+
                     # calcuate TP, FP, FN by comparing transferred test with ground-truth test
                     method_name = str(row[0]).split(': ')[1]
                     gt_test = get_gt_test(tgt_app, method_name)
@@ -60,6 +90,19 @@ def evaluate_atm_mapping(src_app, tgt_app):
                     TP = set(trans_test) & set(gt_test)
                     FP = set(trans_test) - set(gt_test)
                     FN = set(gt_test) - set(trans_test)
+                    # output the current test case's results to the file
+                    current_result = []
+                    current_result.append(row[0])
+                    current_result.append(src_test)
+                    current_result.append(trans_test)
+                    current_result.append(gt_test)
+                    current_result.append(src_app)
+                    current_result.append(tgt_app)
+                    current_result.append('atm')
+                    current_result.append(correct)
+                    current_result.append(incorrect)
+                    current_result.append(missed)
+                    current_result.append(nonExist)
                     current_result.append(TP)
                     current_result.append(FP)
                     current_result.append(FN)
@@ -75,6 +118,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
                         current_result.append('NA')
                     else:
                         current_result.append(len(correct) / (len(correct) + len(missed)))
+                    current_result.append(levenshtein(trans_test, gt_test))
                     writer.writerow(current_result)
 
 # return ground truth test case's event array
@@ -120,7 +164,10 @@ def find_canonical(id, app):
 
 if __name__ == "__main__":
 
-    src_app = 'Etsy'
+    src_app = 'Geek'
     tgt_app = 'Wish'
     evaluate_atm_mapping(src_app, tgt_app)
-    # result is in 'final_results_atm.csv' with the header 'method,transferred,source,target,gui_mapper,correct,incorrect,missed,nonExist,TP,FP,FN,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall'
+    # result is in 'final_results_atm.csv' with the header 'method,src_events,transferred,gt_events,source,target,gui_mapper,correct,incorrect,missed,nonExist,TP,FP,FN,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall,distance'
+    # a = ['aa', 'bbb', 'ccc']
+    # b = ['bb', 'aa', 'ccc']
+    # print (levenshtein(b, a))
