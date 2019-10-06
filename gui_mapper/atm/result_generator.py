@@ -5,14 +5,14 @@ import numpy
 import copy
 
 def levenshtein(seq1, seq2):
-    # delete 'None' events in order to calculate levenshtein distance correctly
+    # delete 'NONE' events in order to calculate levenshtein distance correctly
     events1 = copy.deepcopy(seq1)
     events2 = copy.deepcopy(seq2)
     for event in events1:
-        if event == 'None':
+        if event == 'NONE':
             events1.remove(event)
     for event in events2:
-        if event == 'None':
+        if event == 'NONE':
             events2.remove(event)
 
     size_x = len(events1) + 1
@@ -65,7 +65,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
                             trans_id = get_trans_id(src_id, src_app, tgt_app)
                             trans_can = find_canonical(trans_id, tgt_app)
                             trans_test.append(trans_id)
-                            if trans_can != 'None':
+                            if trans_can != 'NONE':
                                 if src_can == trans_can:
                                     correct.append(src_id)
                                 else:
@@ -152,7 +152,7 @@ def get_trans_id(src_id, src_app, tgt_app):
         for row in reader:
             if row[0] == src_id:
                 return row[1]
-    return 'None'
+    return 'NONE'
 
 def find_canonical(id, app):
     with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
@@ -160,7 +160,7 @@ def find_canonical(id, app):
         for row in reader:
             if row[0] == id:
                 return row[3]
-    return 'None'
+    return 'NONE'
 
 if __name__ == "__main__":
 
