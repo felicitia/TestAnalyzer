@@ -1,13 +1,13 @@
 id,xpath,class,canonical,current Activity,next Activity,type,additional info
 com.google.android.apps.shopping.express:id/account_drop_down_arrow,"//android.widget.ImageView[@content-desc=""Expand arrow""]",android.widget.ImageView,signin_tosignin,.main.ShoppingMainActivity,.auth.uiflows.minutemaid.MinuteMaidActivity,transition,
-,"//android.widget.EditText[@content-desc=""Email or phone""]",android.widget.EditText,signin_username_or_email,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
+,"//android.widget.EditText[@content-desc=""Email or phone""]",android.widget.EditText,signin_email_or_phone,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
 ,"//android.widget.Button[@content-desc=""Next""]",android.widget.Button,signin_continue,.auth.uiflows.minutemaid.MinuteMaidActivity,,transition,"""Next"" button for signin"
 ,"//android.webkit.WebView[@content-desc=""Welcome""]/android.view.View/android.view.View[3]",android.view.View,signin_password,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
 ,"//android.widget.Button[@content-desc=""Next""]",android.widget.Button,sign_in,.auth.uiflows.minutemaid.MinuteMaidActivity,,assertion,
 ,"//android.widget.Button[@content-desc=""Forgot password?""]",android.widget.Button,signin_forget_pwd,.auth.uiflows.minutemaid.MinuteMaidActivity,,assertion,
 ,"//android.widget.Spinner[@content-desc=""Create account""]",android.widget.Spinner,signin_tosignup,.auth.uiflows.minutemaid.MinuteMaidActivity,.auth.uiflows.minutemaid.MinuteMaidActivity,transition,"""Register"" button; same activity!"
-,"//android.view.MenuItem[@content-desc=""For myself""]",android.view.MenuItem,signup_formyself,.auth.uiflows.minutemaid.MinuteMaidActivity,.auth.uiflows.minutemaid.MinuteMaidActivity,transition,create account for myself option; same activity!
-,"//android.widget.EditText[@content-desc=""First name""]",android.widget.EditText,signup_username,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
+,"//android.view.MenuItem[@content-desc=""For myself""]",android.view.MenuItem,signup_personal,.auth.uiflows.minutemaid.MinuteMaidActivity,.auth.uiflows.minutemaid.MinuteMaidActivity,transition,create account for myself option; same activity!
+,"//android.widget.EditText[@content-desc=""First name""]",android.widget.EditText,signup_firstname,.auth.uiflows.minutemaid.MinuteMaidActivity,,input,
 ,"//android.widget.Button[@content-desc=""Next""]",android.widget.Button,sign_up,.auth.uiflows.minutemaid.MinuteMaidActivity,,transition,"""Next"" button for signup; same xpath as continue in signin"
 com.google.android.apps.shopping.express:id/navigation_action_account,"//android.widget.FrameLayout[@content-desc=""Account""]",android.widget.FrameLayout,menu_account,.main.ShoppingMainActivity,,assertion,Can be transition
 ,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[5]/android.widget.CheckedTextView,android.widget.CheckedTextView,help,.main.ShoppingMainActivity,.googlehelp.helpactivities.HelpActivity,assertion,Can be transition
@@ -31,3 +31,16 @@ com.google.android.apps.shopping.express:id/cart_action_button,"(//android.widge
 com.google.android.apps.shopping.express:id/cart_action_icon,"//android.widget.FrameLayout[@content-desc=""Shopping cart with 0 items""]/android.widget.FrameLayout/android.widget.ImageView",android.widget.ImageView,cart,.browse.BrowseActivity,,assertion,Can be many activities
 com.google.android.apps.shopping.express:id/move_to_shopping_list,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.TextView,android.widget.TextView,cart_remove,.cart.ShoppingCartActivity,,assertion,
 com.google.android.apps.shopping.express:id/og_tos_button,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.Button[2],android.widget.Button,legal,.main.ShoppingMainActivity,,assertion,
+com.google.android.apps.shopping.express:id/welcome_btn_get_started,,,get_started
+,//android.widget.EditText[@content-desc="Last name"],,signup_lastname
+com.google.android.apps.shopping.express:id/address_recipient,,,contact_name
+com.google.android.apps.shopping.express:id/address_street,,,address_street
+com.google.android.apps.shopping.express:id/address_city,,,address_city
+com.google.android.apps.shopping.express:id/address_state_spinner,,,address_state_spinner
+android:id/text1,,,address_state
+com.google.android.apps.shopping.express:id/address_zip_code,,,address_zip
+com.google.android.apps.shopping.express:id/phone_number,,,address_phone
+com.google.android.apps.shopping.express:id/navigation_action_browse,,,category
+com.google.android.apps.shopping.express:id/browse_title_container,,,cat_1
+com.google.android.apps.helprtc:id/gh_help_content_line_item,,,contact
+,/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[5]/android.widget.LinearLayout,,legal
