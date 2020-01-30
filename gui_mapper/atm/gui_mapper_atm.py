@@ -248,6 +248,8 @@ def get_classname_from_xpath(xpath):
 
 
 def get_attribute_from_xpath(xpath):
+    if '""' in xpath:
+        xpath = xpath.replace('""', '"')
     return xpath[xpath.find("[") + 1:xpath.find("]")]
 
 # automatically output src_tgt_mappings for each src/tgt app pair based on the merged scores
