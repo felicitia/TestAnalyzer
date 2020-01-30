@@ -138,7 +138,7 @@ def find_mapping_per_id(src_app, tgt_app, src_id_or_xpath):
 def find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath):
     # mapping's structure is {src id_or_xpath -> [matching tgt id, matching tgt class, matching tgt bounds, similarity score]}
     mapping = {}
-    src_node = find_element_by_xpath(src_app, src_id_or_xpath)
+    src_node = find_element_by_xpath(src_id_or_xpath.split('xpath@')[1], src_app)
     if src_node is None:
         return mapping
     src_class = src_node.get('class')
@@ -163,27 +163,29 @@ def find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath):
     return mapping
 
 
-# src_id_or_xpath: the id of the src element starting with xpath@
 # will return the xml node based on the xpath and the .uix file
-def find_element_by_xpath(src_app, src_id_or_xpath):
-    directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + src_app + '/ForMapping/'
+def find_node_by_xpath(xpath, app):
+    directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + \
+                app + '/ForMapping/'
+    print('find node for xpath', xpath, 'in app', app)
     for filename in os.listdir(directory):
         if filename.endswith(".uix"):
-            print('check xpath in ', os.path.join(directory, filename))
+            # print('check xpath in ', os.path.join(directory, filename))
             tree = etree.parse(os.path.join(directory, filename))
             root = tree.getroot()
-            xpath = src_id_or_xpath.split('xpath@')[1]
             if xpath.startswith('//'):  # relative xpath
                 class_name = get_classname_from_xpath(xpath)
                 attribute = get_attribute_from_xpath(xpath)
                 # print('//node[@class="'+class_name+'"]['+attribute+']')
                 nodes = root.xpath('//node[@class="' + class_name + '"][' + attribute + ']')
                 if len(nodes) != 0:
+                    print('current node is ', etree.tostring(nodes[0]))
                     return nodes[0]
             elif xpath.startswith('/hierarchy'):  # absolute xpath
                 class_names = xpath.split('/')
                 # print(class_names)
                 current_node = root.xpath('/hierarchy')[0]
+                no_matching = False
                 for class_name in class_names:
                     if class_name == '' or class_name == 'hierarchy':
                         continue
@@ -193,18 +195,21 @@ def find_element_by_xpath(src_app, src_id_or_xpath):
                         class_name = class_name.split('[')[0]
                         current_nodes = current_node.findall('./node[@class="' + class_name + '"]')
                         if current_nodes is None or index >= len(current_nodes):
+                            no_matching = True
                             break
                         else:
                             current_node = current_nodes[index]
                     else:  # only one child with same class name
                         current_nodes = current_node.findall('./node[@class="' + class_name + '"]')
                         if current_nodes is None or len(current_nodes) == 0:
+                            no_matching = True
                             break
                         else:
                             current_node = current_nodes[0]
-                return current_node
-            else:  # invalid xpath
-                print('invalid xpath: ', xpath)
+                if not no_matching:
+                    print('current node is ', etree.tostring(current_node))
+                    return current_node
+    print('current node is None')
     return None
 
 
