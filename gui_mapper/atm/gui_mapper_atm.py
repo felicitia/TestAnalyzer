@@ -138,7 +138,7 @@ def find_mapping_per_id(src_app, tgt_app, src_id_or_xpath):
 def find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath):
     # mapping's structure is {src id_or_xpath -> [matching tgt id, matching tgt class, matching tgt bounds, similarity score]}
     mapping = {}
-    src_node = find_element_by_xpath(src_id_or_xpath.split('xpath@')[1], src_app)
+    src_node = find_node_by_xpath(src_id_or_xpath.split('xpath@')[1], src_app)
     if src_node is None:
         return mapping
     src_class = src_node.get('class')
