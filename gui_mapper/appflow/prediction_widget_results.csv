@@ -2170,7 +2170,7 @@ app,filename,widget_id,prediction,correct,original GUI event id,original GUI eve
 5miles,5miles_3_main,81,NONE,NONE,,,,
 5miles,5miles_3_main,83,NONE,NONE,,,,
 5miles,5miles_3_main,85,NONE,NONE,,,,
-5miles,5miles_3_main,86,search,NONE,,,seartch,
+5miles,5miles_3_main,86,search,NONE,,,search,
 5miles,5miles_3_main,88,NONE,NONE,,,,
 5miles,5miles_3_main,89,NONE,NONE,,,,
 5miles,5miles_3_main,98,NONE,NONE,,,,
@@ -15182,15 +15182,15 @@ etsy,etsy_0_about,125,NONE,NONE,,,,
 etsy,etsy_0_about,126,NONE,NONE,,,,
 etsy,etsy_0_about,127,NONE,NONE,,,,
 etsy,etsy_0_about,128,NONE,NONE,,,,
-etsy,etsy_0_about,129,version,version,,"//android.view.View[@content-desc=""Version 5.6.0.""]",about_version,about_version
+etsy,etsy_0_about,129,version,version,,"//android.view.View[@content-desc=""Version 5.6.0.""]",about,about
 etsy,etsy_0_account,0,NONE,NONE,,,,
 etsy,etsy_0_account,1,NONE,NONE,,,,
 etsy,etsy_0_account,8,NONE,NONE,,,,
 etsy,etsy_0_account,10,menu,menu,,"//android.widget.ImageButton[@content-desc=""Navigate up""]",menu,menu
 etsy,etsy_0_account,11,NONE,NONE,,,,
 etsy,etsy_0_account,12,NONE,NONE,,,,
-etsy,etsy_0_account,13,search,search,com.etsy.android:id/menu_search,"//android.widget.TextView[@content-desc=""Search Button""]",search_btn,search_btn
-etsy,etsy_0_account,14,cart,cart,com.etsy.android:id/cart_icon,"//android.widget.ImageView[@content-desc=""shopping cart button 0""]",cart_btn,cart_btn
+etsy,etsy_0_account,13,search,search,com.etsy.android:id/menu_search,"//android.widget.TextView[@content-desc=""Search Button""]",search,search
+etsy,etsy_0_account,14,cart,cart,com.etsy.android:id/cart_icon,"//android.widget.ImageView[@content-desc=""shopping cart button 0""]",cart,cart
 etsy,etsy_0_account,17,NONE,NONE,,,,
 etsy,etsy_0_account,21,NONE,NONE,,,,
 etsy,etsy_0_account,22,NONE,NONE,,,,
@@ -25865,7 +25865,7 @@ groupon,groupon_0_welcome,12,NONE,NONE,,,,
 groupon,groupon_0_welcome,13,NONE,NONE,,,,
 groupon,groupon_0_welcome,14,existing,existing,com.groupon:id/sign_in_button,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout/android.widget.Button,home_signin,home_signin
 groupon,groupon_0_welcome,15,NONE,NONE,,,,
-groupon,groupon_0_welcome,16,signup,skip,,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.Button[2],,home_continue
+groupon,groupon_0_welcome,16,signup,skip,,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.Button[2],sign_up,skip
 hm,hm_2_account,0,NONE,NONE,,,,
 hm,hm_2_account,1,NONE,NONE,,,,
 hm,hm_2_account,8,NONE,NONE,,,,
