@@ -280,7 +280,7 @@ app,filename,widget_id,prediction,correct,original GUI event id,original GUI eve
 6pm,6pm_0_signin,11,signup,signup,,"//android.widget.Button[@content-desc=""Create a new 6pm account""]",signin_tosignup,signin_tosignup
 6pm,6pm_0_signin,20,NONE,email,,"//android.widget.EditText[@content-desc=""Email""]",,signin_username_or_email
 6pm,6pm_0_signin,25,password,password,,"//android.webkit.WebView[@content-desc=""6pm Sign-In""]/android.view.View[2]/android.view.View[5]/android.widget.EditText",signin_password,signin_password
-6pm,6pm_0_signin,27,login,login,,"//android.widget.Button[@content-desc="" Sign-In ""]",sign_in,sign_in
+6pm,6pm_0_signin,27,login,login,,"//android.widget.Button[@content-desc=""Sign-In""]",sign_in,sign_in
 6pm,6pm_0_signin,28,signin_forgot,signin_forgot,,"//android.view.View[@content-desc=""Forgot password?""]",signin_forget_pwd,signin_forget_pwd
 6pm,6pm_0_sort,13,sort_pricelow,sort_pricelow,,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],filter_price,filter_price
 6pm,6pm_0_sort,14,sort_pricehigh,sort_pricehigh,,,,
@@ -2084,7 +2084,7 @@ googleshopping,googleexp_0_terms,150,terms,terms,,,,
 googleshopping,googleexp_0_terms,151,terms,terms,,,,
 googleshopping,googleexp_0_terms,152,terms,terms,,,,
 googleshopping,googleexp_0_terms,153,terms,terms,,,,
-googleshopping,googleexp_0_welcome,16,signup,skip,,"//android.widget.Button[@content-desc=\""Next\""]",sign_up,skip
+googleshopping,googleexp_0_welcome,16,signup,skip,,"//android.widget.Button[@content-desc=""Next""]",sign_up,skip
 groupon,groupon_0_about,7,back,back,,,,
 groupon,groupon_0_about,20,version,version,,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[5]/android.widget.FrameLayout,about,about
 groupon,groupon_0_addredit,7,back,back,,,,
@@ -2598,7 +2598,7 @@ wish,wish_0_signin,18,signin_forgot,signin_forgot,com.contextlogic.wish:id/sign_
 wish,wish_0_signin,20,signup,signup,com.contextlogic.wish:id/sign_in_fragment_create_account_button,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1],signin_tosignup,signin_tosignup
 wish,wish_0_welcome,27,signup,signup,com.contextlogic.wish:id/sign_in_fragment_create_account_button,,home_signup,home_signup
 wish,wish_0_welcome,29,existing,existing,,,,
-home,home_0_account,50,menu,menu,,"//android.widget.ImageButton[@content-desc=Open Menu""]""",menu,menu
+home,home_0_account,50,menu,menu,,"//android.widget.ImageButton[@content-desc=""Open Menu""]",menu,menu
 home,home_0_addredit,13,back,back,,,,
 home,home_0_addredit,24,addr_first,addr_first,,,,
 home,home_0_addredit,25,addr_last,addr_last,,,,
@@ -2621,7 +2621,7 @@ home,home_3_cart,42,item_image,item_image,com.contextlogic.home:id/product_feed_
 home,home_3_cart,51,item_title,item_title,,,,
 home,home_3_cart,58,item_image,item_remove,com.contextlogic.home:id/cart_fragment_quantity_dropdown_icon,,item_1,cart_quantity
 home,home_3_cart,60,item_count,item_count,com.contextlogic.home:id/simple_list_view_text_view,,cart_quantity_0,cart_quantity_0
-home,home_3_cart,61,item_remove,item_remove,,"//android.widget.Button[@text=Remove""]""",cart_remove,cart_remove
+home,home_3_cart,61,item_remove,item_remove,,"//android.widget.Button[@text=""Remove""]",cart_remove,cart_remove
 home,home_3_cart,64,item_price,item_price,,,,
 home,home_3_cart,66,cart_item,cart_item,,,,
 home,home_3_cart,72,item_image,item_image,,,,
