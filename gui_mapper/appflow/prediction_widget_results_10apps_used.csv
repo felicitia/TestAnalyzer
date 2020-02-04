@@ -10,7 +10,7 @@ app,filename,widget_id,prediction,correct,original GUI event id,original GUI eve
 6pm,6pm_0_addredit,35,addr_zipcode,addr_zipcode,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,,address_zip,address_zip
 6pm,6pm_0_addredit,38,addr_city,addr_city,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,,address_city,address_city
 6pm,6pm_0_addredit,41,addr_state,addr_state,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_state_spinner,,address_state,address_state
-6pm,6pm_0_addredit,58,addr_save,back,,,address_save,
+6pm,6pm_0_addredit,58,addr_save,back,,,,
 6pm,6pm_0_addredit,59,addr_save,addr_save,com.zappos.android.sixpmFlavor:id/add_update_save_btn,/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.Button[2],address_save,address_save
 6pm,6pm_0_addredit,62,back,back,,,,
 6pm,6pm_0_addredit,65,NONE,search,,,,
@@ -2034,7 +2034,7 @@ googleshopping,googleexp_0_searchret,59,item_rating,item_rating,,,,
 googleshopping,googleexp_0_searchret,63,item_price,item_price,,,,
 googleshopping,googleexp_0_searchret,70,back,back,,,,
 googleshopping,googleexp_0_searchret,71,search_keyword,search_keyword,,,,
-googleshopping,googleexp_0_searchret,73,search,search,,,cart,
+googleshopping,googleexp_0_searchret,73,search,search,,,,
 googleshopping,googleexp_0_searchret,76,NONE,cart,com.google.android.apps.shopping.express:id/cart_action_icon,"//android.widget.FrameLayout[@content-desc=""Shopping cart with 0 items""]/android.widget.FrameLayout/android.widget.ImageView",,cart
 googleshopping,googleexp_4_searchret,25,filter,filter,com.google.android.apps.shopping.express:id/filter_drawer_text,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView,filter,filter
 googleshopping,googleexp_4_searchret,30,searchret_item,searchret_item,,,,
@@ -2186,7 +2186,7 @@ groupon,groupon_4_detail,72,detail_price,detail_price,,,,
 groupon,groupon_3_detail,18,detail_image,detail_image,,,,
 groupon,groupon_3_detail,24,detail_title,detail_title,,,,
 groupon,groupon_3_detail,39,detail_price,detail_price,,,,
-groupon,groupon_3_detail,54,NONE,cart,com.groupon:id/ic_shopping_cart,,cart,
+groupon,groupon_3_detail,54,NONE,cart,com.groupon:id/ic_shopping_cart,,,cart
 groupon,groupon_3_detail,57,detail_addcart,detail_addcart,com.groupon:id/cta_button,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.view.ViewGroup/android.widget.Button,add_cart,add_cart
 groupon,groupon_3_detail,63,share,share,,,,
 groupon,groupon_6_detail,16,detail_image,detail_image,,,,
@@ -2716,7 +2716,7 @@ home,home_0_help,160,question,question,,,,
 home,home_4_main,10,menu,menu,,,,
 home,home_4_main,14,cart,cart,,,,
 home,home_4_main,17,search,search,com.contextlogic.home:id/search_mag_icon,,search,search
-home,home_2_main,10,menu,menu,,"//android.widget.ImageButton[@content-desc=""Open Menu""]",,
+home,home_2_main,10,menu,menu,,"//android.widget.ImageButton[@content-desc=""Open Menu""]",menu,menu
 home,home_2_main,14,cart,cart,,,,
 home,home_2_main,17,search,search,com.contextlogic.home:id/search_mag_icon,,search,search
 home,home_3_main,10,menu,menu,,,,
