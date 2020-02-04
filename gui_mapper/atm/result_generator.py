@@ -307,6 +307,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
         with open('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/final_results_atm.csv', 'a') as result_output:
             writer = csv.writer(result_output, lineterminator='\n')
             reader = csv.reader(test_input)
+            next(reader) # skip the header
             for row in reader:
                 src_test = []
                 trans_test = []
