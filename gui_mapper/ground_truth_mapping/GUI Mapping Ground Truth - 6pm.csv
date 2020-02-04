@@ -32,14 +32,14 @@ com.zappos.android.sixpmFlavor:id/add_to_cart_fab,/hierarchy/android.widget.Fram
 com.zappos.android.sixpmFlavor:id/icon,"//android.widget.FrameLayout[@content-desc=""Shopping bag""]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ImageView",android.widget.ImageView,cart,com.zappos.android.activities.ProductActivity,,assertion,Can be many activities
 com.zappos.android.sixpmFlavor:id/menu_remove_all,"//android.widget.TextView[@content-desc=""Clear""]",android.widget.TextView,cart_remove,com.zappos.android.activities.ProductActivity,,assertion,Can be many activities
 ,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[10]/android.widget.RelativeLayout,android.widget.RelativeLayout,menu_more,com.zappos.android.activities.SettingsActivity,com.zappos.android.activities.SettingsActivity,transition,"""More Info"" in settings; same activity!"
-ap_customer_name,,,signup_username,com.zappos.android.activities.AUIAccountAuthActivity,,,
-ap_email,,,signup_email,com.zappos.android.activities.AUIAccountAuthActivity,,,
-ap_password,,,signup_password,com.zappos.android.activities.AUIAccountAuthActivity,,,
-com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,,,address_phone,com.zappos.android.activities.MyAccountActivity,,,
-com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,,,address_zip,com.zappos.android.activities.MyAccountActivity,,,
-com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,,,address_city,com.zappos.android.activities.MyAccountActivity,,,
+ap_customer_name,,,signup_username,com.zappos.android.activities.AUIAccountAuthActivity,,input,
+ap_email,,,signup_email,com.zappos.android.activities.AUIAccountAuthActivity,,input,
+ap_password,,,signup_password,com.zappos.android.activities.AUIAccountAuthActivity,,input,
+com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,,,address_phone,com.zappos.android.activities.MyAccountActivity,,input,
+com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,,,address_zip,com.zappos.android.activities.MyAccountActivity,,input,
+com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,,,address_city,com.zappos.android.activities.MyAccountActivity,,input,
 com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_state_spinner,,,address_state_spinner,com.zappos.android.activities.MyAccountActivity,,,
-android:id/text1,,,address_state,com.zappos.android.activities.MyAccountActivity,,,
+android:id/text1,,,address_state,com.zappos.android.activities.MyAccountActivity,,input,
 android:id/button1,,,cart_remove_confirm,com.zappos.android.activities.ProductActivity,,,
 ,"//android.widget.TextView[@text=""More Info""]",,menu_more,com.zappos.android.activities.SettingsActivity,,,
 ,"//android.widget.TextView[@text=""Terms of Use""]",,legal,com.zappos.android.activities.SettingsActivity,com.zappos.android.activities.LandingPageActivity,,

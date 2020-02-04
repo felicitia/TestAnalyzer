@@ -27,7 +27,7 @@ com.thirdrock.fivemiles:id/home_location_item_image,/hierarchy/android.widget.Fr
 com.thirdrock.fivemiles:id/btn_make_offer,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.Button[1],android.widget.Button,add_cart,.item.ItemActivity,.item.ItemActivity,assertion,
 ,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[4],android.widget.LinearLayout,legal,.settings.SettingActivity,.FmWebActivity,assertion,
 com.thirdrock.fivemiles:id/sign_in,,,home_signin,.WelcomeActivity,.login.EmailLoginActivity,,
-com.thirdrock.fivemiles:id/login_last_name,,,signup_lastname,.login.RegisterActivity,.login.RegisterActivity,,
+com.thirdrock.fivemiles:id/login_last_name,,,signup_lastname,.login.RegisterActivity,.login.RegisterActivity,input,
 com.thirdrock.fivemiles:id/profile_edit_profile,,,menu_account,.MainTabActivity,.MainTabActivity,,
 com.thirdrock.fivemiles:id/txt_sort_order,,,filter_sort,.main.home.filter.DynamicFilterActivity,com.thirdrock.framework.common.SelectionListActivity,,
 com.thirdrock.fivemiles:id/my_profile_shipping_address,,,account_address,.MyProfileActivity,.FmWebActivity,,
