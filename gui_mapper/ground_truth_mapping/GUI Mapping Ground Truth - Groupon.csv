@@ -27,8 +27,11 @@ com.groupon:id/cta_button,/hierarchy/android.widget.FrameLayout/android.widget.L
 com.groupon:id/ic_shopping_cart,"//android.widget.ImageView[@content-desc=""Your Cart""]",android.widget.ImageView,cart,.dealdetails.main.activities.DealDetailsActivity,,assertion,
 com.groupon:id/terms_of_use,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[3],android.widget.TextView,legal,.about.main.activities.AboutGroupon,,assertion,
 com.groupon:id/done,,,home_signin_or_signup
-,//android.widget.TextView[@text=""NEW USER""],,signin_tosignup
-,//android.widget.Button[@text=""Just show me the deals""],,bypass
+,"//android.widget.TextView[@text=""NEW USER""]",,signin_tosignup
+,"//android.widget.Button[@text=""Just show me the deals""]",,bypass
 com.groupon:id/categoryCardContentContainer,,,cat_1
-,//android.widget.TextView[@text=""Customer Support""],,help
+,"//android.widget.TextView[@text=""Customer Support""]",,help
 com.groupon:id/my_stuff,,,menu
+com.groupon:id/quantity_button_text,,,cart_quantity
+com.groupon:id/quantity_button_image,,,cart_remove
+com.groupon:id/dialog_positive_button,,,cart_remove_confirm

@@ -28,8 +28,8 @@ com.contextlogic.home:id/search_mag_icon,,,search
 com.contextlogic.home:id/action_bar_item_icon,,,cart
 com.contextlogic.home:id/cart_fragment_quantity_dropdown_icon,,,cart_quantity
 com.contextlogic.home:id/simple_list_view_text_view,,,cart_quantity_0
-,//android.widget.Button[@text=""Remove""],,cart_remove
-,//android.widget.TextView[@text="Manage Addresses"],,account_address
+,"//android.widget.Button[@text=""Remove""]",,cart_remove
+,"//android.widget.TextView[@text=""Manage Addresses""]",,account_address
 com.contextlogic.home:id/address_book_footer_text,,,address_add
 com.contextlogic.home:id/shipping_address_form_street_address_text,,,address_street
 com.contextlogic.home:id/shipping_address_form_state_spinner,,,address_state_spinner

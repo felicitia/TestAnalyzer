@@ -4,11 +4,11 @@ id,xpath,class,canonical,current Activity,next Activity,type,additional info
 ,"//android.webkit.WebView[@content-desc=""6pm Sign-In""]/android.view.View[2]/android.view.View[5]/android.widget.EditText",android.widget.EditText,signin_password,com.zappos.android.activities.AUIAccountAuthActivity,,input,Can be transition
 ,"//android.widget.Button[@content-desc=""Sign-In""]",android.widget.Button,sign_in,com.zappos.android.activities.AUIAccountAuthActivity,com.zappos.android.activities.MyAccountActivity,assertion,Can be transition
 ,"//android.view.View[@content-desc=""Forgot password?""]",android.view.View,signin_forget_pwd,com.zappos.android.activities.AUIAccountAuthActivity,,assertion,
-,"//android.widget.Button[@content-desc=""Create a new 6pm account""]",android.widget.Button,signin_tosignup,com.zappos.android.activities.AUIAccountAuthActivity,com.zappos.android.activities.AUIAccountAuthActivity,transition,"""Register"" button; same activity!"
+,"//android.widget.Button[@text=""Create a new 6pm account""]",android.widget.Button,signin_tosignup,com.zappos.android.activities.AUIAccountAuthActivity,com.zappos.android.activities.AUIAccountAuthActivity,transition,"""Register"" button; same activity!"
 ,"//android.widget.EditText[@content-desc=""Your email address""]",android.widget.EditText,signup_email,com.zappos.android.activities.AUIAccountAuthActivity,,input,
 ,"//android.widget.EditText[@content-desc=""Name""]",android.widget.EditText,signup_username,com.zappos.android.activities.AUIAccountAuthActivity,,input,
 ,"//android.webkit.WebView[@content-desc=""6pm Registration""]/android.view.View[3]/android.view.View[5]/android.widget.EditText",android.widget.EditText,signup_password,com.zappos.android.activities.AUIAccountAuthActivity,,input,
-,"//android.widget.Button[@content-desc=""Create your 6pm account""]",android.widget.Button,sign_up,com.zappos.android.activities.AUIAccountAuthActivity,,assertion,
+,"//android.widget.Button[@text=""Create your 6pm account""]",android.widget.Button,sign_up,com.zappos.android.activities.AUIAccountAuthActivity,,assertion,
 ,"//android.widget.ImageButton[@content-desc=""Open navigation drawer""]",android.widget.ImageButton,menu,com.zappos.android.activities.HomeActivity,,assertion,Can be transition
 ,/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[6],androidx.appcompat.widget.LinearLayoutCompat,menu_settings,com.zappos.android.activities.HomeActivity,com.zappos.android.activities.SettingsActivity,transition,
 ,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[8]/android.widget.RelativeLayout,android.widget.RelativeLayout,about,com.zappos.android.activities.SettingsActivity,,assertion,
@@ -44,3 +44,4 @@ android:id/button1,,,cart_remove_confirm
 ,//android.widget.TextView[@text="More Info"],,menu_more
 ,//android.widget.TextView[@text="Terms of Use"],,legal
 ,//android.widget.CheckedTextView[@text="Account"],,menu_account
+,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[7]/android.widget.RelativeLayout,,about
