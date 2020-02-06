@@ -15,6 +15,9 @@ def craftdroid_map(test, mapping):
                 else:
                     event_row = mapping.loc[mapping['source xpath'] == gui_event['id_or_xpath'][6:]]
                 if event_row.shape[0] != 0:
+                    # when event_row has multiple rows, use the first row's result (event_row.iloc[0])
+                    # because the mapped tgt events are the same in the ground truth
+                    gui_event['score'] = event_row.iloc[0]['score']
                     if pd.isnull(event_row.iloc[0]['target resource id']):
                         if pd.isnull(event_row.iloc[0]['target xpath']):
                             gui_event['id_or_xpath'] = "NONE"
