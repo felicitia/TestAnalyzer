@@ -71,3 +71,5 @@ to_home,jump to home page
 back,back button
 settings_tosignin,jump from settings screen to signin screen
 tosearch,jump to search screen
+save_bookmark,saves item as bookmark
+remove_bookmark, removes item from bookmarks
