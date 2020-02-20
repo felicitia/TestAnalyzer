@@ -75,3 +75,4 @@ save_bookmark,saves item as bookmark
 remove_bookmark,removes item from bookmarks
 menu_bookmark,go to bookmarks menu
 menu_textsize,go to text size menu
+cat_2,choose second category
