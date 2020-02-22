@@ -28,13 +28,13 @@ sign_in
 sign_in_option
 sign_in_or_sign_up
 sign_in_pwd
-sign_in_username,input field for username/firstname/lastname/email/phone when signing in
+sign_in_username - input field for username/firstname/lastname/email/phone when signing in
 sign_up
 sign_up_birthday
-sign_up_gmail,choose the suggested gmail address or create your own gmail address
+sign_up_gmail - choose the suggested gmail address or create your own gmail address
 sign_up_option
 sign_up_pwd
-sign_up_username,input field for username/firstname/lastname/email/phone when signing up
+sign_up_username - input field for username/firstname/lastname/email/phone when signing up
 skip
 state_spinner
 terms
