@@ -3,7 +3,8 @@ account
 account_guest
 address_add
 address_edit
-cart
+article_detail
+bookmarks
 cart_add
 cart_quantity - select the quantity of the item in the shopping cart
 cart_remove
@@ -15,14 +16,13 @@ filter_sort
 get_started
 help
 home
-item_detail
-items
 menu
 menu_guest
 menu_profile
 more_info
 profile_edit
 search
+search_results
 setting
 sign_in
 sign_in_option
@@ -38,3 +38,4 @@ sign_up_username - input field for username/firstname/lastname/email/phone when 
 skip
 state_spinner
 terms
+text_size
