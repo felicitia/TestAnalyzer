@@ -304,7 +304,7 @@ def convert_gt_test(gt_test, tgt_app):
 # output final results for each app pair (will append to the file if run multiple times)
 def evaluate_atm_mapping(src_app, tgt_app):
     with open(os.path.join('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/', src_app + '.csv'), 'r') as test_input:
-        with open('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/final_results_atm.csv', 'a') as result_output:
+        with open('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/atm_json.csv', 'a') as result_output:
             writer = csv.writer(result_output, lineterminator='\n')
             reader = csv.reader(test_input)
             next(reader) # skip the header
@@ -322,10 +322,10 @@ def evaluate_atm_mapping(src_app, tgt_app):
                         # src_id = src_id_or_xpath.split('id@')[1]
                         src_test.append(src_id_or_xpath)
                         src_can = find_canonical_for_src(src_id_or_xpath, src_app)
-                        trans_event = get_trans_event(src_id_or_xpath, src_app, tgt_app)
-                        trans_can = find_canonical_for_tgt(trans_event, tgt_app)
+                        trans_event = get_trans_event(src_id_or_xpath, src_app, tgt_app) # could be {}
+                        trans_can = find_canonical_for_tgt(trans_event, tgt_app) # could be NONE
                         trans_test.append(trans_event)
-                        if trans_can != 'NONE':
+                        if trans_event != {}:
                             if src_can == trans_can:
                                 correct.append(src_id_or_xpath)
                             else:
@@ -356,7 +356,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
                 current_result = []
                 current_result.append(row[0])
                 current_result.append(src_test)
-                current_result.append(trans_test)
+                current_result.append(json.dumps(trans_test))
                 current_result.append(gt_test)
                 current_result.append(src_app)
                 current_result.append(tgt_app)
@@ -457,7 +457,7 @@ def find_canonical_for_src(id_or_xpath, app):
                     print('canonical is ', row[3])
                     return row[3] # row[3] is the canonical element
             else:
-                print('invalid id or xpath in find_canonical!')
+                print('invalid id or xpath in find_canonical_for_src!')
     print('canonical is NONE')
     return 'NONE'
 
@@ -502,7 +502,7 @@ def get_attribute_from_xpath(xpath):
 def find_node_by_xpath(xpath, app):
     directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + \
                 app + '/ForMapping/'
-    print('find node for xpath', xpath, 'in app', app)
+    # print('find node for xpath', xpath, 'in app', app)
     for filename in os.listdir(directory):
         if filename.endswith(".uix"):
             # print('check xpath in ', os.path.join(directory, filename))
@@ -514,7 +514,7 @@ def find_node_by_xpath(xpath, app):
                 # print('//node[@class="'+class_name+'"]['+attribute+']')
                 nodes = root.xpath('//node[@class="' + class_name + '"][' + attribute + ']')
                 if len(nodes) != 0:
-                    print('current node is ', etree.tostring(nodes[0]))
+                    # print('current node is ', etree.tostring(nodes[0]))
                     return nodes[0]
             elif xpath.startswith('/hierarchy'):  # absolute xpath
                 class_names = xpath.split('/')
@@ -542,9 +542,9 @@ def find_node_by_xpath(xpath, app):
                         else:
                             current_node = current_nodes[0]
                 if not no_matching:
-                    print('current node is ', etree.tostring(current_node))
+                    # print('current node is ', etree.tostring(current_node))
                     return current_node
-    print('current node is None')
+    # print('current node is None')
     return None
 
 def evaluate_atm_mapping_batch():
