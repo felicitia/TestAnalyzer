@@ -16,6 +16,7 @@ com.buzzfeed.android:id/post_card_text,,android.widget.TextView,item_1,.activity
 com.buzzfeed.android:id/menu_bookmark,,android.widget.TextView,save_bookmark,.detail.common.DetailPageActivity,,,
 com.buzzfeed.android:id/design_menu_item_text,,android.widget.CheckedTextView,menu_bookmark,.activity.PagerActivity,,,
 com.buzzfeed.android:id/menu_bookmark,,android.widget.TextView,remove_bookmark,.detail.common.DetailPageActivity,,,
+com.buzzfeed.android:id/icon,,android.widget.ImageView,category,.activity.PagerActivity,,,
 com.buzzfeed.android:id/explore_item_title,,android.widget.TextView,cat_1,".activity.PagerActivity""",.activity.BuffetActivity,,
 com.buzzfeed.android:id/settings_button,,android.widget.TextView,menu_settings,.activity.PagerActivity,.activity.SettingsActivity,,
 ,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[9],android.widget.LinearLayout,contact,.activity.SettingsActivity,com.android.internal.app.ChooserActivity,,
