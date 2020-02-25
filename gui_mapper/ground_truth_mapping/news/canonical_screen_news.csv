@@ -1,18 +1,10 @@
 about
 account
 account_guest
-address_add
-address_edit
 article_detail
 bookmarks
-cart_add
-cart_quantity - select the quantity of the item in the shopping cart
-cart_remove
 category
-city_spinner
 contact
-filter_option
-filter_sort
 get_started
 help
 home
@@ -20,7 +12,6 @@ menu
 menu_guest
 menu_profile
 more_info
-profile_edit
 search
 search_results
 setting
@@ -36,6 +27,5 @@ sign_up_option
 sign_up_pwd
 sign_up_username - input field for username/firstname/lastname/email/phone when signing up
 skip
-state_spinner
 terms
 text_size
