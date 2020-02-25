@@ -1,5 +1,5 @@
 id,xpath,class,canonical,current Activity,next Activity,type,additional info
-bbc.mobile.news.ww:id/action_search,,,search,bbc.mobile.news.v3.app.TopLevelActivity,bbc.mobile.news.v3.ui.search.SearchActivity
+bbc.mobile.news.ww:id/action_search,,,tosearch,bbc.mobile.news.v3.app.TopLevelActivity,bbc.mobile.news.v3.ui.search.SearchActivity
 bbc.mobile.news.ww:id/search,,android.widget.EditText,search_bar,bbc.mobile.news.v3.ui.search.SearchActivity,,input
 bbc.mobile.news.ww:id/content_card_image,,,item_1,bbc.mobile.news.v3.ui.search.SearchActivity,uk.co.bbc.rubik.articleui.SingleItemArticleActivity
 ,"/android.widget.ImageView[@content-desc=""More options""]",,menu,bbc.mobile.news.v3.app.TopLevelActivity,

@@ -46,7 +46,7 @@ com.alibaba.aliexpresshd:id/btn_address_add,,,address_save,.module.shippingaddre
 com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,,,cat_1,.module.product.SearchCategoryNaviActivity,com.alibaba.aliexpress.android.search.ProductListActivity,,
 com.alibaba.aliexpresshd:id/rl_account_setting,,,contact,.module.home.MainActivity,.module.webview.SimpleWebViewActivity,,
 com.alibaba.aliexpresshd:id/tv_custom_service,,,help,.module.home.MainActivity,.module.webview.SimpleWebViewActivity,,
-com.alibaba.aliexpresshd:id/rl_search_box,,,search,.module.home.MainActivity,.module.product.SearchActivity,,
+com.alibaba.aliexpresshd:id/rl_search_box,,,tosearch,.module.home.MainActivity,.module.product.SearchActivity,,
 com.alibaba.aliexpresshd:id/search_btn_filter,,,filter,com.alibaba.aliexpress.android.search.nav.SearchActivity,com.alibaba.aliexpress.android.search.ProductListActivity,,
 com.alibaba.aliexpresshd:id/search_switch_btn,,,filter_rating,.module.product.ProductListActivity,,,
 com.alibaba.aliexpresshd:id/rl_legal_information_settings,,,legal,.module.common.SettingsActivity,.module.webview.SimpleWebViewActivity,,
