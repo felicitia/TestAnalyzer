@@ -12,7 +12,7 @@ def get_canonical_list():
 
 def get_appflow_canonical_set():
     canonical_set = set()
-    with open('prediction_widget_results_10apps_used.csv', 'r') as csv_input:
+    with open('prediction_widget_results_10apps_shopping.csv', 'r') as csv_input:
         reader = csv.reader(csv_input)
         count = 0
         for row in reader:
@@ -40,16 +40,17 @@ def get_appset_from_training():
     return app_set_from_training
 
 def delete_useless_appflow_results(old_result_file, new_result_file):
+    news_applist = ['smartnews', 'cnn', 'reuters', 'bbc', 'newsrep', 'buzzfeed', 'fox', 'guardian', 'usatoday', 'abc']
     with open(old_result_file, 'r') as inp, open(new_result_file, 'w') as out:
         writer = csv.writer(out)
         for row in csv.reader(inp):
             # delete all the rows where the correctly predicted results are not NONE
-            if row[4] != "NONE":
+            if row[4] != "NONE" and row[0] in news_applist:
                 writer.writerow(row)
 
 def get_app_names():
     apps = set()
-    with open('prediction_widget_results_10apps_used.csv', 'r') as csv_input:
+    with open('prediction_widget_results_10apps_news.csv', 'r') as csv_input:
         reader = csv.reader(csv_input)
         count = 0
         for row in reader:
@@ -59,7 +60,7 @@ def get_app_names():
 
 
 def check_row8_none():
-    with open('prediction_widget_results_10apps_used.csv', 'r') as csv_input:
+    with open('prediction_widget_results_10apps_shopping.csv', 'r') as csv_input:
         reader = csv.reader(csv_input)
         count = 0
         for row in reader:
@@ -68,10 +69,11 @@ def check_row8_none():
                 print(count)
 
 if __name__ == "__main__":
-    with open('prediction_widget_results_10apps_used.csv', 'r') as csv_input:
-        reader = csv.reader(csv_input)
-        count = 0
-        for row in reader:
-            count += 1
-            if row[7] != '' and (row[5] == '' and row[6] == ''):
-                print(count)
+    # with open('prediction_widget_results_10apps_shopping.csv', 'r') as csv_input:
+    #     reader = csv.reader(csv_input)
+    #     count = 0
+    #     for row in reader:
+    #         count += 1
+    #         if row[7] != '' and (row[5] == '' and row[6] == ''):
+    #             print(count)
+

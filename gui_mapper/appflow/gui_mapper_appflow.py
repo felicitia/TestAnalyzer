@@ -57,7 +57,7 @@ def appflow_map(test, target_app):
     return test
 
 if __name__ == "__main__":
-    appflow_dataset = read_csv("prediction_widget_results_10apps_used.csv")
+    appflow_dataset = read_csv("prediction_widget_results_10apps_shopping.csv")
     app_names = [str.lower(os.path.splitext(os.path.basename(file))[0]) for file in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv")]
     app_names = {e: e for e in app_names}
     # app_list = ['home', 'aliexpress', 'googleshopping', 'groupon', 'app', '6pm', 'ebay', 'wish', 'etsy', '5miles', 'geek']

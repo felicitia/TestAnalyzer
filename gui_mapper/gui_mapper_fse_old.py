@@ -44,7 +44,7 @@ def count_cases(test):
     return cases
 
 if __name__ == "__main__":
-    fse_dataset = read_csv("prediction_widget_results.csv")
+    fse_dataset = read_csv("prediction_widget_results_shopping.csv")
     
     for source_path in glob.glob("../src/test_csv/*.csv"):
         source_csv = read_csv(source_path, names=["method", "json"])

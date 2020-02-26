@@ -48,7 +48,7 @@ def fse_map(test, target):
     return test
 
 if __name__ == "__main__":
-    fse_dataset = read_csv("prediction_widget_results.csv")
+    fse_dataset = read_csv("prediction_widget_results_shopping.csv")
     
     fse_names = [str.lower(os.path.splitext(os.path.basename(file))[0]) for file in glob.glob("../src/test_csv/*.csv")]
     fse_names = {e:e for e in fse_names}
