@@ -38,34 +38,10 @@ category,jump to categories
 cat_1,choose first category
 help,jump to help page
 search_bar,search bar that takes the input of searching keyword
-filter,jump to filter options for the search result
-filter_sort,choose sort filter
-filter_price,choose sort by price
-filter_rating,choose rating filter
-filter_color,choose short by colors
-filter_done,apply the chosen filter
 item_1,jump to the first item's detailed page
 add_cart,add item to cart
-cart,jump to the shopping cart
-cart_select_all,select all items in the shopping cart
-cart_quantity,select the quantity of the item in the cart
-cart_quantity_0,choose 0 quantity of the item in the cart to remove the item
-cart_remove,remove item from the cart
-cart_remove_confirm,confirm removing item from the cart
 legal,jump to the legal terms page
 contact,jump to the contact page
-contact_name,contact name input field
-minus,substract the amount
-account_address,jump to address management page
-address_add,add new address
-address_street,street input field
-address_state,state input field or choose the state
-address_state_spinner,open the spinner to select a state 
-address_city,city input field
-address_city_selection,select a city from the spinner
-address_zip,zipcode input field
-address_phone,phone number input field
-address_save,save address
 skip,skip button
 to_home,jump to home page
 back,back button
@@ -77,4 +53,4 @@ menu_bookmark,go to bookmarks menu
 menu_textsize,go to text size menu
 change_textsize,apply textsize changes
 cat_2,choose second category
-menu_legal,go to privacy menu
+menu_legal,go to privacy menu that contains legal button
