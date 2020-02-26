@@ -16,3 +16,5 @@ com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_feedback,,androi
 com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_settings,,android.view.View,menu_settings,com.ss.android.application.app.mainpage.BottomTabMainActivity,com.ss.android.application.app.mine.BaseSettingActivity,,
 com.mobilesrepublic.appy:id/privacy_safety,,android.widget.LinearLayout,menu_legal,com.ss.android.application.app.mine.BaseSettingActivity,com.ss.android.application.app.mine.PrivacySettingActivity,,
 com.mobilesrepublic.appy:id/privacy_setting_service_terms,,android.widget.FrameLayout,legal,com.ss.android.application.app.mine.PrivacySettingActivity,com.ss.android.application.app.browser.BrowserActivity,,
+com.mobilesrepublic.appy:id/back,,android.widget.ImageView,back,com.ss.android.application.article.detail.NewDetailActivity,com.ss.android.application.app.search.view.SearchActivity,,
+com.mobilesrepublic.appy:id/back,,android.widget.ImageView,back,com.ss.android.application.app.search.view.SearchActivity,com.ss.android.application.app.mainpage.BottomTabMainActivity,,

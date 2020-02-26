@@ -11,3 +11,4 @@ android:id/text1,,android.widget.CheckedTextView,change_textsize,.ui.SettingsAct
 ,/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout[2]/android.widget.ListView/android.view.ViewGroup[1],android.view.ViewGroup,cat_1,.ui.navigation.MainNavigationActivity,,,
 com.abc.abcnews:id/setting_feedback,,android.widget.TextView,contact,.ui.SettingsActivity,,,
 com.abc.abcnews:id/setting_terms,,android.widget.TextView,legal,.ui.SettingsActivity,.ui.WebViewActivity,,
+,"//android.widget.ImageButton[@content-desc=""Navigate up""]",android.widget.ImageButton,back,.ui.NewsItemPagerActivity,.ui.navigation.MainNavigationActivity,,
