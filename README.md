@@ -24,7 +24,9 @@ The source code for FrUITeR's implementation including different components (e.g
 
 ------
 Instructions for getting final results of appflow, craftdroid, perfect, naive
-1. For appflow, run appflow/gui_mapper_appflow.py first to get the mapping results (e.g., transferred tests). Similarly, run baseline/gui_mapper_naive.py and gui_mapper_perfect.py to get corresponding mapping results. 
+1. For appflow, you need to first update its original mapping results by adding columns of original GUI event id, original GUI event xpath, prediction canonical id, correct canonical id.
+
+Then run appflow/gui_mapper_appflow.py first to get the mapping results (e.g., transferred tests). Similarly, run baseline/gui_mapper_naive.py and gui_mapper_perfect.py to get corresponding mapping results. 
 
 For craftdroid, craftdroid/process_craftdroid_results.py helps with manually constructing craftdroid's raw mapping results of GUI elements (e.g., CraftDroid Transfer Results - Etsy-Geek.csv) based on the published results. With such results, run craftdroid/gui_mapper_craftdroid.py to get the mapping results in the same manner as the other gui mappers mentioned above.
 
