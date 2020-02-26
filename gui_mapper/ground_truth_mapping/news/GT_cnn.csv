@@ -1,5 +1,4 @@
 id,xpath,class,canonical,current Activity,next Activity,type,additional info
-com.cnn.mobile.android.phone:id/card_view,,android.widget.FrameLayout,item_1,.features.main.MainActivity,,,
 com.cnn.mobile.android.phone:id/toolbar_save,,android.widget.Button,save_bookmark,.features.main.MainActivity,,,
 com.cnn.mobile.android.phone:id/saved_story_item_menu,,android.widget.FrameLayout,menu_bookmark,.features.main.MainActivity,,,
 com.cnn.mobile.android.phone:id/deleteButton,,android.widget.ImageButton,remove_bookmark,.features.main.MainActivity,,,
