@@ -4,7 +4,7 @@ import os
 
 def get_canonical_list():
     canonical_set = set()
-    with open('../ground_truth_mapping/canonical.csv', 'r') as csv_input:
+    with open('../ground_truth_mapping/news/canonical_news.csv', 'r') as csv_input:
         reader = csv.reader(csv_input)
         for row in reader:
             canonical_set.add(row[0])
@@ -12,15 +12,13 @@ def get_canonical_list():
 
 def get_appflow_canonical_set():
     canonical_set = set()
-    with open('prediction_widget_results_10apps_shopping.csv', 'r') as csv_input:
+    with open('prediction_widget_results_10apps_news.csv', 'r') as csv_input:
         reader = csv.reader(csv_input)
         count = 0
         for row in reader:
             count += 1
-            if len(row) >= 8 and row[7] != '':
-                canonical_set.add(row[7])
-            if len(row) >= 9 and row[8] != '':
-                canonical_set.add(row[8])
+            canonical_set.add(row[3])
+            canonical_set.add(row[4])
     return canonical_set
 
 def get_appset_from_result(filename):
@@ -69,11 +67,16 @@ def check_row8_none():
                 print(count)
 
 if __name__ == "__main__":
-    # with open('prediction_widget_results_10apps_shopping.csv', 'r') as csv_input:
-    #     reader = csv.reader(csv_input)
-    #     count = 0
-    #     for row in reader:
-    #         count += 1
-    #         if row[7] != '' and (row[5] == '' and row[6] == ''):
-    #             print(count)
+    # our_canonical = get_canonical_list()
+    # appflow_canonical = get_appflow_canonical_set()
+    # diff_set =  (appflow_canonical - our_canonical)
+    # for canonical in diff_set:
+    #     print (canonical)
+    with open('prediction_widget_results_10apps_news.csv', 'r') as csv_input:
+        reader = csv.reader(csv_input)
+        count = 0
+        for row in reader:
+            count += 1
+            if row[7] != '' and (row[5] == '' and row[6] == ''):
+                print(count)
 
