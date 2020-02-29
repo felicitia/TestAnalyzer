@@ -23,6 +23,8 @@ The source code for FrUITeR's implementation including different components (e.g
 * Ground Truth Mapping is located at `gui_mapper/ground_truth_mapping/`
 
 ------
+**Note: Run Perfect Mapper first because it will output the missing GUI elements that are not labeled in the ground truth files :)**
+
 Instructions for getting final results of appflow, craftdroid, perfect, naive
 1. For appflow, you need to first update its original mapping results by adding columns of original GUI event id, original GUI event xpath, prediction canonical id, correct canonical id.
 
