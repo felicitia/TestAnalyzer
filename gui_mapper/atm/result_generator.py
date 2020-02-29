@@ -8,9 +8,9 @@ from lxml import etree
 
 # trans_test is an array of trans_event where each event has keys 'id', 'class', 'bounds' or can be {}
 # gt_test is an array of 'id_or_xpath'
-def levenshtein_tests(trans_test, gt_test, tgt_app):
+def levenshtein_tests(trans_test, gt_test, tgt_app, ui_dump_dir):
     # convert gt_test to the same format as trans_test + an additional key 'id_or_xpath'
-    gt_test_new = convert_gt_test(gt_test, tgt_app)
+    gt_test_new = convert_gt_test(gt_test, tgt_app, ui_dump_dir)
     # delete empty events in order to calculate levenshtein distance correctly
     events1 = copy.deepcopy(gt_test_new)
     events2 = copy.deepcopy(trans_test)
@@ -185,11 +185,11 @@ def gt_equals_trans(gt_event_new, trans_event):
 # gt_test is an array of 'id_or_xpath'
 # TP = (trans_test) & (gt_test)
 # TP is an array that contains 'id_or_xpath'
-def calculate_TP(trans_test, gt_test, tgt_app):
+def calculate_TP(trans_test, gt_test, tgt_app, ui_dump_dir):
     if gt_test == []: # gt test doesn't exist in the target app
         return []
     TP = []
-    gt_test_new = convert_gt_test(gt_test, tgt_app)
+    gt_test_new = convert_gt_test(gt_test, tgt_app, ui_dump_dir)
     for gt_event in gt_test_new:
         if 'id' in gt_event.keys():
             idname = gt_event['id']
@@ -213,11 +213,11 @@ def calculate_TP(trans_test, gt_test, tgt_app):
 # gt_test is an array of 'id_or_xpath'
 # FP = (trans_test) - (gt_test)
 # FP is an array that contains trans_event dictionary that has 'id', 'class', 'bounds'
-def calculate_FP(trans_test, gt_test, tgt_app):
+def calculate_FP(trans_test, gt_test, tgt_app, ui_dump_dir):
     if gt_test == []: # gt test doesn't exist in the target app
         return []
     FP = []
-    gt_test_new = convert_gt_test(gt_test, tgt_app)
+    gt_test_new = convert_gt_test(gt_test, tgt_app, ui_dump_dir)
     for trans_event in trans_test:
         if trans_event == {}:
             continue
@@ -229,11 +229,11 @@ def calculate_FP(trans_test, gt_test, tgt_app):
 # gt_test is an array of 'id_or_xpath'
 # FN = (gt_test) - (trans_test)
 # FN is an array that contains 'id_or_xpath'
-def calculate_FN(trans_test, gt_test, tgt_app):
+def calculate_FN(trans_test, gt_test, tgt_app, ui_dump_dir):
     if gt_test == []: # gt test doesn't exist in the target app
         return []
     FN = []
-    gt_test_new = convert_gt_test(gt_test, tgt_app)
+    gt_test_new = convert_gt_test(gt_test, tgt_app, ui_dump_dir)
     for gt_event in gt_test_new:
         if find_same_gtEvent_in_transTest(gt_event, trans_test) is None: # when gt_event is not in the trans_test
             FN.append(gt_event['id_or_xpath'])
@@ -279,7 +279,7 @@ def find_same_transEvent_in_gtTest(trans_event, gt_test_new):
     return None
 
 # convert gt_test to the same format as trans_test + an additional key 'id_or_xpath'
-def convert_gt_test(gt_test, tgt_app):
+def convert_gt_test(gt_test, tgt_app, ui_dump_dir):
     gt_test_new = []  # same format as trans_test
     for id_or_xpath in gt_test:
         gt_event = {}
@@ -288,7 +288,7 @@ def convert_gt_test(gt_test, tgt_app):
             gt_event['id'] = id_or_xpath.split('id@')[1]
         elif 'xpath@' in id_or_xpath:
             xpath = id_or_xpath.split('xpath@')[1]
-            node = find_node_by_xpath(xpath, tgt_app)
+            node = find_node_by_xpath(xpath, tgt_app, ui_dump_dir)
             if node is not None:
                 gt_event['class'] = node.get('class')
                 gt_event['bounds'] = node.get('bounds')
@@ -302,9 +302,10 @@ def convert_gt_test(gt_test, tgt_app):
 
 
 # output final results for each app pair (will append to the file if run multiple times)
-def evaluate_atm_mapping(src_app, tgt_app):
-    with open(os.path.join('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/', src_app + '.csv'), 'r') as test_input:
-        with open('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/atm.csv', 'a') as result_output:
+def evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir):
+    with open(os.path.join(test_case_dir, src_app + '.csv'), 'r') as test_input:
+        # with open('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/atm.csv', 'a') as result_output:
+        with open(output_file, 'a') as result_output:
             writer = csv.writer(result_output, lineterminator='\n')
             reader = csv.reader(test_input)
             next(reader) # skip the header
@@ -321,9 +322,9 @@ def evaluate_atm_mapping(src_app, tgt_app):
                         src_id_or_xpath = event['id_or_xpath']
                         # src_id = src_id_or_xpath.split('id@')[1]
                         src_test.append(src_id_or_xpath)
-                        src_can = find_canonical_for_src(src_id_or_xpath, src_app)
-                        trans_event = get_trans_event(src_id_or_xpath, src_app, tgt_app) # could be {}
-                        trans_can = find_canonical_for_tgt(trans_event, tgt_app) # could be NONE
+                        src_can = find_canonical_for_src(src_id_or_xpath, src_app, gt_file_prefix)
+                        trans_event = get_trans_event(src_id_or_xpath, src_app, tgt_app, mapping_results_dir) # could be {}
+                        trans_can = find_canonical_for_tgt(trans_event, tgt_app, gt_file_prefix, ui_dump_dir) # could be NONE
                         trans_test.append(trans_event)
                         if trans_event != {}:
                             if src_can == trans_can:
@@ -331,7 +332,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
                             else:
                                 incorrect.append(src_id_or_xpath)
                         else:
-                            if check_canonical(src_can, tgt_app):
+                            if check_canonical(src_can, tgt_app, gt_file_prefix):
                                 # missed case
                                 missed.append(src_id_or_xpath)
                             else:
@@ -342,7 +343,7 @@ def evaluate_atm_mapping(src_app, tgt_app):
 
                 # calcuate TP, FP, FN by comparing transferred test with ground-truth test
                 method_name = str(row[0]).split(': ')[1] # get method name of the test case
-                gt_test = get_gt_test(tgt_app, method_name)
+                gt_test = get_gt_test(tgt_app, method_name, test_case_dir)
                 # print ('method = ', row[0])
                 # print ('gt test = ', gt_test)
                 # print ('trans test = ', trans_test)
@@ -386,16 +387,17 @@ def evaluate_atm_mapping(src_app, tgt_app):
                     current_result.append((len(correct) + len(nonExist)) /
                                           ((len(correct) + len(incorrect) + len(missed) + len(nonExist))))
 
-                current_result.append(levenshtein_tests(trans_test, gt_test, tgt_app))
+                current_result.append(levenshtein_tests(trans_test, gt_test, tgt_app, ui_dump_dir))
                 writer.writerow(current_result)
 
 
 # return ground truth test case's event array
 # each element contains id_or_xpath starting with id@ or xpath@
-def get_gt_test(tgt_app, method_name):
+def get_gt_test(tgt_app, method_name, test_case_dir):
     print('get gt test of', method_name, 'for app', tgt_app)
     gt_test = []
-    with open(os.path.join('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/', tgt_app + '.csv'), 'r') as test_input:
+    # with open(os.path.join('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/', tgt_app + '.csv'), 'r') as test_input:
+    with open(os.path.join(test_case_dir, tgt_app + '.csv'), 'r') as test_input:
         reader = csv.reader(test_input)
         for row in reader:
             if method_name in row[0]:
@@ -408,8 +410,9 @@ def get_gt_test(tgt_app, method_name):
     return gt_test
 
 # check whether the src event's canonical exists in the target app
-def check_canonical(canonical, app):
-    with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
+def check_canonical(canonical, app, gt_file_prefix):
+    # with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
+    with open(gt_file_prefix + app + '.csv') as canonical_input:
         reader = csv.reader(canonical_input)
         for row in reader:
             if row[0] == 'id': # skip header
@@ -419,11 +422,11 @@ def check_canonical(canonical, app):
     return False
 
 # get the id, class, bounds of the transferred event based on ATM's mapping results
-def get_trans_event(src_id_or_xpath, src_app, tgt_app):
+def get_trans_event(src_id_or_xpath, src_app, tgt_app, mapping_results_dir):
     print('getting transferred event for', src_id_or_xpath, 'in src app', src_app)
     trans_event = {} # trans_test's keys are: id_or_xpath, class, bounds
-    filename = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results/' \
-               + src_app + '_' + tgt_app + '_Mappings.csv'
+    # filename = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results/' + src_app + '_' + tgt_app + '_Mappings.csv'
+    filename = mapping_results_dir + src_app + '_' + tgt_app + '_Mappings.csv'
     with open(filename, 'r') as mapping_input:
         reader = csv.reader(mapping_input)
         for row in reader:
@@ -438,9 +441,10 @@ def get_trans_event(src_id_or_xpath, src_app, tgt_app):
 
 # find canonical for source app
 # the id_or_xpath is always in the group truth map
-def find_canonical_for_src(id_or_xpath, app):
+def find_canonical_for_src(id_or_xpath, app, gt_file_prefix):
     print('finding canonical for ', id_or_xpath, 'in src app', app)
-    with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
+    # with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
+    with open(gt_file_prefix + app + '.csv') as canonical_input:
         reader = csv.reader(canonical_input)
         flag = ''
         if 'id@' in id_or_xpath:
@@ -470,12 +474,13 @@ def find_canonical_for_src(id_or_xpath, app):
 # find canonical for target app based on trans_event whose keys are: id, class, bounds or can be {}
 # trans_event can have all id, class, bounds, so check both to see if there's a matching canonical
 # the transferred id may not exist in the ground truth map
-def find_canonical_for_tgt(trans_event, app):
+def find_canonical_for_tgt(trans_event, app, gt_file_prefix, ui_dump_dir):
     print('finding canonical for ', trans_event, 'in tgt app', app)
     if trans_event == {}:
         print('canonical is NONE')
         return 'NONE'
-    with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
+    # with open('../ground_truth_mapping/GUI Mapping Ground Truth - ' + app + '.csv') as canonical_input:
+    with open(gt_file_prefix + app + '.csv') as canonical_input:
         reader = csv.reader(canonical_input)
         for row in reader: # for each row in ground truth file
             if row[0] == 'id': # skip header
@@ -485,7 +490,7 @@ def find_canonical_for_tgt(trans_event, app):
                 return row[3]
             if row[1] is not None: # row[1] is xpath in the group truth map
                 xpath = row[1]
-                node = find_node_by_xpath(xpath, app)
+                node = find_node_by_xpath(xpath, app, ui_dump_dir)
                 if node is not None:
                     class_name = node.get('class')
                     bounds = node.get('bounds')
@@ -505,9 +510,9 @@ def get_attribute_from_xpath(xpath):
     return xpath[xpath.find("[") + 1:xpath.find("]")]
 
 
-def find_node_by_xpath(xpath, app):
-    directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + \
-                app + '/ForMapping/'
+def find_node_by_xpath(xpath, app, ui_dump_dir):
+    # directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + app + '/ForMapping/'
+    directory = ui_dump_dir + app + '/'
     # print('find node for xpath', xpath, 'in app', app)
     for filename in os.listdir(directory):
         if filename.endswith(".uix"):
@@ -553,8 +558,9 @@ def find_node_by_xpath(xpath, app):
     # print('current node is None')
     return None
 
-def evaluate_atm_mapping_batch():
-    app_list = os.listdir('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/')
+def evaluate_atm_mapping_batch(test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir):
+    # app_list = os.listdir('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/')
+    app_list = os.listdir(test_case_dir)
     count = 0
     for src_file in app_list:
         if not src_file.endswith('.csv'):
@@ -564,13 +570,18 @@ def evaluate_atm_mapping_batch():
             if not tgt_file.endswith('.csv'):
                 continue
             tgt_app = tgt_file.split('.')[0]
-            evaluate_atm_mapping(src_app, tgt_app)
+            evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir)
             count += 1
             print('finished##### ', count, '/100 ', src_app, tgt_app)
 
 if __name__ == "__main__":
     # evaluate_atm_mapping_signin_signup(src_app, tgt_app)
-    # result is in 'final_results_atm.csv' with the header 'method,src_events,transferred,gt_events,source,target,gui_mapper,correct,incorrect,missed,nonExist,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall,accuracy,distance'
+    # result header = 'method,src_events,transferred,gt_events,source,target,gui_mapper,correct,incorrect,missed,nonExist,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall,accuracy,distance'
     # a = ['aa', 'bbb', 'ccc']
     # b = ['bb', 'aa', 'ccc']
-    evaluate_atm_mapping_batch()
+    # result header = 'method,src_events,transferred,gt_events,source,target,gui_mapper,correct,incorrect,missed,nonExist,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall,accuracy,distance'
+    evaluate_atm_mapping_batch('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/',
+                               '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/atm_news.csv',
+                               '../ground_truth_mapping/news/GT_',
+                               '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results_news/',
+                               '/Users/yixue/Documents/Research/FrUITeR/Develop/TestBenchmark-Jave-client/screenshots/news/')

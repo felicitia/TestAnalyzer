@@ -57,19 +57,19 @@ def check_if_done(root_dir, extension):
 
 # read test case file and return all the relevant events (resource-ids) used in the test cases
 # old method only for testSignIn() and testSignUp()
-def get_events_from_tests_signin_signup(test_file):
-    ids = set()  # resource-id set
-    with open(test_file, 'r') as csv_input:
-        reader = csv.reader(csv_input)
-        for row in reader:
-            if 'testSignIn()' in row[0] or 'testSignUp()' in row[0]:
-                event_array = json.loads(row[1])
-                for event in event_array:
-                    if 'id@' in event['id_or_xpath']:
-                        ids.add(event['id_or_xpath'].split('id@')[1])
-                    else:
-                        print('no id found for event ', event)
-    return ids
+# def get_events_from_tests_signin_signup(test_file):
+#     ids = set()  # resource-id set
+#     with open(test_file, 'r') as csv_input:
+#         reader = csv.reader(csv_input)
+#         for row in reader:
+#             if 'testSignIn()' in row[0] or 'testSignUp()' in row[0]:
+#                 event_array = json.loads(row[1])
+#                 for event in event_array:
+#                     if 'id@' in event['id_or_xpath']:
+#                         ids.add(event['id_or_xpath'].split('id@')[1])
+#                     else:
+#                         print('no id found for event ', event)
+#     return ids
 
 
 # read test case file and return all the id_or_xpath of the events
@@ -86,34 +86,35 @@ def get_events_from_tests_all(test_file):
 
 
 # old method to generate mapping only for resource-ids
-def generate_mapping_id_only(src_app, tgt_app, src_ids):
-    filename = src_app + '_' + tgt_app + '_Scores.csv'
-    # mapping's structure is {src id -> [matching tgt id, similarity score]}
-    mapping = {}
-    with open(filename, 'r') as csv_input:
-        reader = csv.reader(csv_input)
-        for row in reader:
-            if row[src_resource_id_idx] in src_ids:
-                print(row)
-                current_score = float(row[score_idx])
-                if row[src_resource_id_idx] in mapping:
-                    max_score = float(mapping[row[src_resource_id_idx]][1])
-                else:
-                    max_score = 0
-
-                if current_score > max_score:
-                    max_score = current_score
-                    mapping[row[src_resource_id_idx]] = [row[tgt_resource_id_idx], max_score]
-
-    return mapping
+# def generate_mapping_id_only(src_app, tgt_app, src_ids):
+#     filename = src_app + '_' + tgt_app + '_Scores.csv'
+#     # mapping's structure is {src id -> [matching tgt id, similarity score]}
+#     mapping = {}
+#     with open(filename, 'r') as csv_input:
+#         reader = csv.reader(csv_input)
+#         for row in reader:
+#             if row[src_resource_id_idx] in src_ids:
+#                 print(row)
+#                 current_score = float(row[score_idx])
+#                 if row[src_resource_id_idx] in mapping:
+#                     max_score = float(mapping[row[src_resource_id_idx]][1])
+#                 else:
+#                     max_score = 0
+#
+#                 if current_score > max_score:
+#                     max_score = current_score
+#                     mapping[row[src_resource_id_idx]] = [row[tgt_resource_id_idx], max_score]
+#
+#     return mapping
 
 
 # src_id_or_xpath: the id of the src element starting with id@
 # will return the matching tgt element who has the highest score
-def find_mapping_per_id(src_app, tgt_app, src_id_or_xpath):
+def find_mapping_per_id(src_app, tgt_app, src_id_or_xpath, merged_scores_dir):
     # mapping's structure is {src id_or_xpath -> [matching tgt id, matching tgt class, matching tgt bounds, similarity score]}
     mapping = {}
-    score_file = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores/' + src_app + '_' + tgt_app + '_Scores.csv'
+    # score_file = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores/' + src_app + '_' + tgt_app + '_Scores.csv'
+    score_file = merged_scores_dir + src_app + '_' + tgt_app + '_Scores.csv'
     with open(score_file, 'r') as csv_input:
         reader = csv.reader(csv_input)
         for row in reader:
@@ -135,15 +136,16 @@ def find_mapping_per_id(src_app, tgt_app, src_id_or_xpath):
 
 # src_id_or_xpath: the id of the src element starting with xpath@
 # will return the matching tgt element who has the highest score
-def find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath):
+def find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath, merged_scores_dir, ui_dump_dir):
     # mapping's structure is {src id_or_xpath -> [matching tgt id, matching tgt class, matching tgt bounds, similarity score]}
     mapping = {}
-    src_node = find_node_by_xpath(src_id_or_xpath.split('xpath@')[1], src_app)
+    src_node = find_node_by_xpath(src_id_or_xpath.split('xpath@')[1], src_app, ui_dump_dir)
     if src_node is None:
         return mapping
     src_class = src_node.get('class')
     src_bounds = src_node.get('bounds')
-    score_file = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores/' + src_app + '_' + tgt_app + '_Scores.csv'
+    # score_file = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores/' + src_app + '_' + tgt_app + '_Scores.csv'
+    score_file = merged_scores_dir + src_app + '_' + tgt_app + '_Scores.csv'
     with open(score_file, 'r') as csv_input:
         reader = csv.reader(csv_input)
         for row in reader:
@@ -164,9 +166,9 @@ def find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath):
 
 
 # will return the xml node based on the xpath and the .uix file
-def find_node_by_xpath(xpath, app):
-    directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + \
-                app + '/ForMapping/'
+def find_node_by_xpath(xpath, app, ui_dump_dir):
+    # directory = '/Users/yixue/Documents/Research/FrUITeR/Develop/UIAutomatorDumps/Shopping/' + app + '/ForMapping/'
+    directory = ui_dump_dir + app + '/'
     print('find node for xpath', xpath, 'in app', app)
     for filename in os.listdir(directory):
         if filename.endswith(".uix"):
@@ -213,18 +215,18 @@ def find_node_by_xpath(xpath, app):
     return None
 
 
-def generate_mapping_id_or_xpath(src_app, tgt_app, src_id_or_xpath_list):
+def generate_mapping_id_or_xpath(src_app, tgt_app, src_id_or_xpath_list, merged_scores_dir, ui_dump_dir):
     # mapping's structure is {src id_or_xpath -> [matching tgt id, matching tgt class, matching tgt bounds, similarity score]}
     # regardless which test case the event belongs to in order to avoid duplicated mappings for efficiency reason
     mapping = {}
     for src_id_or_xpath in src_id_or_xpath_list:
         print('src id or xpath = ', src_id_or_xpath)
         if 'id@' in src_id_or_xpath:
-            current_mapping = find_mapping_per_id(src_app, tgt_app, src_id_or_xpath)
+            current_mapping = find_mapping_per_id(src_app, tgt_app, src_id_or_xpath, merged_scores_dir)
             if current_mapping is not None:
                 mapping.update(current_mapping)
         elif 'xpath@' in src_id_or_xpath:  # when src_id_or_xpath starts with 'xpath@'
-            current_mapping = find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath)
+            current_mapping = find_mapping_per_xpath(src_app, tgt_app, src_id_or_xpath, merged_scores_dir, ui_dump_dir)
             if current_mapping is not None:
                 mapping.update(current_mapping)
         else:
@@ -232,16 +234,15 @@ def generate_mapping_id_or_xpath(src_app, tgt_app, src_id_or_xpath_list):
     return mapping
 
 
-def output_mapping(mapping, src_app, tgt_app):
-    filename = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results/' \
-               + src_app + '_' + tgt_app + '_Mappings.csv'
+def output_mapping(mapping, src_app, tgt_app, mapping_results_dir):
+    # filename = '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results_news/' + src_app + '_' + tgt_app + '_Mappings.csv'
+    filename = mapping_results_dir + src_app + '_' + tgt_app + '_Mappings.csv'
     with open(filename, 'w') as csv_output:
         writer = csv.writer(csv_output, delimiter=',')
         for key in mapping:
             row = [key, mapping[key][0], mapping[key][1], mapping[key][2], mapping[key][3]]
             # print (row)
             writer.writerow(row)
-
 
 def get_classname_from_xpath(xpath):
     return xpath.split('//')[1].split('[')[0]
@@ -255,8 +256,9 @@ def get_attribute_from_xpath(xpath):
 # automatically output src_tgt_mappings for each src/tgt app pair based on the merged scores
 # reading '/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV' is to get the whole app name list,
 # can be substituted to a hard-coded array of the app names
-def output_mapping_batch():
-    app_list = os.listdir('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/')
+def output_mapping_batch(test_case_dir, mapping_results_dir, merged_scores_dir, ui_dump_dir):
+    # app_list = os.listdir('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/')
+    app_list = os.listdir(test_case_dir)
     count = 0
     for src_file in app_list:
         if not src_file.endswith('.csv'):
@@ -266,17 +268,21 @@ def output_mapping_batch():
             if not tgt_file.endswith('.csv'):
                 continue
             tgt_app = tgt_file.split('.')[0]
-            src_id_or_xpath_list = get_events_from_tests_all(
-                '/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/' + src_app + '.csv')
-            mapping = generate_mapping_id_or_xpath(src_app, tgt_app, src_id_or_xpath_list)
+            # src_id_or_xpath_list = get_events_from_tests_all('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/' + src_app + '.csv')
+            src_id_or_xpath_list = get_events_from_tests_all(test_case_dir + src_app + '.csv')
+            mapping = generate_mapping_id_or_xpath(src_app, tgt_app, src_id_or_xpath_list, merged_scores_dir, ui_dump_dir)
             # print('mapping', mapping)
-            output_mapping(mapping, src_app, tgt_app)
+            output_mapping(mapping, src_app, tgt_app, mapping_results_dir)
             count += 1
             print('finished##### ', count, '/100 ', src_app, tgt_app)
 
 if __name__ == "__main__":
-    #     check_if_done('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/raw_scores', '.csv')
+    # check_if_done('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/raw_scores_news', '.csv')
 
-    #     merge_scores('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/raw_scores',
-    #     '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores')
-    output_mapping_batch()
+    # merge_scores('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/raw_scores_news',
+    # '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores_news')
+
+    output_mapping_batch('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/',
+                         '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results_news/',
+                         '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores_news/',
+                         '/Users/yixue/Documents/Research/FrUITeR/Develop/TestBenchmark-Jave-client/screenshots/news/')
