@@ -41,24 +41,24 @@ def random_map(test, ground_truth_target):
 
 if __name__ == "__main__":
     count = 0
-    for source_path in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv"):
+    test_case_dir = '/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/'
+    gt_file_prefix = '../ground_truth_mapping/news/GT_'
+    mapping_results_dir = '/Users/yixue/Documents/Research/FrUITeR/Results/naive/mapping_results_news/'
+    for source_path in glob.glob(test_case_dir + "*.csv"):
         source_csv = read_csv(source_path, header=0)
         source_csv['event_array'] = source_csv['event_array'].apply(json.loads)
 
-        for target_path in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv"):
+        for target_path in glob.glob(test_case_dir + "*.csv"):
             # if source_path != target_path:
             count += 1
-            ground_truth_target = read_csv(
-                "../ground_truth_mapping/GUI Mapping Ground Truth - " + os.path.basename(target_path))
+            ground_truth_target = read_csv(gt_file_prefix + os.path.basename(target_path))
 
             target_csv = pickle.loads(pickle.dumps(source_csv))  # deep copy
             i = 0
             target_csv = target_csv.apply(random_map, args=(ground_truth_target,), axis=1)
 
             target_csv['event_array'] = target_csv['event_array'].apply(json.dumps)
-            target_csv.to_csv(
-                "/Users/yixue/Documents/Research/FrUITeR/Results/naive/mapping_results_9/"
-                + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(
+            target_csv.to_csv(mapping_results_dir + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(
                     target_path), index=False)
             print('processing #####  ', count, '/100')
             print('src = ', source_path, 'tgt = ', target_path, 'i = ', i)

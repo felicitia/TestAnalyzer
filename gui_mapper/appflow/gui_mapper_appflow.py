@@ -57,16 +57,18 @@ def appflow_map(test, target_app):
     return test
 
 if __name__ == "__main__":
-    appflow_dataset = read_csv("prediction_widget_results_10apps_shopping.csv")
-    app_names = [str.lower(os.path.splitext(os.path.basename(file))[0]) for file in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv")]
+    appflow_dataset = read_csv("prediction_widget_results_10apps_news.csv")
+    test_case_dir = '/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/'
+    mapping_results_dir = "/Users/yixue/Documents/Research/FrUITeR/Results/appflow/mapping_results_news/"
+    app_names = [str.lower(os.path.splitext(os.path.basename(file))[0]) for file in glob.glob(test_case_dir + "*.csv")]
     app_names = {e: e for e in app_names}
     # app_list = ['home', 'aliexpress', 'googleshopping', 'groupon', 'app', '6pm', 'ebay', 'wish', 'etsy', '5miles', 'geek']
     count = 0
-    for source_path in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv"):
+    for source_path in glob.glob(test_case_dir + "*.csv"):
         source_csv = read_csv(source_path, header=0)
         source_csv['event_array'] = source_csv['event_array'].apply(json.loads)
 
-        for target_path in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv"):
+        for target_path in glob.glob(test_case_dir + "*.csv"):
             # if source_path != target_path: delete this because we also transfer the same source app to the target app
             count += 1
             target_csv = pickle.loads(pickle.dumps(source_csv))  # deep copy
@@ -75,7 +77,7 @@ if __name__ == "__main__":
 
             target_csv['event_array'] = target_csv['event_array'].apply(json.dumps)
             target_csv.to_csv(
-                "/Users/yixue/Documents/Research/FrUITeR/Results/appflow/mapping_results/" + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(
+                 mapping_results_dir + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(
                     target_path), index=False)
             print('processing #####  ', count, '/100')
             print('src = ', source_path, 'tgt = ', target_path)

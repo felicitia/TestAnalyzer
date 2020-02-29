@@ -15,3 +15,4 @@ perfect_out.csv
 post_synthesis_results.csv
 .idea/
 gui_mapper/.ipynb_checkpoints/*
+src/*

@@ -32,8 +32,10 @@ def perfect_map(test, ground_truth_source, ground_truth_target):
                         gui_event['id_or_xpath'] = "id@" + target_event.iloc[0]['id']
 
             else:
-                # print(gui_event['id_or_xpath'])
-                # print(ground_truth_source)
+                # tmp = ['id@bbc.mobile.news.ww:id/content']
+                # if gui_event['id_or_xpath'] not in tmp:
+                print(gui_event['id_or_xpath'])
+                print(source_csv)
                 print('missing ground truth!!! should add the missing widget to the ground truth file :)')
                 gui_event['id_or_xpath'] = "NONE_SOURCE"
                 i += 1
@@ -43,22 +45,25 @@ def perfect_map(test, ground_truth_source, ground_truth_target):
 
 if __name__ == "__main__":
     count = 0
-    for source_path in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv"):
+    test_case_dir = '/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/'
+    gt_file_prefix = '../ground_truth_mapping/news/GT_'
+    mapping_results_dir = '/Users/yixue/Documents/Research/FrUITeR/Results/perfect/mapping_results_news/'
+    for source_path in glob.glob(test_case_dir + "*.csv"):
         source_csv = read_csv(source_path, header=0)
         source_csv['event_array'] = source_csv['event_array'].apply(json.loads)
 
-        ground_truth_source = read_csv("../ground_truth_mapping/GUI Mapping Ground Truth - " + os.path.basename(source_path))
-        for target_path in glob.glob("/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/*.csv"):
+        ground_truth_source = read_csv(gt_file_prefix + os.path.basename(source_path))
+        for target_path in glob.glob(test_case_dir + "*.csv"):
             count += 1
             # if source_path != target_path: # consider same src-tgt app pair as well
-            ground_truth_target = read_csv("../ground_truth_mapping/GUI Mapping Ground Truth - " + os.path.basename(target_path))
+            ground_truth_target = read_csv(gt_file_prefix + os.path.basename(target_path))
 
             target_csv = pickle.loads(pickle.dumps(source_csv)) #deep copy
             i=0
             target_csv['event_array'] = target_csv['event_array'].apply(perfect_map, args=(ground_truth_source, ground_truth_target))
 
             target_csv['event_array'] = target_csv['event_array'].apply(json.dumps)
-            target_csv.to_csv("/Users/yixue/Documents/Research/FrUITeR/Results/perfect/mapping_results/" + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(target_path), index=False)
+            target_csv.to_csv(mapping_results_dir + os.path.splitext(os.path.basename(source_path))[0] + "_" + os.path.basename(target_path), index=False)
 
             print('processing #####  ', count, '/100')
             print('src = ', source_path, 'tgt = ', target_path, 'i = ', i)
