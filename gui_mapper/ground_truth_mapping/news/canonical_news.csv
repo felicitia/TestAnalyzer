@@ -39,7 +39,6 @@ cat_1,choose first category
 help,jump to help page
 search_bar,search bar that takes the input of searching keyword
 item_1,jump to the first item's detailed page
-add_cart,add item to cart
 legal,jump to the legal terms page
 contact,jump to the contact page
 skip,skip button
