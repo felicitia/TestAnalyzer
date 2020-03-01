@@ -32,7 +32,7 @@ Then run appflow/gui_mapper_appflow.py first to get the mapping results (e.g., t
 
 For craftdroid, craftdroid/process_craftdroid_results.py helps with manually constructing craftdroid's raw mapping results of GUI elements (e.g., CraftDroid Transfer Results - Etsy-Geek.csv) based on the published results. With such results, run craftdroid/gui_mapper_craftdroid.py to get the mapping results in the same manner as the other gui mappers mentioned above.
 
-2. After getting all the mapping results from step 1, run result_generator.ipynb to get the final results with all the calculated metrics. You need to run all the cells until `combined_csv.to_csv("framework_results.csv")` to output the final results to a csv file. (check the headers to delete the useless columns & achange 'event_array' to 'transferrerd'
+2. After getting all the mapping results from step 1, run result_generator.ipynb to get the final results with all the calculated metrics. You need to run all the cells until `combined_csv.to_csv("framework_results.csv")` to output the final results to a csv file. (check the headers to delete the useless columns & achange 'event_array' to 'transferred'
 
 3. go to process_final_results.py to add utility metrics
 
