@@ -1,0 +1,4 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[727,1761][1262,1929]",1.0
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,,android.widget.TextView,"[56,2251][1384,2311]",2.0901960784313727
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.TextView,"[56,2382][715,2470]",0.7921052631578946
+id@com.google.android.apps.shopping.express:id/save_address_button,com.contextlogic.home:id/cart_fragment_cart_shipping_floating_done_button,android.widget.TextView,"[56,2596][1384,2621]",1.0

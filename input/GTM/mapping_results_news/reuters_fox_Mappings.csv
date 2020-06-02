@@ -1,0 +1,6 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",com.foxnews.android:id/related_headline,android.widget.TextView,"[74,1492][1038,1616]",1.2249999999999999
+id@com.thomsonreuters.reuters:id/settings_contact_us,com.foxnews.android:id/settings_provider,android.widget.TextView,"[42,413][1038,475]",0.5
+id@com.thomsonreuters.reuters:id/menu_save,com.foxnews.android:id/save,android.widget.ImageView,"[854,91][959,196]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",com.foxnews.android:id/related_headline,android.widget.TextView,"[74,1492][1038,1616]",1.2249999999999999
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",com.foxnews.android:id/related_headline,android.widget.TextView,"[74,1492][1038,1616]",0.7921052631578946
+id@com.thomsonreuters.reuters:id/list_item_collection_name,,android.widget.TextView,"[0,1247][1080,1393]",1.0

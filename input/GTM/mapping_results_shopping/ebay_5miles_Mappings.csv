@@ -1,0 +1,14 @@
+id@com.ebay.mobile:id/button_sign_in,com.thirdrock.fivemiles:id/sign_in,android.widget.Button,"[741,2561][1370,2621]",2.0
+id@com.ebay.mobile:id/button_register,com.thirdrock.fivemiles:id/btn_google_login,android.widget.TextView,"[56,2372][1384,2512]",1.4445454545454546
+id@com.ebay.mobile:id/button_sort,com.thirdrock.fivemiles:id/common_list_item_text,android.widget.CheckedTextView,"[28,1345][1412,1533]",0.8333333333333334
+id@com.ebay.mobile:id/et_email,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",0.6666666666666666
+id@com.ebay.mobile:id/bt_continue,com.thirdrock.fivemiles:id/fb_login_btn_clickable,android.widget.TextView,"[56,2204][1384,2344]",0.99
+id@com.ebay.mobile:id/search_box,com.thirdrock.fivemiles:id/txt_state,android.widget.TextView,"[508,2209][946,2272]",0.8235294117647058
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.thirdrock.fivemiles:id/largeLabel,android.widget.TextView,"[0,0][0,0]",0.5714285714285714
+id@com.ebay.mobile:id/button_classic,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.621578947368421
+id@com.ebay.mobile:id/et_temp,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",0.75
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.thirdrock.fivemiles:id/common_list_item_text,android.widget.CheckedTextView,"[28,1155][1412,1343]",1.98
+id@com.ebay.mobile:id/et_first_name,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",0.8
+id@com.ebay.mobile:id/bt_create_your_account,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.98
+id@com.ebay.mobile:id/home,,android.widget.TextView,"[0,0][0,0]",1.581578947368421
+id@com.ebay.mobile:id/et_last_name,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.3

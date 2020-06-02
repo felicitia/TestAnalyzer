@@ -1,0 +1,3 @@
+id@com.foxnews.android:id/settings_bttn,com.usatoday.android.news:id/settings_preference_title,android.widget.TextView,"[139,445][446,507]",0.7
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],com.usatoday.android.news:id/nav_section_textview,android.widget.TextView,"[0,680][540,778]",1.0
+id@com.foxnews.android:id/scale_text,com.usatoday.android.news:id/button_articleTextSize,android.widget.TextView,"[702,80][828,206]",1.93

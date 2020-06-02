@@ -1,0 +1,3 @@
+id@jp.gocro.smartnews.android:id/search_src_text,com.abc.abcnews:id/drawer_search,android.widget.EditText,"[158,123][806,249]",1.0
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1007][1011,1133]",1.01
+id@jp.gocro.smartnews.android:id/searchTextView,com.abc.abcnews:id/drawer_search,android.widget.EditText,"[158,123][806,249]",1.0

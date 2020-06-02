@@ -1,0 +1,10 @@
+id@com.alibaba.aliexpresshd:id/et_email,com.contextlogic.home:id/sign_in_fragment_email_text,android.widget.EditText,"[56,962][1384,1102]",1.01
+id@com.alibaba.aliexpresshd:id/edit_address_province,,android.widget.TextView,"[56,1435][131,1513]",1.01
+id@com.alibaba.aliexpresshd:id/edit_address_street_line1,com.contextlogic.home:id/shipping_address_form_street_address_text,android.widget.EditText,"[56,753][1384,899]",1.8
+id@com.alibaba.aliexpresshd:id/et_password,com.contextlogic.home:id/create_account_fragment_password_text,android.widget.EditText,"[56,1298][1384,1437]",1.01
+id@com.alibaba.aliexpresshd:id/edit_address_tel_mobile,com.contextlogic.home:id/shipping_address_form_first_name_text,android.widget.EditText,"[56,501][692,647]",0.9
+id@com.alibaba.aliexpresshd:id/abs__search_src_text,com.contextlogic.home:id/search_src_text,android.widget.EditText,"[336,204][1356,330]",1.8
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.contextlogic.home:id/cart_fragment_cart_shipping_floating_done_button,android.widget.TextView,"[56,2596][1384,2621]",1.01
+id@com.alibaba.aliexpresshd:id/etfwc_base_edit_text,com.contextlogic.home:id/shipping_address_form_apt_suite_text,android.widget.EditText,"[56,1005][1384,1151]",1.8
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.contextlogic.home:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.01
+id@com.alibaba.aliexpresshd:id/tv_account_setting,com.contextlogic.home:id/settings_fragment_row_text,android.widget.TextView,"[56,823][1384,907]",1.8

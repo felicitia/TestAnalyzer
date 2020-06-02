@@ -1,0 +1,5 @@
+id@com.buzzfeed.android:id/icon,com.usatoday.android.news:id/icon,android.widget.ImageView,"[76,2088][139,2144]",0.909
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,70][147,217]",2.01
+id@com.buzzfeed.android:id/post_card_text,com.usatoday.android.news:id/main_text,android.widget.TextView,"[53,950][732,1067]",2.0
+id@com.buzzfeed.android:id/menu_search,com.usatoday.android.news:id/search_the_app,android.widget.TextView,"[953,80][1080,206]",1.0
+id@com.buzzfeed.android:id/explore_item_title,com.usatoday.android.news:id/nav_section_textview,android.widget.TextView,"[540,1774][1080,1872]",1.01

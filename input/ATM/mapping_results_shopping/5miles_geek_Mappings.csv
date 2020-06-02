@@ -1,0 +1,10 @@
+id@com.thirdrock.fivemiles:id/sign_in,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.01
+id@com.thirdrock.fivemiles:id/login_last_name,com.contextlogic.geek:id/create_account_fragment_last_name_text,android.widget.EditText,"[554,248][1052,358]",2.01
+id@com.thirdrock.fivemiles:id/sign_up,,android.widget.ImageButton,"[0,66][154,220]",0.9
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.contextlogic.geek:id/fragment_filter_done,android.widget.TextView,"[876,2582][1405,2621]",1.01
+id@com.thirdrock.fivemiles:id/login_password,com.contextlogic.geek:id/sign_in_fragment_forgot_password_button,android.widget.TextView,"[799,662][1052,772]",1.0
+id@com.thirdrock.fivemiles:id/login_email,com.contextlogic.geek:id/sign_in_fragment_email_text,android.widget.EditText,"[28,248][1052,358]",1.01
+id@com.thirdrock.fivemiles:id/login_login,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.01
+id@com.thirdrock.fivemiles:id/edt_keyword_search,com.contextlogic.geek:id/search_src_text,android.widget.EditText,"[364,204][1412,330]",1.0
+id@com.thirdrock.fivemiles:id/home_location_item_image,com.contextlogic.geek:id/action_bar_item_icon,android.widget.ImageView,"[908,213][1020,325]",0.9
+id@com.thirdrock.fivemiles:id/login_first_name,com.contextlogic.geek:id/create_account_fragment_first_name_text,android.widget.EditText,"[28,248][526,358]",2.01

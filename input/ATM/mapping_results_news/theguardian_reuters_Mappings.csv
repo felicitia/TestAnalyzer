@@ -1,0 +1,5 @@
+id@com.guardian:id/bTextSize,com.thomsonreuters.reuters:id/article_header_bottom_text,android.widget.TextView,"[53,941][1387,2414]",0.8333333333333334
+id@com.guardian:id/search_footer_text_view,com.thomsonreuters.reuters:id/menu_search_recent_clear,android.widget.TextView,"[1025,367][1440,430]",0.9
+id@com.guardian:id/fabHome,,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.guardian:id/bSavePage,com.thomsonreuters.reuters:id/menu_save,android.widget.TextView,"[936,185][1104,353]",1.0
+id@com.guardian:id/sfl_button,com.thomsonreuters.reuters:id/list_item_collection_name,android.widget.TextView,"[0,1497][1216,1637]",1.0

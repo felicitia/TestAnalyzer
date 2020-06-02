@@ -1,0 +1,7 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1196][1011,1322]",2.01
+id@com.usatoday.android.news:id/menuButtonBookmark,com.usatoday.android.news:id/menuButtonBookmark,android.widget.TextView,"[954,80][1080,206]",3.01
+id@com.usatoday.android.news:id/search_the_app,com.usatoday.android.news:id/search_the_app,android.widget.TextView,"[953,80][1080,206]",5.01
+id@com.usatoday.android.news:id/edit_text_search,com.usatoday.android.news:id/edit_text_search,android.widget.EditText,"[126,73][954,220]",5.01
+id@com.usatoday.android.news:id/settings_gear,com.usatoday.android.news:id/settings_gear,android.widget.TextView,"[826,80][953,206]",1.01
+id@com.usatoday.android.news:id/button_articleTextSize,com.usatoday.android.news:id/button_articleTextSize,android.widget.TextView,"[702,80][828,206]",3.01
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,70][147,217]",2.01

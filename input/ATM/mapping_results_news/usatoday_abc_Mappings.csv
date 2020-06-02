@@ -1,0 +1,5 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1259][1011,1385]",2.01
+id@com.usatoday.android.news:id/menuButtonBookmark,com.abc.abcnews:id/menu_save_button,android.widget.TextView,"[954,80][1080,206]",1.0
+id@com.usatoday.android.news:id/search_the_app,com.abc.abcnews:id/drawer_search,android.widget.EditText,"[158,123][806,249]",1.0
+id@com.usatoday.android.news:id/edit_text_search,com.abc.abcnews:id/drawer_search,android.widget.EditText,"[158,123][806,249]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,70][147,217]",2.01

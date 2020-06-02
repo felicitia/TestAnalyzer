@@ -1,0 +1,10 @@
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.contextlogic.wish:id/fragment_filter_done,android.widget.TextView,"[889,2582][1405,2621]",1.0
+id@com.thirdrock.fivemiles:id/login_email,com.contextlogic.wish:id/sign_in_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2059][1384,2160]",0.6666666666666666
+id@com.thirdrock.fivemiles:id/login_last_name,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.3
+id@com.thirdrock.fivemiles:id/sign_up,com.contextlogic.wish:id/sign_in_fragment_create_account_button,android.widget.TextView,"[56,1863][1384,2003]",0.8235294117647058
+id@com.thirdrock.fivemiles:id/sign_in,com.contextlogic.wish:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.0
+id@com.thirdrock.fivemiles:id/login_first_name,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",0.8
+id@com.thirdrock.fivemiles:id/login_login,com.contextlogic.wish:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.0
+id@com.thirdrock.fivemiles:id/ic_filter,,android.widget.TextView,"[0,367][432,535]",0.4
+id@com.thirdrock.fivemiles:id/register_register,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",0.8235294117647058
+id@com.thirdrock.fivemiles:id/login_password,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.55

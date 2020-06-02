@@ -1,0 +1,4 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,com.foxnews.android:id/save,android.widget.ImageView,"[854,91][959,196]",1.0
+id@com.usatoday.android.news:id/search_the_app,com.foxnews.android:id/tab_icon,android.widget.ImageView,"[940,2083][1003,2144]",1.0
+id@com.usatoday.android.news:id/button_articleTextSize,com.foxnews.android:id/scale_text,android.widget.ImageView,"[730,109][828,177]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",com.foxnews.android:id/embedded_video_title,android.widget.TextView,"[0,1680][1080,1817]",1.0

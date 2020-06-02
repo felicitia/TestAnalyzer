@@ -1,0 +1,4 @@
+id@com.contextlogic.home:id/create_account_fragment_create_account_button,,android.widget.RadioButton,"[91,1245][164,1319]",1.8135294117647058
+id@com.contextlogic.home:id/cart_fragment_cart_shipping_floating_done_button,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.0
+id@com.contextlogic.home:id/sign_in_fragment_sign_in_button,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143

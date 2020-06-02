@@ -1,0 +1,9 @@
+id@com.guardian:id/search_footer_text_view,com.usatoday.android.news:id/image_search_back,android.widget.ImageButton,"[0,73][126,220]",1.5238095238095237
+id@com.guardian:id/ivBackButton,com.usatoday.android.news:id/clear,android.widget.Button,"[849,220][1080,346]",0.94
+id@com.guardian:id/show_more,com.usatoday.android.news:id/settings_preference_title,android.widget.TextView,"[39,1129][133,1191]",0.7277777777777777
+id@com.guardian:id/bSavePage,com.usatoday.android.news:id/articleBodyTextView,android.widget.TextView,"[0,2131][1080,2144]",0.75
+id@com.guardian:id/bTextSize,com.usatoday.android.news:id/button_articleTextSize,android.widget.TextView,"[702,80][828,206]",2.68
+id@com.guardian:id/bBack,com.usatoday.android.news:id/articleBodyTextView,android.widget.TextView,"[0,1819][1080,1949]",1.3911764705882352
+id@com.guardian:id/fabHome,com.usatoday.android.news:id/icon_1,android.widget.ImageView,"[53,1817][116,1880]",1.7999999999999998
+id@com.guardian:id/sfl_button,com.usatoday.android.news:id/settings_preference_title,android.widget.TextView,"[39,1129][133,1191]",0.859090909090909
+id@com.guardian:id/bOk,android:id/text1,android.widget.CheckedTextView,"[69,944][1011,1070]",0.6

@@ -1,0 +1,9 @@
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",com.contextlogic.geek:id/menu_fragment_row_text,android.widget.TextView,"[0,0][0,0]",0.7142857142857143
+id@android:id/text1,com.contextlogic.geek:id/product_feed_num_purchased_text,android.widget.TextView,"[737,1335][1404,1391]",1.2058823529411766
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.contextlogic.geek:id/menu_fragment_row_text,android.widget.TextView,"[0,0][0,0]",0.6666666666666666
+id@android:id/button1,com.contextlogic.geek:id/fragment_filter_done,android.widget.TextView,"[876,2582][1405,2621]",1.0
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",com.contextlogic.geek:id/menu_fragment_row_text,android.widget.TextView,"[0,0][0,0]",0.7368421052631579
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.contextlogic.geek:id/cart_fragment_cart_items_summary_row_subtext_2,android.widget.TextView,"[91,1726][1349,1783]",0.5
+id@com.zappos.android.sixpmFlavor:id/search_src_text,,android.widget.TextView,"[1244,185][1440,353]",0.99
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.contextlogic.geek:id/product_feed_num_purchased_text,android.widget.TextView,"[737,1335][1404,1391]",0.7058823529411765
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",1.98

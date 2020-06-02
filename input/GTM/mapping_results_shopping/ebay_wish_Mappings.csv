@@ -1,0 +1,14 @@
+id@com.ebay.mobile:id/button_sign_in,com.contextlogic.wish:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.0
+id@com.ebay.mobile:id/button_register,com.contextlogic.wish:id/sign_in_fragment_create_account_button,android.widget.TextView,"[56,1863][1384,2003]",1.98
+id@com.ebay.mobile:id/button_sort,,android.widget.TextView,"[1244,185][1440,353]",0.875
+id@com.ebay.mobile:id/et_email,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",0.6666666666666666
+id@com.ebay.mobile:id/edit_text_username,com.contextlogic.wish:id/sign_in_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2059][1384,2160]",0.6666666666666666
+id@com.ebay.mobile:id/bt_continue,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",0.99
+id@com.ebay.mobile:id/search_box,,android.widget.TextView,"[1244,185][1440,353]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",,android.widget.TextView,"[35,2030][1405,2085]",0.8421052631578947
+id@com.ebay.mobile:id/button_classic,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.621578947368421
+id@com.ebay.mobile:id/et_temp,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",0.75
+id@com.ebay.mobile:id/et_first_name,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",0.8
+id@com.ebay.mobile:id/bt_create_your_account,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.98
+id@com.ebay.mobile:id/home,,android.widget.ImageButton,"[0,171][196,367]",1.3900000000000001
+id@com.ebay.mobile:id/et_last_name,com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.3

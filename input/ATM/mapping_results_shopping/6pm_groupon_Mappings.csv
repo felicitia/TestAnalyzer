@@ -1,0 +1,8 @@
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.groupon:id/my_stuff,android.view.ViewGroup,"[1080,2582][1440,2621]",0.9
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.groupon:id/categories,android.view.ViewGroup,"[360,2582][720,2621]",1.01
+id@android:id/text1,com.groupon:id/deal_card_badges,android.widget.TextView,"[56,1362][462,1474]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.slidingpanelayout.widget.SlidingPaneLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView,com.groupon:id/deal_image,android.widget.ImageView,"[28,723][1412,1502]",0.9
+id@com.zappos.android.sixpmFlavor:id/icon,com.groupon:id/deal_highlights_icon,android.widget.ImageView,"[207,1359][270,1422]",0.9
+id@com.zappos.android.sixpmFlavor:id/search_src_text,com.groupon:id/global_search_button_text,android.widget.TextView,"[168,199][799,339]",1.0
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.groupon:id/ic_shopping_cart,android.widget.ImageView,"[1289,227][1373,311]",0.9
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],,android.widget.TextView,"[152,395][415,521]",1.0

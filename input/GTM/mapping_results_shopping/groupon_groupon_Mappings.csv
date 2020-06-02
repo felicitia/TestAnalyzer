@@ -1,0 +1,13 @@
+id@com.groupon:id/done,com.groupon:id/done,android.widget.Button,"[195,2005][1245,2173]",6.0
+id@com.groupon:id/ic_shopping_cart,com.groupon:id/ic_shopping_cart,android.widget.ImageView,"[1300,227][1384,311]",2.0
+id@com.groupon:id/category_icon,com.groupon:id/category_icon,android.widget.ImageView,"[1121,200][1258,337]",1.0
+"xpath@//android.widget.TextView[@text=""NEW USER""]",,android.widget.TextView,"[720,367][1440,535]",2.0
+id@com.groupon:id/cta_button,com.groupon:id/cta_button,android.widget.Button,"[42,2582][1398,2621]",1.0
+id@com.groupon:id/dialog_positive_button,com.groupon:id/dialog_positive_button,android.widget.Button,"[745,1604][1297,1781]",1.0
+id@com.groupon:id/my_stuff,com.groupon:id/my_stuff,android.view.ViewGroup,"[1080,2582][1440,2621]",2.0
+id@com.groupon:id/quantity_button_text,com.groupon:id/quantity_button_text,android.widget.TextView,"[498,929][530,1005]",1.0
+"xpath@//android.widget.TextView[@text=""Customer Support""]",com.groupon:id/title,android.widget.TextView,"[238,1396][638,1462]",2.0
+id@com.groupon:id/done_button,com.groupon:id/done_button,android.widget.TextView,"[1199,1253][1440,1428]",1.0
+"xpath@//android.widget.Button[@text=""Just show me the deals""]",,android.widget.Button,"[195,2372][1245,2549]",5.0
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,com.groupon:id/fragment_log_in_sign_up_groupon_button,android.widget.Button,"[56,1445][1384,1642]",4.0
+id@com.groupon:id/terms_of_use,com.groupon:id/terms_of_use,android.widget.TextView,"[28,724][1412,878]",3.0

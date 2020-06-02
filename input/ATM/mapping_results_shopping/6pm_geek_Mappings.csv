@@ -1,0 +1,7 @@
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.contextlogic.geek:id/menu_fragment_row_text,android.widget.TextView,"[224,838][980,914]",1.01
+id@android:id/text1,,android.widget.TextView,"[0,367][364,535]",1.0
+id@com.zappos.android.sixpmFlavor:id/icon,com.contextlogic.geek:id/action_bar_item_icon,android.widget.ImageView,"[1104,213][1216,325]",0.9
+id@com.zappos.android.sixpmFlavor:id/search_src_text,,android.widget.TextView,"[1244,185][1440,353]",1.0
+id@android:id/button1,com.contextlogic.geek:id/fragment_filter_done,android.widget.TextView,"[876,2582][1405,2621]",1.01
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,android.widget.TextView,"[915,2617][1405,2621]",2.7
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.contextlogic.geek:id/product_feed_price_main_text,android.widget.TextView,"[35,1237][128,1313]",0.9

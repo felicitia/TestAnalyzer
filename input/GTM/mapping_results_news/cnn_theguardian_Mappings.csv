@@ -1,0 +1,4 @@
+id@com.cnn.mobile.android.phone:id/deleteButton,com.guardian:id/tvRemove,android.widget.TextView,"[835,503][1015,575]",0.94
+id@com.cnn.mobile.android.phone:id/tv_feedback_link,android:id/title,android.widget.TextView,"[39,2107][321,2144]",1.223529411764706
+id@com.cnn.mobile.android.phone:id/toolbar_save,,android.view.View,"[0,0][0,0]",1.2000000000000002
+id@com.cnn.mobile.android.phone:id/tv_tv_login,com.guardian:id/fabHome,android.widget.ImageButton,"[912,2046][1059,2144]",0.7

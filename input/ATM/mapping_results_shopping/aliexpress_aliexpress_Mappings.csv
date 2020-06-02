@@ -1,0 +1,16 @@
+id@com.alibaba.aliexpresshd:id/select_all,com.alibaba.aliexpresshd:id/tv_select_all,android.widget.TextView,"[175,517][788,685]",1.8
+id@com.alibaba.aliexpresshd:id/btn_register,com.alibaba.aliexpresshd:id/btn_register,android.widget.Button,"[56,1869][1384,2037]",1.01
+id@com.alibaba.aliexpresshd:id/menu_delete,com.alibaba.aliexpresshd:id/menu_delete,android.widget.TextView,"[1272,185][1440,353]",1.01
+id@com.alibaba.aliexpresshd:id/et_email,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,485][1384,653]",1.01
+id@com.alibaba.aliexpresshd:id/edit_address_province,com.alibaba.aliexpresshd:id/edit_address_tel_countrycode,android.widget.EditText,"[56,837][224,1005]",1.8
+id@com.alibaba.aliexpresshd:id/search_switch_btn,com.alibaba.aliexpresshd:id/search_switch_name,android.widget.TextView,"[446,1622][1218,1688]",1.8
+id@com.alibaba.aliexpresshd:id/edit_address_street_line1,com.alibaba.aliexpresshd:id/edit_address_street_line1,android.widget.EditText,"[56,1005][1384,1173]",6.01
+id@com.alibaba.aliexpresshd:id/et_password,com.alibaba.aliexpresshd:id/et_password,android.widget.EditText,"[252,647][1384,815]",5.01
+id@com.alibaba.aliexpresshd:id/edit_address_tel_mobile,com.alibaba.aliexpresshd:id/edit_address_tel_countrycode,android.widget.EditText,"[56,837][224,1005]",2.7
+id@com.alibaba.aliexpresshd:id/abs__search_src_text,com.alibaba.aliexpresshd:id/abs__search_src_text,android.widget.EditText,"[210,199][1272,339]",2.01
+id@com.alibaba.aliexpresshd:id/riv_productsummary_img,com.alibaba.aliexpresshd:id/search_filter_img,android.widget.ImageView,"[1174,411][1258,495]",0.9
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.01
+id@com.alibaba.aliexpresshd:id/etfwc_base_edit_text,com.alibaba.aliexpresshd:id/etfwc_base_edit_text,android.widget.EditText,"[56,1173][1384,1341]",4.01
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",2.01
+id@com.alibaba.aliexpresshd:id/tv_account_setting,com.alibaba.aliexpresshd:id/tv_settings_currency_view,android.widget.TextView,"[1284,1070][1384,1141]",1.8
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,android.widget.TextView,"[210,2243][853,2453]",4.01

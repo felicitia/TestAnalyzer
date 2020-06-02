@@ -1,0 +1,6 @@
+id@com.guardian:id/show_more,com.cnn.mobile.android.phone:id/breakingNewsButton_System,android.widget.TextView,"[42,588][653,650]",0.6166666666666666
+id@com.guardian:id/bSavePage,,android.view.View,"[0,0][0,0]",0.94
+id@com.guardian:id/bTextSize,,android.view.View,"[0,0][0,0]",2.1702685421994885
+id@com.guardian:id/bBack,,android.view.View,"[0,0][0,0]",1.44
+id@com.guardian:id/fabHome,,android.view.View,"[0,0][0,0]",1.8
+id@com.guardian:id/sfl_button,com.cnn.mobile.android.phone:id/tv_feedback_link,android.widget.Button,"[42,1746][1080,1893]",0.8785714285714286

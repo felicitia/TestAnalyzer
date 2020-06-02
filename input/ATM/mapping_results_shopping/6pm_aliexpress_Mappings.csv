@@ -1,0 +1,15 @@
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.alibaba.aliexpresshd:id/tv_order_status_title,android.widget.TextView,"[56,1393][363,1459]",1.0
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.8
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.alibaba.aliexpresshd:id/bt_shopcart_error_remove,android.widget.Button,"[1076,1586][1384,1754]",0.9
+id@com.zappos.android.sixpmFlavor:id/generic_add_to_fab,,android.widget.TextView,"[0,367][520,535]",0.9
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.alibaba.aliexpresshd:id/menu_search,android.widget.TextView,"[936,185][1104,353]",1.01
+id@android:id/text1,com.alibaba.aliexpresshd:id/tv_select_country,android.widget.EditText,"[56,1341][1384,1509]",2.01
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.8
+id@com.zappos.android.sixpmFlavor:id/icon,com.alibaba.aliexpresshd:id/menu_badge_icon,android.widget.ImageView,"[978,185][1062,353]",0.9
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_1,com.alibaba.aliexpresshd:id/edit_address_street_line1,android.widget.EditText,"[56,1005][1384,1173]",2.0
+id@com.zappos.android.sixpmFlavor:id/search_src_text,com.alibaba.aliexpresshd:id/search_hint,android.widget.TextView,"[210,206][433,332]",0.9
+id@android:id/button1,com.alibaba.aliexpresshd:id/btn_apply_refine,android.widget.Button,"[1132,171][1440,339]",0.9
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.alibaba.aliexpresshd:id/tv_addToCart_1,android.widget.TextView,"[0,0][0,0]",2.7
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.8
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.alibaba.aliexpresshd:id/search_refine_price,android.widget.TextView,"[446,1454][685,1520]",1.0
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,com.alibaba.aliexpresshd:id/edit_address_city,android.widget.EditText,"[56,1677][1384,1845]",1.8

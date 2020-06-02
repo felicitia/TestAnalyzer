@@ -1,0 +1,14 @@
+id@com.etsy.android:id/cart_icon,com.contextlogic.geek:id/merchant_info_section_title,android.widget.TextView,"[224,2525][703,2582]",1.868295739348371
+id@com.etsy.android:id/legal_row,,android.widget.ImageButton,"[0,171][196,367]",0.5
+id@com.etsy.android:id/button_register,com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",0.8235294117647058
+id@com.etsy.android:id/edit_last_name,,android.widget.TextView,"[28,1174][1052,1262]",0.8
+id@com.etsy.android:id/btn_remove,com.contextlogic.geek:id/cart_fragment_cart_items_summary_row_subtext_2,android.widget.TextView,"[91,1726][1349,1783]",0.5
+id@com.etsy.android:id/btn_link,com.contextlogic.geek:id/product_feed_num_purchased_text,android.widget.TextView,"[35,2191][702,2247]",0.99
+id@com.etsy.android:id/btn_register_dialog,com.contextlogic.geek:id/sign_in_fragment_create_account_button,android.widget.TextView,"[425,1037][654,1136]",0.8235294117647058
+id@com.etsy.android:id/search_filters_sort_by_text,com.contextlogic.geek:id/fragment_filter_done,android.widget.TextView,"[876,2582][1405,2621]",0.5
+id@com.etsy.android:id/button_cart,,android.widget.TextView,"[399,367][756,535]",0.4
+id@com.etsy.android:id/button_signin,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.0
+id@com.etsy.android:id/filters_text_view,,android.widget.TextView,"[1048,185][1244,353]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[3]/android.view.ViewGroup/android.widget.ImageView[1],com.contextlogic.geek:id/fragment_filter_done,android.widget.TextView,"[876,2582][1405,2621]",0.45
+id@com.etsy.android:id/menu_search,,android.widget.TextView,"[756,367][1275,535]",1.7511961722488039
+id@com.etsy.android:id/btn_sign_in_dialog,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.0

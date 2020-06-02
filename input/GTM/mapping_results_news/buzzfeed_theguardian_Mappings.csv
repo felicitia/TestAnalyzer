@@ -1,0 +1,9 @@
+id@com.buzzfeed.android:id/menu_bookmark,,android.view.View,"[0,0][0,0]",0.8
+id@com.buzzfeed.android:id/menu_search,com.guardian:id/tvHeadline,android.widget.TextView,"[43,1705][766,1813]",0.8235294117647058
+id@com.buzzfeed.android:id/design_menu_item_text,com.guardian:id/action_count,android.widget.TextView,"[294,1995][766,2065]",1.7172727272727273
+id@com.buzzfeed.android:id/settings_button,com.guardian:id/action_count,android.widget.TextView,"[294,1995][766,2065]",0.7777777777777778
+id@com.buzzfeed.android:id/explore_item_title,com.guardian:id/iivAddToHomeButton,android.widget.ImageView,"[995,224][1058,287]",0.99
+id@com.buzzfeed.android:id/loginButton,com.guardian:id/actionbar_item_text_center,android.widget.TextView,"[137,81][1059,239]",0.8421052631578947
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",com.guardian:id/actionbar_home_button,android.widget.ImageView,"[21,112][126,217]",0.99
+id@com.buzzfeed.android:id/signin,com.guardian:id/actionbar_item_text_center,android.widget.TextView,"[137,81][1059,239]",0.8421052631578947
+id@com.buzzfeed.android:id/post_card_text,com.guardian:id/tvHeadline,android.widget.TextView,"[572,1902][1037,2136]",4.173155080213904

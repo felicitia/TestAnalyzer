@@ -1,0 +1,25 @@
+id@com.etsy.android:id/search_src_text,com.etsy.android:id/search_src_text,android.widget.EditText,"[392,206][1244,332]",3.01
+id@com.etsy.android:id/edit_password_confirm,com.etsy.android:id/edit_register_password,android.widget.EditText,"[111,1126][518,1229]",1.8
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.ImageView,com.etsy.android:id/search_src_text,android.widget.EditText,"[392,206][1244,332]",0.9
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[3]/android.view.ViewGroup/android.widget.ImageView[1],com.etsy.android:id/btn_fav,android.widget.ImageView,"[545,647][692,794]",1.01
+id@com.etsy.android:id/btn_sign_in_dialog,com.etsy.android:id/button_signin,android.widget.Button,"[734,787][969,924]",2.01
+id@com.etsy.android:id/button_register,com.etsy.android:id/btn_register_dialog,android.widget.Button,"[199,1117][529,1249]",1.01
+id@com.etsy.android:id/about_row,com.etsy.android:id/about_row,android.widget.TextView,"[188,1919][1252,2079]",3.01
+id@com.etsy.android:id/edit_username,com.etsy.android:id/edit_username,android.widget.EditText,"[111,493][969,596]",3.01
+id@com.etsy.android:id/button_cart,com.etsy.android:id/button_cart,android.widget.Button,"[98,2578][1342,2621]",3.01
+id@com.etsy.android:id/edit_password,com.etsy.android:id/edit_password,android.widget.EditText,"[111,640][969,743]",0.909
+id@com.etsy.android:id/menu_search,com.etsy.android:id/menu_search,android.widget.TextView,"[816,77][948,209]",2.01
+id@com.etsy.android:id/edit_register_password,com.etsy.android:id/edit_password_confirm,android.widget.EditText,"[562,1126][969,1229]",1.8
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,66][154,220]",2.01
+id@com.etsy.android:id/legal_row,com.etsy.android:id/legal_row,android.widget.TextView,"[188,1755][1252,1915]",1.01
+id@com.etsy.android:id/edit_email,com.etsy.android:id/edit_email,android.widget.EditText,"[111,776][969,879]",2.01
+id@com.etsy.android:id/edit_first_name,com.etsy.android:id/edit_first_name,android.widget.EditText,"[111,573][518,676]",2.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.TextView,com.etsy.android:id/search_taxonomy_text,android.widget.TextView,"[224,760][1440,984]",3.01
+id@com.etsy.android:id/btn_link,com.etsy.android:id/btn_link,android.widget.Button,"[329,1449][750,1586]",2.01
+id@com.etsy.android:id/filters_text_view,com.etsy.android:id/filters_text_view,android.widget.TextView,"[1065,409][1384,577]",1.01
+id@com.etsy.android:id/search_filters_sort_by_text,,android.widget.TextView,"[0,839][1440,1027]",2.01
+id@com.etsy.android:id/edit_last_name,com.etsy.android:id/edit_last_name,android.widget.EditText,"[562,573][969,676]",2.01
+id@com.etsy.android:id/cart_icon,com.etsy.android:id/cart_icon,android.widget.ImageView,"[981,110][1047,176]",4.01
+id@com.etsy.android:id/btn_remove,com.etsy.android:id/btn_remove,android.widget.Button,"[767,864][1013,1018]",1.01
+id@com.etsy.android:id/btn_register_dialog,com.etsy.android:id/btn_sign_in_dialog,android.widget.Button,"[551,1117][881,1249]",1.8
+id@com.etsy.android:id/button_signin,com.etsy.android:id/button_signin,android.widget.Button,"[734,787][969,924]",2.01

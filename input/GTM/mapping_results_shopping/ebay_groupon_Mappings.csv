@@ -1,0 +1,15 @@
+id@com.ebay.mobile:id/button_sign_in,com.groupon:id/fragment_log_in_sign_up_groupon_button,android.widget.Button,"[56,1155][1384,1352]",0.99
+id@com.ebay.mobile:id/button_register,com.groupon:id/terms_view,android.widget.TextView,"[56,993][1384,1099]",1.6140350877192982
+id@com.ebay.mobile:id/button_sort,,android.widget.TextView,"[759,395][1061,521]",0.99
+id@com.ebay.mobile:id/et_email,com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",0.6666666666666666
+id@com.ebay.mobile:id/edit_text_username,com.groupon:id/terms_view,android.widget.TextView,"[56,993][1384,1099]",0.6666666666666666
+id@com.ebay.mobile:id/bt_continue,,android.widget.TextView,"[720,367][1440,535]",0.99
+id@com.ebay.mobile:id/search_box,com.groupon:id/categories,android.view.ViewGroup,"[360,2582][720,2621]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.groupon:id/category_icon,android.widget.ImageView,"[1121,200][1258,337]",1.0
+id@com.ebay.mobile:id/button_classic,com.groupon:id/terms_view,android.widget.TextView,"[56,993][1384,1099]",1.6566666666666667
+id@com.ebay.mobile:id/et_temp,com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",0.75
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.groupon:id/post_search_term,android.widget.TextView,"[364,199][936,339]",0.631578947368421
+id@com.ebay.mobile:id/et_first_name,com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",0.8
+id@com.ebay.mobile:id/bt_create_your_account,com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",1.6140350877192982
+id@com.ebay.mobile:id/home,com.groupon:id/deal_highlight_label,android.widget.TextView,"[89,1443][389,1583]",1.5055555555555555
+id@com.ebay.mobile:id/et_last_name,com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",1.3

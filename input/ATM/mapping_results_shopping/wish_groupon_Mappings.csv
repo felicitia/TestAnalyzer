@@ -1,0 +1,16 @@
+id@com.contextlogic.wish:id/sign_in_fragment_sign_in_button,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,626][1384,764]",1.8
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",,android.widget.TextView,"[1075,395][1440,521]",1.0
+id@com.contextlogic.wish:id/filter_fragment_row_main_text,,android.widget.TextView,"[443,395][731,521]",1.01
+id@com.contextlogic.wish:id/create_account_fragment_last_name_text,com.groupon:id/fragment_log_in_sign_up_name,android.widget.EditText,"[56,626][1384,764]",2.0
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.wish:id/sign_in_fragment_password_text,com.groupon:id/fragment_log_in_sign_up_password,android.widget.EditText,"[56,799][1384,937]",2.7
+id@com.contextlogic.wish:id/create_account_fragment_create_account_button,com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",1.0
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.groupon:id/categories,android.view.ViewGroup,"[360,2582][720,2621]",1.01
+id@com.contextlogic.wish:id/sign_in_fragment_create_account_button,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,626][1384,764]",1.8
+id@com.contextlogic.wish:id/product_details_fragment_add_to_cart_button,com.groupon:id/cta_button,android.widget.Button,"[42,2582][1398,2621]",1.01
+id@com.contextlogic.wish:id/create_account_fragment_password_text,com.groupon:id/fragment_log_in_sign_up_password,android.widget.EditText,"[56,972][1384,1110]",1.8
+id@com.contextlogic.wish:id/create_account_fragment_first_name_text,com.groupon:id/fragment_log_in_sign_up_name,android.widget.EditText,"[56,626][1384,764]",2.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.Button,com.groupon:id/dialog_positive_button,android.widget.Button,"[745,1604][1297,1781]",1.01
+id@com.contextlogic.wish:id/create_account_fragment_email_text,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,799][1384,937]",1.8
+id@com.contextlogic.wish:id/search_src_text,com.groupon:id/categories,android.view.ViewGroup,"[360,2582][720,2621]",1.01
+id@com.contextlogic.wish:id/sign_in_fragment_email_text,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,626][1384,764]",2.7

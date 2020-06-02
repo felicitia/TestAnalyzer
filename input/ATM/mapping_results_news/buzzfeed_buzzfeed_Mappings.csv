@@ -1,0 +1,13 @@
+id@com.buzzfeed.android:id/usernameEditText,com.buzzfeed.android:id/usernameEditText,android.widget.EditText,"[300,700][1140,825]",3.01
+id@com.buzzfeed.android:id/signin,com.buzzfeed.android:id/signin,android.widget.TextView,"[944,1288][1078,1347]",2.01
+id@com.buzzfeed.android:id/icon,com.buzzfeed.android:id/icon,android.widget.ImageView,"[102,2617][186,2621]",0.909
+id@com.buzzfeed.android:id/passwordEditText,com.buzzfeed.android:id/passwordEditText,android.widget.EditText,"[300,825][1140,1006]",1.01
+id@com.buzzfeed.android:id/menu_bookmark,com.buzzfeed.android:id/menu_bookmark,android.widget.TextView,"[1272,186][1440,354]",1.01
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,172][196,368]",2.01
+id@com.buzzfeed.android:id/post_card_text,com.buzzfeed.android:id/post_card_text,android.widget.TextView,"[21,577][530,853]",16.01
+id@com.buzzfeed.android:id/settings_button,com.buzzfeed.android:id/settings_button,android.widget.TextView,"[0,0][0,0]",1.01
+id@com.buzzfeed.android:id/design_menu_item_text,com.buzzfeed.android:id/design_menu_item_text,android.widget.CheckedTextView,"[516,931][1384,1099]",2.01
+id@com.buzzfeed.android:id/menu_user_profile_root,com.buzzfeed.android:id/menu_user_profile_root,android.view.ViewGroup,"[1104,186][1272,354]",0.909
+id@com.buzzfeed.android:id/menu_search,com.buzzfeed.android:id/menu_search,android.widget.TextView,"[936,186][1104,354]",1.01
+id@com.buzzfeed.android:id/explore_item_title,com.buzzfeed.android:id/explore_item_title,android.widget.TextView,"[0,595][1080,721]",2.01
+id@com.buzzfeed.android:id/loginButton,com.buzzfeed.android:id/signin,android.widget.TextView,"[944,1288][1078,1347]",2.01

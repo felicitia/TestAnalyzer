@@ -1,0 +1,3 @@
+id@com.cnn.mobile.android.phone:id/tv_feedback_link,com.foxnews.android:id/settings_provider,android.widget.TextView,"[42,413][1038,475]",0.8705882352941177
+id@com.cnn.mobile.android.phone:id/toolbar_save,com.foxnews.android:id/embedded_video_description,android.widget.TextView,"[0,1838][1080,2144]",1.2000000000000002
+id@com.cnn.mobile.android.phone:id/tv_tv_login,com.foxnews.android:id/watch_tv_button,android.widget.Button,"[870,112][1038,175]",0.99

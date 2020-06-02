@@ -1,0 +1,15 @@
+id@com.contextlogic.wish:id/sign_in_fragment_sign_in_button,com.thirdrock.fivemiles:id/sign_in,android.widget.Button,"[741,2561][1370,2621]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.thirdrock.fivemiles:id/menu_filter_reset,android.widget.TextView,"[1212,185][1440,353]",0.9
+id@com.contextlogic.wish:id/filter_fragment_row_main_text,com.thirdrock.fivemiles:id/menu_filter_reset,android.widget.TextView,"[1212,185][1440,353]",0.9
+id@com.contextlogic.wish:id/create_account_fragment_last_name_text,com.thirdrock.fivemiles:id/login_last_name,android.widget.EditText,"[762,702][1356,860]",2.01
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.wish:id/sign_in_fragment_password_text,com.thirdrock.fivemiles:id/login_password,android.widget.EditText,"[84,788][1356,946]",1.0
+id@com.contextlogic.wish:id/create_account_fragment_create_account_button,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",3.0
+"xpath@//android.widget.TextView[@content-desc=""Search""]",,android.widget.TextView,"[280,236][590,302]",1.0
+id@com.contextlogic.wish:id/sign_in_fragment_create_account_button,com.thirdrock.fivemiles:id/lbl_reset_password,android.widget.TextView,"[912,1300][1356,1376]",1.0
+id@com.contextlogic.wish:id/product_details_fragment_add_to_cart_button,,android.widget.TextView,"[0,0][0,0]",0.9
+id@com.contextlogic.wish:id/create_account_fragment_password_text,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.8
+id@com.contextlogic.wish:id/create_account_fragment_first_name_text,com.thirdrock.fivemiles:id/login_first_name,android.widget.EditText,"[84,702][678,860]",2.01
+id@com.contextlogic.wish:id/create_account_fragment_email_text,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.8
+id@com.contextlogic.wish:id/search_src_text,com.thirdrock.fivemiles:id/edt_keyword_search,android.widget.EditText,"[305,227][1314,311]",1.0
+id@com.contextlogic.wish:id/sign_in_fragment_email_text,com.thirdrock.fivemiles:id/login_email,android.widget.EditText,"[84,543][1356,701]",1.01

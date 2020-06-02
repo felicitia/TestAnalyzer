@@ -1,0 +1,2 @@
+id@bbc.mobile.news.ww:id/action_search,com.buzzfeed.android:id/menu_search,android.widget.TextView,"[827,80][954,206]",0.99
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton,,android.widget.ImageButton,"[0,172][196,368]",2.0

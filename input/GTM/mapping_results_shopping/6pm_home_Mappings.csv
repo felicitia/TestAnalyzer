@@ -1,0 +1,9 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.contextlogic.home:id/cart_fragment_cart_shipping_floating_done_button,android.widget.TextView,"[56,2596][1384,2621]",1.0
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",com.contextlogic.home:id/promotion_banner_view_expiry_text,android.widget.TextView,"[853,563][1412,613]",1.381578947368421
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[727,2097][1262,2265]",2.0
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.contextlogic.home:id/menu_fragment_row_text,android.widget.TextView,"[0,0][0,0]",0.875
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",,android.widget.ImageButton,"[0,171][196,367]",0.7058823529411765
+id@com.zappos.android.sixpmFlavor:id/menu_sort,,android.widget.TextView,"[0,367][432,535]",0.5714285714285714
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,,android.widget.TextView,"[56,2382][715,2470]",0.5
+id@com.zappos.android.sixpmFlavor:id/search_src_text,com.contextlogic.home:id/product_feed_num_purchased_text,android.widget.TextView,"[737,1776][1404,1839]",0.8
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.contextlogic.home:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[0,0][0,0]",1.98

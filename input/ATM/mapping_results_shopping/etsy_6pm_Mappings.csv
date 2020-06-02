@@ -1,0 +1,11 @@
+id@com.etsy.android:id/search_src_text,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[964,185][1132,353]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.ImageView,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[964,185][1132,353]",0.9
+id@com.etsy.android:id/about_row,android:id/summary,android.widget.TextView,"[56,1297][1216,1420]",1.0
+id@com.etsy.android:id/button_cart,com.zappos.android.sixpmFlavor:id/add_to_cart_fab,android.widget.ImageButton,"[1160,2512][1356,2621]",2.7
+id@com.etsy.android:id/menu_search,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[957,185][1125,353]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.TextView,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[964,185][1132,353]",0.9
+id@com.etsy.android:id/btn_link,com.zappos.android.sixpmFlavor:id/search_grid_item_unpin_btn,android.widget.Button,"[375,1258][550,1433]",0.9
+id@com.etsy.android:id/filters_text_view,com.zappos.android.sixpmFlavor:id/menu_filter,android.widget.TextView,"[621,185][789,353]",1.01
+id@com.etsy.android:id/search_filters_sort_by_text,android:id/text1,android.widget.CheckedTextView,"[93,1241][1347,1465]",1.0
+id@com.etsy.android:id/cart_icon,com.zappos.android.sixpmFlavor:id/icon,android.widget.ImageView,"[1125,181][1300,356]",0.9
+id@com.etsy.android:id/btn_remove,com.zappos.android.sixpmFlavor:id/btn_sizing_charts,android.widget.Button,"[0,2313][474,2481]",0.9

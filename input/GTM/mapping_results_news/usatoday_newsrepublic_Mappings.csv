@@ -1,0 +1,6 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,,android.view.View,"[0,0][0,0]",0.99
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.view.View,"[0,0][0,0]",0.94
+id@com.usatoday.android.news:id/search_the_app,com.mobilesrepublic.appy:id/search_tip_input,android.widget.TextView,"[159,122][564,176]",2.6466666666666665
+id@com.usatoday.android.news:id/settings_gear,com.mobilesrepublic.appy:id/category_text,android.widget.TextView,"[270,228][424,290]",0.5454545454545454
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1259][1011,1385]",2.0
+id@com.usatoday.android.news:id/button_articleTextSize,,android.view.View,"[0,0][0,0]",2.0954545454545457

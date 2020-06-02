@@ -1,0 +1,5 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1007][1011,1133]",1.01
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,70][147,217]",2.01
+id@com.abc.abcnews:id/drawer_search,jp.gocro.smartnews.android:id/searchTextView,android.widget.TextView,"[147,91][933,175]",1.0
+id@com.abc.abcnews:id/setting_feedback,jp.gocro.smartnews.android:id/valueTextView,android.widget.TextView,"[890,1863][1038,1925]",0.9
+id@com.abc.abcnews:id/setting_terms,jp.gocro.smartnews.android:id/summaryTextView,android.widget.TextView,"[0,1465][1080,1535]",1.0

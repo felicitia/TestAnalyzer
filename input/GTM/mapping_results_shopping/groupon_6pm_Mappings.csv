@@ -1,0 +1,8 @@
+id@com.groupon:id/ic_shopping_cart,com.zappos.android.sixpmFlavor:id/text,android.widget.TextView,"[0,0][0,0]",0.75
+id@com.groupon:id/category_icon,com.zappos.android.sixpmFlavor:id/category_men,android.widget.Button,"[489,497][951,693]",0.6772727272727272
+"xpath@//android.widget.TextView[@text=""NEW USER""]",continue,android.widget.Button,"[56,1550][1389,1711]",1.2976923076923077
+id@com.groupon:id/cta_button,com.zappos.android.sixpmFlavor:id/html_textview,android.widget.TextView,"[0,2603][1440,2621]",0.8571428571428571
+id@com.groupon:id/my_stuff,com.zappos.android.sixpmFlavor:id/menu_my_account,android.widget.TextView,"[1132,185][1300,353]",0.8
+id@com.groupon:id/quantity_button_text,com.zappos.android.sixpmFlavor:id/num_items,android.widget.TextView,"[1209,251][1300,342]",1.0
+"xpath@//android.widget.TextView[@text=""Customer Support""]",com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[1132,185][1300,353]",0.875
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,auth-lwa-button,android.widget.Button,"[448,2040][994,2155]",0.6153846153846154

@@ -1,0 +1,9 @@
+id@com.guardian:id/search_footer_text_view,com.abc.abcnews:id/cinematic_related_title_two,android.widget.TextView,"[88,1404][1041,1491]",1.3888888888888888
+id@com.guardian:id/ivBackButton,com.abc.abcnews:id/cinematic_related_title_two,android.widget.TextView,"[88,1404][1041,1491]",1.1166666666666665
+id@com.guardian:id/show_more,,android.widget.TextView,"[547,338][686,392]",0.94
+id@com.guardian:id/bSavePage,com.abc.abcnews:id/follow_interest_add_button,android.widget.TextView,"[724,256][1027,326]",0.94
+id@com.guardian:id/actionbar_home_button,,android.widget.ImageButton,"[0,171][196,367]",0.99
+id@com.guardian:id/bTextSize,,android.widget.TextView,"[37,1435][1043,1821]",2.1571428571428575
+id@com.guardian:id/bBack,com.abc.abcnews:id/story_title,android.widget.TextView,"[37,466][1043,558]",1.3844444444444444
+id@com.guardian:id/fabHome,com.abc.abcnews:id/cinematic_related_title_two,android.widget.TextView,"[88,1404][1041,1491]",2.011904761904762
+id@com.guardian:id/sfl_button,com.abc.abcnews:id/cinematic_related_title_one,android.widget.TextView,"[88,1281][1041,1368]",1.5421052631578946

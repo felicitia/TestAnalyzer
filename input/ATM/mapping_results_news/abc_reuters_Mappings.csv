@@ -1,0 +1,4 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.abc.abcnews:id/drawer_search,com.thomsonreuters.reuters:id/menu_search_text,android.widget.EditText,"[270,213][1387,325]",1.01
+id@com.abc.abcnews:id/setting_terms,com.thomsonreuters.reuters:id/settings_list_item_option,android.widget.TextView,"[0,1708][1440,1857]",3.01
+id@com.abc.abcnews:id/menu_save_button,com.thomsonreuters.reuters:id/menu_save,android.widget.TextView,"[936,185][1104,353]",1.01

@@ -1,0 +1,16 @@
+id@com.ebay.mobile:id/et_last_name,com.groupon:id/fragment_log_in_sign_up_name,android.widget.EditText,"[56,626][1384,764]",2.0
+id@com.ebay.mobile:id/edit_text_username,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,626][1384,764]",1.0
+id@com.ebay.mobile:id/et_temp,com.groupon:id/fragment_log_in_sign_up_password,android.widget.EditText,"[56,972][1384,1110]",1.01
+id@com.ebay.mobile:id/et_email,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,799][1384,937]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.ImageView,com.groupon:id/category_title,android.widget.TextView,"[42,1630][363,1696]",0.9
+id@com.ebay.mobile:id/image,com.groupon:id/deal_image,android.widget.ImageView,"[28,723][1412,1502]",0.9
+id@com.ebay.mobile:id/button_sign_in,com.groupon:id/fragment_log_in_sign_up_groupon_button,android.widget.Button,"[56,1155][1384,1352]",1.0
+id@com.ebay.mobile:id/home,com.groupon:id/variation_name_text,android.widget.TextView,"[42,2231][416,2427]",1.0
+id@com.ebay.mobile:id/search_box,com.groupon:id/global_search_button_text,android.widget.TextView,"[168,199][799,339]",1.0
+id@com.ebay.mobile:id/et_first_name,com.groupon:id/fragment_log_in_sign_up_name,android.widget.EditText,"[56,626][1384,764]",2.0
+id@com.ebay.mobile:id/button_classic,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,626][1384,764]",1.0
+id@com.ebay.mobile:id/button_register,com.groupon:id/terms_view,android.widget.TextView,"[56,993][1384,1099]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,,android.widget.TextView,"[152,395][415,521]",1.0
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.groupon:id/category_icon,android.widget.ImageView,"[1121,200][1258,337]",1.01
+id@com.ebay.mobile:id/button_sort,com.groupon:id/filters_title,android.widget.TextView,"[668,1274][771,1350]",1.01
+id@com.ebay.mobile:id/search_src_text,com.groupon:id/search_edittext,android.widget.EditText,"[364,199][953,339]",1.0

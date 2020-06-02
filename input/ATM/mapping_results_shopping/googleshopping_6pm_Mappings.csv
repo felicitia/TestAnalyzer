@@ -1,0 +1,11 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[93,2438][1347,2606]",3.01
+id@com.google.android.apps.shopping.express:id/address_zip_code,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,android.widget.EditText,"[56,1445][498,1583]",1.8
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.ImageView,"[1300,185][1440,353]",2.01
+id@com.google.android.apps.shopping.express:id/save_address_button,com.zappos.android.sixpmFlavor:id/add_update_save_btn,android.widget.Button,"[720,2610][1440,2621]",1.01
+id@com.google.android.apps.shopping.express:id/address_street,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_1,android.widget.EditText,"[56,1093][1384,1231]",1.8
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.zappos.android.sixpmFlavor:id/action_save_to_list,android.widget.TextView,"[789,185][957,353]",2.0
+id@com.google.android.apps.shopping.express:id/address_city,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,android.widget.EditText,"[498,1445][1384,1583]",1.8
+id@com.google.android.apps.shopping.express:id/cart_action_icon,com.zappos.android.sixpmFlavor:id/icon,android.widget.ImageView,"[1125,181][1300,356]",0.9
+id@com.google.android.apps.shopping.express:id/phone_number,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,android.widget.EditText,"[56,917][1384,1055]",2.01
+id@com.google.android.apps.shopping.express:id/srp_grid_product_card_image,com.zappos.android.sixpmFlavor:id/square_network_image,android.widget.ImageView,"[122,576][598,1108]",0.9
+id@com.google.android.apps.shopping.express:id/address_recipient,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_name,android.widget.EditText,"[56,741][1384,879]",0.9

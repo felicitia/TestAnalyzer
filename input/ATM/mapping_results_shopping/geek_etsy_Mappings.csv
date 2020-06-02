@@ -1,0 +1,17 @@
+id@com.contextlogic.geek:id/create_account_fragment_first_name_text,com.etsy.android:id/edit_first_name,android.widget.EditText,"[111,573][518,676]",2.01
+id@com.contextlogic.geek:id/action_bar_item_icon,com.etsy.android:id/search_filters_marketplace_all,android.widget.RadioButton,"[0,2389][1440,2549]",0.9
+id@com.contextlogic.geek:id/sign_in_fragment_email_text,com.etsy.android:id/edit_username,android.widget.EditText,"[111,493][969,596]",1.0
+id@com.contextlogic.geek:id/fragment_filter_done,com.etsy.android:id/search_filters_done,android.widget.TextView,"[1205,655][1440,833]",1.8
+id@com.contextlogic.geek:id/create_account_fragment_email_text,com.etsy.android:id/edit_email,android.widget.EditText,"[111,776][969,879]",1.0
+id@com.contextlogic.geek:id/create_account_fragment_password_text,com.etsy.android:id/edit_register_password,android.widget.EditText,"[111,1126][518,1229]",0.9
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.etsy.android:id/filters_text_view,android.widget.TextView,"[1065,409][1384,577]",1.01
+id@com.contextlogic.geek:id/cart_fragment_cart_items_item_row_want_less,com.etsy.android:id/txt_title,android.widget.TextView,"[56,2218][336,2284]",0.9
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,com.etsy.android:id/button_cart,android.widget.Button,"[98,2578][1342,2621]",2.7
+id@com.contextlogic.geek:id/sign_in_fragment_sign_in_button,com.etsy.android:id/btn_sign_in_dialog,android.widget.Button,"[551,1117][881,1249]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",1.0
+id@com.contextlogic.geek:id/create_account_fragment_confirm_email_text,com.etsy.android:id/edit_email,android.widget.EditText,"[111,776][969,879]",1.0
+id@com.contextlogic.geek:id/create_account_fragment_create_account_button,com.etsy.android:id/switch_to_sign_in,android.widget.TextView,"[260,1583][820,1715]",1.0
+id@com.contextlogic.geek:id/create_account_fragment_last_name_text,com.etsy.android:id/edit_last_name,android.widget.EditText,"[562,573][969,676]",2.01
+id@com.contextlogic.geek:id/sign_in_fragment_password_text,com.etsy.android:id/btn_sign_in_dialog,android.widget.Button,"[551,1117][881,1249]",0.9
+id@com.contextlogic.geek:id/filter_fragment_row_main_text,com.etsy.android:id/filters_veil,android.view.View,"[0,367][1440,2621]",0.9

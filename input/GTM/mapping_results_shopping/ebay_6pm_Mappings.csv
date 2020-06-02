@@ -1,0 +1,14 @@
+id@com.ebay.mobile:id/button_sign_in,com.zappos.android.sixpmFlavor:id/search_voice_btn,android.widget.ImageView,"[1148,185][1344,349]",0.8
+id@com.ebay.mobile:id/button_register,com.zappos.android.sixpmFlavor:id/category_shoes,android.widget.Button,"[28,871][489,1067]",0.8
+id@com.ebay.mobile:id/button_sort,com.zappos.android.sixpmFlavor:id/menu_sort,android.widget.TextView,"[789,185][957,353]",1.0
+id@com.ebay.mobile:id/et_email,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.6
+id@com.ebay.mobile:id/bt_continue,continue,android.widget.Button,"[56,1550][1389,1711]",0.99
+id@com.ebay.mobile:id/search_box,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[957,185][1125,353]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",android:id/title,android.widget.TextView,"[252,1739][583,1815]",0.8421052631578947
+id@com.ebay.mobile:id/button_classic,,android.view.View,"[0,0][0,0]",1.3900000000000001
+id@com.ebay.mobile:id/et_temp,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.99
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,android:id/text1,android.widget.CheckedTextView,"[93,793][1347,1017]",1.98
+id@com.ebay.mobile:id/et_first_name,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.5882352941176471
+id@com.ebay.mobile:id/bt_create_your_account,continue,android.widget.Button,"[56,1550][1389,1711]",1.98
+id@com.ebay.mobile:id/home,com.zappos.android.sixpmFlavor:id/text,android.widget.TextView,"[0,0][0,0]",1.95
+id@com.ebay.mobile:id/et_last_name,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.5882352941176471

@@ -1,0 +1,5 @@
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.thirdrock.fivemiles:id/native_ad_call_to_action,android.widget.TextView,"[1191,497][1412,582]",0.9
+id@com.google.android.apps.shopping.express:id/cart_action_icon,com.thirdrock.fivemiles:id/icon,android.widget.ImageView,"[0,0][0,0]",0.9
+id@com.google.android.apps.shopping.express:id/open_search_view_edit_text,com.thirdrock.fivemiles:id/edt_keyword_search,android.widget.EditText,"[305,227][1314,311]",1.0
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.thirdrock.fivemiles:id/menu_filter_reset,android.widget.TextView,"[1212,185][1440,353]",0.9
+id@com.google.android.apps.shopping.express:id/srp_grid_product_card_image,com.thirdrock.fivemiles:id/appinstall_image,android.widget.ImageView,"[28,404][392,660]",0.9

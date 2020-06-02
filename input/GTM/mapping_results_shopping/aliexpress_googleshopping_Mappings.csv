@@ -1,0 +1,6 @@
+id@com.alibaba.aliexpresshd:id/btn_sign_in,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143
+id@com.alibaba.aliexpresshd:id/menu_delete,com.google.android.apps.shopping.express:id/carbon_offset_learn_more_text,android.widget.TextView,"[147,2373][1377,2439]",0.4
+id@com.alibaba.aliexpresshd:id/tv_account_setting,android:id/title,android.widget.TextView,"[56,957][376,1023]",0.8888888888888888
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.google.android.apps.shopping.express:id/category_card_title,android.widget.TextView,"[56,2172][520,2295]",1.658119658119658
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.0
+id@com.alibaba.aliexpresshd:id/btn_register,forgotPassword,android.widget.Button,"[56,2575][535,2621]",0.6666666666666666

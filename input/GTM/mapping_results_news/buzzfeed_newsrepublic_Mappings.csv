@@ -1,0 +1,7 @@
+id@com.buzzfeed.android:id/menu_bookmark,,android.view.View,"[0,0][0,0]",0.75
+id@com.buzzfeed.android:id/menu_search,com.mobilesrepublic.appy:id/search_tip_input,android.widget.TextView,"[159,122][564,176]",0.99
+id@com.buzzfeed.android:id/design_menu_item_text,com.mobilesrepublic.appy:id/legal_text,android.widget.TextView,"[63,1957][1017,2004]",1.2272727272727273
+id@com.buzzfeed.android:id/settings_button,com.mobilesrepublic.appy:id/bottom_tab_text,android.widget.TextView,"[0,0][0,0]",0.875
+id@com.buzzfeed.android:id/explore_item_title,com.mobilesrepublic.appy:id/search_tip_input,android.widget.TextView,"[159,122][564,176]",0.875
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.view.View,"[0,0][0,0]",0.94
+id@com.buzzfeed.android:id/post_card_text,com.mobilesrepublic.appy:id/legal_text,android.widget.TextView,"[63,1957][1017,2004]",2.949257759784076

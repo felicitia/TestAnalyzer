@@ -1,0 +1,19 @@
+id@com.contextlogic.geek:id/create_account_fragment_first_name_text,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.8
+id@com.contextlogic.geek:id/action_bar_item_icon,com.alibaba.aliexpresshd:id/refine_title_count,android.widget.TextView,"[785,264][1044,321]",0.9
+id@com.contextlogic.geek:id/sign_in_fragment_email_text,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,423][1384,591]",1.01
+id@com.contextlogic.geek:id/fragment_filter_done,com.alibaba.aliexpresshd:id/btn_apply_refine,android.widget.Button,"[1132,171][1440,339]",0.9
+id@com.contextlogic.geek:id/create_account_fragment_email_text,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.8
+id@com.contextlogic.geek:id/create_account_fragment_password_text,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.8
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",,android.widget.TextView,"[1258,424][1384,481]",1.01
+id@com.contextlogic.geek:id/cart_fragment_cart_items_item_row_want_less,com.alibaba.aliexpresshd:id/tv_select_all,android.widget.TextView,"[175,517][788,685]",0.9
+id@com.contextlogic.geek:id/search_src_text,com.alibaba.aliexpresshd:id/abs__search_src_text,android.widget.EditText,"[210,199][1272,339]",1.8
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,com.alibaba.aliexpresshd:id/tv_addToCart_1,android.widget.TextView,"[0,0][0,0]",2.7
+id@com.contextlogic.geek:id/sign_in_fragment_sign_in_button,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.alibaba.aliexpresshd:id/menu_search,android.widget.TextView,"[936,185][1104,353]",1.01
+id@com.contextlogic.geek:id/create_account_fragment_confirm_email_text,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.8
+id@com.contextlogic.geek:id/create_account_fragment_create_account_button,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",2.0
+id@com.contextlogic.geek:id/create_account_fragment_last_name_text,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.8
+id@com.contextlogic.geek:id/sign_in_fragment_password_text,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",0.9
+id@com.contextlogic.geek:id/filter_fragment_row_main_text,com.alibaba.aliexpresshd:id/search_filter_img,android.widget.ImageView,"[1174,411][1258,495]",0.9
+id@com.contextlogic.geek:id/product_feed_image,com.alibaba.aliexpresshd:id/smallLabel,android.widget.TextView,"[0,0][0,0]",0.9

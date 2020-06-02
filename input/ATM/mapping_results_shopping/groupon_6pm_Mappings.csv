@@ -1,0 +1,6 @@
+id@com.groupon:id/ic_shopping_cart,com.zappos.android.sixpmFlavor:id/add_to_cart_fab,android.widget.ImageButton,"[1160,2512][1356,2621]",0.9
+id@com.groupon:id/deal_image,com.zappos.android.sixpmFlavor:id/square_network_image,android.widget.ImageView,"[122,576][598,1108]",0.9
+id@com.groupon:id/global_search_button_text,com.zappos.android.sixpmFlavor:id/search_src_text,android.widget.EditText,"[280,204][1148,330]",1.0
+id@com.groupon:id/category_icon,com.zappos.android.sixpmFlavor:id/category_women,android.widget.Button,"[28,499][489,692]",0.9
+id@com.groupon:id/my_stuff,com.zappos.android.sixpmFlavor:id/menu_my_account,android.widget.TextView,"[1132,185][1300,353]",1.0
+id@com.groupon:id/quantity_button_text,com.zappos.android.sixpmFlavor:id/num_items,android.widget.TextView,"[1209,251][1300,342]",1.01

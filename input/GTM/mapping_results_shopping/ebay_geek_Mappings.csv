@@ -1,0 +1,15 @@
+id@com.ebay.mobile:id/button_sign_in,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.0
+id@com.ebay.mobile:id/button_register,com.contextlogic.geek:id/sign_in_fragment_create_account_button,android.widget.TextView,"[425,1037][654,1136]",1.98
+id@com.ebay.mobile:id/button_sort,,android.widget.TextView,"[1244,185][1440,353]",0.875
+id@com.ebay.mobile:id/et_email,,android.widget.TextView,"[28,1174][1052,1262]",0.6666666666666666
+id@com.ebay.mobile:id/edit_text_username,,android.widget.TextView,"[28,1136][1052,1208]",0.6666666666666666
+id@com.ebay.mobile:id/bt_continue,com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",0.99
+id@com.ebay.mobile:id/search_box,,android.widget.TextView,"[1244,185][1440,353]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",,android.widget.ImageButton,"[0,171][196,367]",0.7368421052631579
+id@com.ebay.mobile:id/button_classic,com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",1.2982456140350878
+id@com.ebay.mobile:id/et_temp,,android.widget.TextView,"[28,1174][1052,1262]",0.6666666666666666
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,,android.widget.TextView,"[1048,185][1244,353]",0.7777777777777778
+id@com.ebay.mobile:id/et_first_name,,android.widget.TextView,"[28,1174][1052,1262]",0.8
+id@com.ebay.mobile:id/bt_create_your_account,com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",2.0
+id@com.ebay.mobile:id/home,,android.widget.ImageButton,"[0,171][196,367]",1.3900000000000001
+id@com.ebay.mobile:id/et_last_name,,android.widget.TextView,"[28,1174][1052,1262]",0.8

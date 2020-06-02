@@ -1,0 +1,2 @@
+id@com.guardian:id/actionbar_home_button,,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.guardian:id/search_footer_text_view,bbc.mobile.news.ww:id/search,android.widget.EditText,"[252,226][1412,311]",1.0

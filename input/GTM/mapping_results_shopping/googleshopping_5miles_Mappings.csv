@@ -1,0 +1,4 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[93,1824][1347,2048]",1.0
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.thirdrock.fivemiles:id/menu_filter_reset,android.widget.TextView,"[1212,185][1440,353]",0.5714285714285714
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.thirdrock.fivemiles:id/common_list_item_text,android.widget.CheckedTextView,"[28,1345][1412,1533]",0.8421052631578947
+id@com.google.android.apps.shopping.express:id/save_address_button,,android.widget.Button,"[0,0][0,0]",1.0

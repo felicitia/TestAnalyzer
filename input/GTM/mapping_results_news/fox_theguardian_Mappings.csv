@@ -1,0 +1,3 @@
+id@com.foxnews.android:id/settings_bttn,com.guardian:id/settings_button,android.widget.ImageView,"[21,1474][126,1579]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],com.guardian:id/tvHeadline,android.widget.TextView,"[43,2097][1037,2144]",0.8571428571428571
+id@com.foxnews.android:id/scale_text,com.guardian:id/bTextSize,android.widget.ImageView,"[732,93][837,198]",1.98

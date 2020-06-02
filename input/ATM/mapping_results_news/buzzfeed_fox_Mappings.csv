@@ -1,0 +1,4 @@
+id@com.buzzfeed.android:id/icon,com.foxnews.android:id/tab_icon,android.widget.ImageView,"[76,2083][139,2144]",0.9
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",com.foxnews.android:id/embedded_video_title,android.widget.TextView,"[0,1680][1080,1817]",1.0
+id@com.buzzfeed.android:id/post_card_text,com.foxnews.android:id/tab_icon,android.widget.ImageView,"[940,2083][1003,2144]",1.0
+id@com.buzzfeed.android:id/explore_item_title,,android.widget.TextView,"[0,955][1080,1101]",1.01

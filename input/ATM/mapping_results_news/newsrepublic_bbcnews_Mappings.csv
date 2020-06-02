@@ -1,0 +1,4 @@
+id@com.mobilesrepublic.appy:id/top_more_title,,android.widget.TextView,"[56,2075][1384,2156]",0.9
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_settings,bbc.mobile.news.ww:id/title,android.widget.TextView,"[796,231][1370,307]",0.9
+id@com.mobilesrepublic.appy:id/search_input,bbc.mobile.news.ww:id/search,android.widget.EditText,"[252,226][1412,311]",1.0
+id@com.mobilesrepublic.appy:id/back,,android.widget.ImageButton,"[0,171][196,367]",0.909

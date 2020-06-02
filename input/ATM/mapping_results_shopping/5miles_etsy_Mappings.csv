@@ -1,0 +1,12 @@
+id@com.thirdrock.fivemiles:id/sign_in,com.etsy.android:id/btn_sign_in_dialog,android.widget.Button,"[551,1117][881,1249]",2.01
+id@com.thirdrock.fivemiles:id/login_last_name,com.etsy.android:id/edit_last_name,android.widget.EditText,"[562,573][969,676]",2.01
+id@com.thirdrock.fivemiles:id/register_register,com.etsy.android:id/btn_register_dialog,android.widget.Button,"[199,1117][529,1249]",1.01
+id@com.thirdrock.fivemiles:id/ic_filter,com.etsy.android:id/filters_text_view,android.widget.TextView,"[1065,409][1384,577]",1.01
+id@com.thirdrock.fivemiles:id/txt_sort_order,,android.widget.TextView,"[56,1102][720,1178]",0.9
+id@com.thirdrock.fivemiles:id/sign_up,com.etsy.android:id/btn_register_dialog,android.widget.Button,"[199,1117][529,1249]",1.01
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.etsy.android:id/search_close_btn,android.widget.ImageView,"[1104,227][1244,311]",0.9
+id@com.thirdrock.fivemiles:id/login_password,com.etsy.android:id/forgot_password_link,android.widget.TextView,"[67,787][690,924]",1.0
+id@com.thirdrock.fivemiles:id/login_email,com.etsy.android:id/edit_username,android.widget.EditText,"[111,493][969,596]",1.0
+id@com.thirdrock.fivemiles:id/login_login,com.etsy.android:id/button_signin,android.widget.Button,"[734,787][969,924]",2.01
+id@com.thirdrock.fivemiles:id/home_location_item_image,com.etsy.android:id/header_result_count_textview,android.widget.TextView,"[63,455][981,531]",0.9
+id@com.thirdrock.fivemiles:id/login_first_name,com.etsy.android:id/edit_first_name,android.widget.EditText,"[111,573][518,676]",2.01

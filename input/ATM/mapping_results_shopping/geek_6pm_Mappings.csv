@@ -1,0 +1,8 @@
+id@com.contextlogic.geek:id/action_bar_item_icon,com.zappos.android.sixpmFlavor:id/search_grid_item_unpin_btn,android.widget.Button,"[375,1258][550,1433]",0.9
+id@com.contextlogic.geek:id/fragment_filter_done,android:id/button1,android.widget.Button,"[1076,2375][1305,2564]",1.01
+id@com.contextlogic.geek:id/menu_view_profile_arrow,com.zappos.android.sixpmFlavor:id/view,android.view.View,"[38,1258][550,1713]",0.9
+id@com.contextlogic.geek:id/cart_fragment_cart_items_item_row_want_less,com.zappos.android.sixpmFlavor:id/cart_list_item_color_lbl,android.widget.TextView,"[504,647][646,713]",1.8
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,com.zappos.android.sixpmFlavor:id/add_to_cart_fab,android.widget.ImageButton,"[1160,2512][1356,2621]",2.7
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.zappos.android.sixpmFlavor:id/search_src_text,android.widget.EditText,"[280,204][1148,330]",1.0
+id@com.contextlogic.geek:id/product_feed_image,com.zappos.android.sixpmFlavor:id/search_src_text,android.widget.EditText,"[280,204][1148,330]",0.9

@@ -1,0 +1,5 @@
+id@com.buzzfeed.android:id/icon,com.thomsonreuters.reuters:id/menu_actionbar_homepage_search_icon,android.widget.ImageView,"[615,237][679,283]",0.9
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.buzzfeed.android:id/post_card_text,com.thomsonreuters.reuters:id/stream_normal_item_view_headline,android.widget.TextView,"[53,460][1352,600]",2.0
+id@com.buzzfeed.android:id/menu_search,com.thomsonreuters.reuters:id/menu_actionbar_homepage_search_label,android.widget.TextView,"[679,230][816,290]",1.0
+id@com.buzzfeed.android:id/explore_item_title,com.thomsonreuters.reuters:id/list_item_collection_name,android.widget.TextView,"[0,1960][1216,2100]",0.8333333333333334

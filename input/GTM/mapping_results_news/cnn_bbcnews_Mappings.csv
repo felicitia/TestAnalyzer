@@ -1,0 +1,3 @@
+id@com.cnn.mobile.android.phone:id/tv_feedback_link,android:id/title,android.widget.TextView,"[0,0][0,0]",0.5
+id@com.cnn.mobile.android.phone:id/toolbar_save,,android.widget.TextView,"[56,1867][1384,2019]",1.0
+id@com.cnn.mobile.android.phone:id/tv_tv_login,android:id/title,android.widget.TextView,"[0,0][0,0]",0.7

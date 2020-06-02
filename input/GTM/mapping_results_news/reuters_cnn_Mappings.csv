@@ -1,0 +1,5 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,androidx.appcompat.app.a$c,"[0,212][263,338]",1.2
+id@com.thomsonreuters.reuters:id/settings_contact_us,com.cnn.mobile.android.phone:id/breakingNewsButton,android.widget.Button,"[42,396][1080,543]",0.6666666666666666
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,androidx.appcompat.app.a$c,"[0,212][263,338]",1.2
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.view.View,"[0,495][1080,1109]",0.825
+id@com.thomsonreuters.reuters:id/list_item_collection_name,,androidx.appcompat.app.a$c,"[914,212][1080,338]",0.5714285714285714

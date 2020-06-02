@@ -1,0 +1,9 @@
+id@com.groupon:id/done,com.thirdrock.fivemiles:id/sign_in,android.widget.Button,"[741,2561][1370,2621]",0.99
+id@com.groupon:id/ic_shopping_cart,com.thirdrock.fivemiles:id/ic_filter,android.widget.TextView,"[1272,225][1418,313]",0.6868421052631578
+id@com.groupon:id/category_icon,com.thirdrock.fivemiles:id/largeLabel,android.widget.TextView,"[0,0][0,0]",0.5214285714285714
+"xpath@//android.widget.TextView[@text=""NEW USER""]",com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.466190476190476
+id@com.groupon:id/cta_button,com.thirdrock.fivemiles:id/btn_make_offer,android.widget.TextView,"[28,1991][773,2159]",0.6666666666666666
+id@com.groupon:id/my_stuff,com.thirdrock.fivemiles:id/text,android.widget.TextView,"[795,1293][994,1350]",0.8333333333333334
+"xpath@//android.widget.TextView[@text=""Customer Support""]",com.thirdrock.fivemiles:id/smallLabel,android.widget.TextView,"[0,0][0,0]",0.9
+"xpath@//android.widget.Button[@text=""Just show me the deals""]",com.thirdrock.fivemiles:id/lbl_reset_password,android.widget.TextView,"[912,1300][1356,1376]",1.125
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,com.thirdrock.fivemiles:id/sign_in,android.widget.Button,"[741,2561][1370,2621]",0.99

@@ -1,0 +1,8 @@
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.google.android.apps.shopping.express:id/srp_grid_product_card_title_text,android.widget.TextView,"[610,2614][1384,2621]",0.5
+id@com.thirdrock.fivemiles:id/sign_up,forgotPassword,android.widget.Button,"[56,2575][535,2621]",0.6666666666666666
+id@com.thirdrock.fivemiles:id/sign_in,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143
+id@com.thirdrock.fivemiles:id/login_login,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143
+id@com.thirdrock.fivemiles:id/profile_edit_profile,com.google.android.apps.shopping.express:id/design_menu_item_text,android.widget.CheckedTextView,"[84,455][1356,623]",1.6566666666666667
+id@com.thirdrock.fivemiles:id/ic_filter,com.google.android.apps.shopping.express:id/srp_grid_product_card_title_text,android.widget.TextView,"[610,2614][1384,2621]",0.9
+id@com.thirdrock.fivemiles:id/register_register,,android.widget.Button,"[1274,979][1361,1067]",0.6666666666666666
+"xpath@//android.view.View[@text=""Add new address""]",,android.widget.TextView,"[0,0][0,0]",1.98

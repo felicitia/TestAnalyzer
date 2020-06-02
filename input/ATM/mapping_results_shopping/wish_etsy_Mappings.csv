@@ -1,0 +1,14 @@
+id@com.contextlogic.wish:id/sign_in_fragment_sign_in_button,com.etsy.android:id/button_signin,android.widget.Button,"[734,787][969,924]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.etsy.android:id/filters_text_view,android.widget.TextView,"[1065,409][1384,577]",1.01
+id@com.contextlogic.wish:id/filter_fragment_row_main_text,com.etsy.android:id/filters_veil,android.view.View,"[0,367][1440,2621]",0.9
+id@com.contextlogic.wish:id/create_account_fragment_last_name_text,com.etsy.android:id/edit_last_name,android.widget.EditText,"[562,573][969,676]",2.01
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.wish:id/sign_in_fragment_password_text,com.etsy.android:id/forgot_password_link,android.widget.TextView,"[67,787][690,924]",1.0
+id@com.contextlogic.wish:id/create_account_fragment_create_account_button,com.etsy.android:id/switch_to_sign_in,android.widget.TextView,"[260,1583][820,1715]",2.0
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",1.0
+id@com.contextlogic.wish:id/sign_in_fragment_create_account_button,com.etsy.android:id/switch_to_register,android.widget.TextView,"[195,971][885,1103]",3.0
+id@com.contextlogic.wish:id/product_details_fragment_add_to_cart_button,com.etsy.android:id/button_cart,android.widget.Button,"[98,2578][1342,2621]",2.7
+id@com.contextlogic.wish:id/create_account_fragment_password_text,com.etsy.android:id/edit_register_password,android.widget.EditText,"[111,1126][518,1229]",0.9
+id@com.contextlogic.wish:id/create_account_fragment_first_name_text,com.etsy.android:id/edit_first_name,android.widget.EditText,"[111,573][518,676]",2.01
+id@com.contextlogic.wish:id/create_account_fragment_email_text,com.etsy.android:id/edit_email,android.widget.EditText,"[111,776][969,879]",1.0
+id@com.contextlogic.wish:id/sign_in_fragment_email_text,com.etsy.android:id/edit_username,android.widget.EditText,"[111,493][969,596]",1.0

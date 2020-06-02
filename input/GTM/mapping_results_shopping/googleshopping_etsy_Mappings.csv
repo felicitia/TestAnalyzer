@@ -1,0 +1,5 @@
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.etsy.android:id/cart_icon,android.widget.ImageView,"[1314,227][1398,311]",0.99
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.etsy.android:id/radio_button,android.widget.RadioButton,"[56,1784][868,1980]",2.4166666666666665
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",com.etsy.android:id/txt_contact_shop,android.widget.TextView,"[1098,423][1398,535]",0.7735294117647058
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.etsy.android:id/filters_text_view,android.widget.TextView,"[1065,409][1384,577]",0.99
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.etsy.android:id/search_filters_done,android.widget.TextView,"[1205,655][1440,833]",1.0

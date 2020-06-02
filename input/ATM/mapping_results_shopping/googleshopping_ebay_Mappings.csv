@@ -1,0 +1,6 @@
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.ebay.mobile:id/button_done,android.widget.Button,"[1199,171][1440,367]",1.01
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.ebay.mobile:id/action_view_icon,android.widget.ImageView,"[1314,227][1398,311]",1.0
+id@com.google.android.apps.shopping.express:id/cart_action_icon,com.ebay.mobile:id/action_view_icon,android.widget.ImageView,"[1314,227][1398,311]",0.9
+id@com.google.android.apps.shopping.express:id/open_search_view_edit_text,com.ebay.mobile:id/search_src_text,android.widget.EditText,"[196,234][1132,360]",1.0
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",1.0
+id@com.google.android.apps.shopping.express:id/srp_grid_product_card_image,com.ebay.mobile:id/menu_image_search,android.widget.TextView,"[1104,185][1272,353]",1.0

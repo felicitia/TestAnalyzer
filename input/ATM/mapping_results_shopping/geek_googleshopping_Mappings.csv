@@ -1,0 +1,10 @@
+id@com.contextlogic.geek:id/action_bar_item_icon,com.google.android.apps.shopping.express:id/cart_action_icon,android.widget.ImageView,"[1244,244][1328,328]",0.9
+id@com.contextlogic.geek:id/fragment_filter_done,com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",0.9
+id@com.contextlogic.geek:id/menu_view_profile_arrow,com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,260][1370,336]",0.9
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",1.0
+id@com.contextlogic.geek:id/cart_fragment_cart_items_item_row_want_less,com.google.android.apps.shopping.express:id/inline_title_text,android.widget.TextView,"[0,402][965,633]",0.9
+id@com.contextlogic.geek:id/search_src_text,com.google.android.apps.shopping.express:id/open_search_view_edit_text,android.widget.EditText,"[196,185][1104,353]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[56,199][252,374]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.google.android.apps.shopping.express:id/search_bar,android.widget.EditText,"[56,199][1384,374]",1.0
+id@com.contextlogic.geek:id/filter_fragment_row_main_text,com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",0.9
+id@com.contextlogic.geek:id/product_feed_image,com.google.android.apps.shopping.express:id/srp_grid_product_card_image,android.widget.ImageView,"[67,637][543,1113]",1.8

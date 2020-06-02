@@ -1,0 +1,12 @@
+id@com.thirdrock.fivemiles:id/sign_in,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.01
+id@com.thirdrock.fivemiles:id/login_last_name,com.ebay.mobile:id/et_last_name,android.widget.EditText,"[56,1196][1384,1345]",2.01
+id@com.thirdrock.fivemiles:id/ic_filter,com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",1.01
+id@com.thirdrock.fivemiles:id/txt_sort_order,com.ebay.mobile:id/button_sort,android.widget.Button,"[936,367][1172,563]",0.9
+id@com.thirdrock.fivemiles:id/sign_up,com.ebay.mobile:id/button_register,android.widget.Button,"[56,1763][1384,1931]",0.9
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.ebay.mobile:id/button_follow,android.widget.Button,"[0,367][936,563]",0.9
+id@com.thirdrock.fivemiles:id/login_password,com.ebay.mobile:id/et_temp,android.widget.EditText,"[56,562][1384,711]",1.0
+id@com.thirdrock.fivemiles:id/login_email,com.ebay.mobile:id/et_email,android.widget.EditText,"[56,636][1384,785]",1.01
+id@com.thirdrock.fivemiles:id/login_login,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.01
+id@com.thirdrock.fivemiles:id/edt_keyword_search,com.ebay.mobile:id/search_src_text,android.widget.EditText,"[196,234][1132,360]",2.0
+id@com.thirdrock.fivemiles:id/home_location_item_image,com.ebay.mobile:id/home,android.widget.ImageButton,"[0,171][196,367]",0.9
+id@com.thirdrock.fivemiles:id/login_first_name,com.ebay.mobile:id/et_first_name,android.widget.EditText,"[56,916][1384,1065]",2.01

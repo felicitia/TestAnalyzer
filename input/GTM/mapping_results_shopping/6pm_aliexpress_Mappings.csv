@@ -1,0 +1,8 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.0
+id@android:id/text1,com.alibaba.aliexpresshd:id/tv_province,android.widget.TextView,"[734,597][1440,687]",0.9
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.alibaba.aliexpresshd:id/menu_search,android.widget.TextView,"[936,185][1104,353]",1.0
+id@android:id/button1,com.alibaba.aliexpresshd:id/menu_take_photo,android.widget.TextView,"[1104,185][1272,353]",0.8
+id@com.zappos.android.sixpmFlavor:id/menu_sort,com.alibaba.aliexpresshd:id/menu_search,android.widget.TextView,"[936,185][1104,353]",0.875
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.alibaba.aliexpresshd:id/tv_seller_name,android.widget.TextView,"[344,755][1087,821]",0.5
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.alibaba.aliexpresshd:id/tv_order_status_title,android.widget.TextView,"[56,1393][363,1459]",0.99
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.98

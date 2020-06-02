@@ -1,0 +1,4 @@
+id@com.abc.abcnews:id/setting_terms,jp.gocro.smartnews.android:id/summaryTextView,android.widget.TextView,"[0,1636][1080,1706]",1.7042857142857142
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1007][1011,1133]",1.0
+id@com.abc.abcnews:id/setting_feedback,jp.gocro.smartnews.android:id/titleTextView,android.widget.TextView,"[42,369][1038,431]",1.1964285714285714
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,70][147,217]",2.0

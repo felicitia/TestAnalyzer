@@ -1,0 +1,19 @@
+id@com.ebay.mobile:id/et_last_name,com.ebay.mobile:id/et_last_name,android.widget.EditText,"[56,1196][1384,1345]",2.01
+id@com.ebay.mobile:id/edit_text_username,com.ebay.mobile:id/edit_text_username,android.widget.EditText,"[56,664][1384,813]",3.01
+id@com.ebay.mobile:id/et_temp,com.ebay.mobile:id/et_temp,android.widget.EditText,"[56,914][1384,1063]",1.01
+id@com.ebay.mobile:id/et_email,com.ebay.mobile:id/et_email,android.widget.EditText,"[56,636][1384,785]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.ImageView,com.ebay.mobile:id/imageview_category,android.widget.ImageView,"[66,437][706,917]",0.909
+id@com.ebay.mobile:id/bt_create_your_account,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",2.7
+id@com.ebay.mobile:id/image,com.ebay.mobile:id/image,android.widget.ImageView,"[56,1758][476,2178]",0.909
+id@com.ebay.mobile:id/textview_sign_in_status,com.ebay.mobile:id/textview_sign_in_status,,"[0,500][1050,678]",1.01
+id@com.ebay.mobile:id/button_sign_in,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.01
+id@com.ebay.mobile:id/home,com.ebay.mobile:id/home,android.widget.ImageButton,"[0,171][196,367]",3.01
+id@com.ebay.mobile:id/search_box,com.ebay.mobile:id/search_box,android.widget.TextView,"[28,367][1076,535]",3.01
+id@com.ebay.mobile:id/et_first_name,com.ebay.mobile:id/et_first_name,android.widget.EditText,"[56,916][1384,1065]",2.01
+id@com.ebay.mobile:id/button_classic,com.ebay.mobile:id/button_classic,android.widget.Button,"[56,1980][1384,2148]",4.01
+id@com.ebay.mobile:id/button_register,com.ebay.mobile:id/button_register,android.widget.Button,"[56,1763][1384,1931]",3.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.ebay.mobile:id/button_filter_subelement,android.widget.CheckedTextView,"[280,823][1384,1047]",4.01
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.ebay.mobile:id/home_pill,android.widget.TextView,"[624,647][998,759]",1.01
+id@com.ebay.mobile:id/button_sort,com.ebay.mobile:id/button_sort,android.widget.Button,"[936,367][1172,563]",1.01
+id@com.ebay.mobile:id/bt_continue,com.ebay.mobile:id/bt_continue,android.widget.Button,"[56,1487][1384,1655]",1.01
+id@com.ebay.mobile:id/search_src_text,com.ebay.mobile:id/search_src_text,android.widget.EditText,"[196,234][1132,360]",3.01

@@ -1,0 +1,3 @@
+id@com.foxnews.android:id/settings_bttn,com.mobilesrepublic.appy:id/bottom_tab_text,android.widget.TextView,"[0,0][0,0]",0.875
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],com.mobilesrepublic.appy:id/category_text,android.widget.TextView,"[467,228][656,290]",0.7058823529411765
+id@com.foxnews.android:id/scale_text,,android.view.View,"[0,0][0,0]",1.481135531135531

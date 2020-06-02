@@ -1,0 +1,8 @@
+id@android:id/text1,com.groupon:id/post_search_term,android.widget.TextView,"[364,199][936,339]",0.6
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.groupon:id/categories,android.view.ViewGroup,"[360,2582][720,2621]",1.0
+id@android:id/button1,com.groupon:id/deal_card_number_bought,android.widget.TextView,"[70,1882][289,1952]",0.5
+id@com.zappos.android.sixpmFlavor:id/menu_sort,,android.widget.TextView,"[378,395][655,521]",0.9523809523809523
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.groupon:id/terms_view,android.widget.TextView,"[42,2441][1398,2547]",0.5
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.groupon:id/sign_in_button,android.widget.Button,"[429,695][1010,849]",0.8333333333333334
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.groupon:id/post_search_term,android.widget.TextView,"[364,199][936,339]",0.4
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.groupon:id/terms_view,android.widget.TextView,"[56,1286][1384,1392]",1.6140350877192982

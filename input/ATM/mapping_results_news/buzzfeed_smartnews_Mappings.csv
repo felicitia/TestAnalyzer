@@ -1,0 +1,4 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,70][147,217]",2.01
+id@com.buzzfeed.android:id/post_card_text,jp.gocro.smartnews.android:id/bodyTextView,android.widget.TextView,"[26,1993][540,2109]",1.0
+id@com.buzzfeed.android:id/menu_search,jp.gocro.smartnews.android:id/searchTextView,android.widget.TextView,"[147,91][933,175]",1.0
+id@com.buzzfeed.android:id/explore_item_title,jp.gocro.smartnews.android:id/textView,android.widget.TextView,"[0,314][1080,443]",1.0

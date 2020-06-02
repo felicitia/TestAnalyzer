@@ -1,0 +1,7 @@
+id@com.contextlogic.geek:id/create_account_fragment_create_account_button,continue,android.widget.Button,"[56,1550][1389,1711]",1.98
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.zappos.android.sixpmFlavor:id/search_voice_btn,android.widget.ImageView,"[1148,185][1344,349]",0.99
+id@com.contextlogic.geek:id/fragment_filter_done,android:id/button1,android.widget.Button,"[1076,2375][1305,2564]",1.0
+id@com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,com.zappos.android.sixpmFlavor:id/html_textview,android.widget.TextView,"[0,2603][1440,2621]",0.8571428571428571
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.zappos.android.sixpmFlavor:id/category_shoes,android.widget.Button,"[28,871][489,1067]",0.8421052631578947
+id@com.contextlogic.geek:id/create_account_fragment_last_name_text,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.5882352941176471
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.0

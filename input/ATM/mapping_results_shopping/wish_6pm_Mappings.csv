@@ -1,0 +1,10 @@
+id@com.contextlogic.wish:id/address_book_footer_text,com.zappos.android.sixpmFlavor:id/generic_add_to_fab,android.widget.ImageButton,"[1188,2540][1384,2621]",0.9
+id@com.contextlogic.wish:id/shipping_address_form_zip_postal_text,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,android.widget.EditText,"[56,1445][498,1583]",1.8
+id@com.contextlogic.wish:id/shipping_address_form_city_text,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,android.widget.EditText,"[498,1445][1384,1583]",1.8
+id@com.contextlogic.wish:id/shipping_address_form_street_address_text,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_1,android.widget.EditText,"[56,1093][1384,1231]",2.0
+id@com.contextlogic.wish:id/cart_fragment_cart_shipping_floating_done_button,com.zappos.android.sixpmFlavor:id/add_update_save_btn,android.widget.Button,"[720,2610][1440,2621]",1.01
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.zappos.android.sixpmFlavor:id/search_src_text,android.widget.EditText,"[280,204][1148,330]",1.0
+id@com.contextlogic.wish:id/shipping_address_form_phone_text,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,android.widget.EditText,"[56,917][1384,1055]",1.8
+id@com.contextlogic.wish:id/product_details_fragment_add_to_cart_button,com.zappos.android.sixpmFlavor:id/add_to_cart_fab,android.widget.ImageButton,"[1160,2512][1356,2621]",2.7
+id@com.contextlogic.wish:id/menu_view_profile_arrow,com.zappos.android.sixpmFlavor:id/view,android.view.View,"[38,1258][550,1713]",0.9

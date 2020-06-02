@@ -1,0 +1,4 @@
+id@com.cnn.mobile.android.phone:id/deleteButton,com.usatoday.android.news:id/icon_1,android.widget.ImageView,"[53,464][111,522]",0.4
+id@com.cnn.mobile.android.phone:id/tv_feedback_link,com.usatoday.android.news:id/settings_preference_title,android.widget.TextView,"[139,445][446,507]",0.7058823529411765
+id@com.cnn.mobile.android.phone:id/toolbar_save,com.usatoday.android.news:id/articleBodyTextView,android.widget.TextView,"[0,2131][1080,2144]",1.74
+id@com.cnn.mobile.android.phone:id/tv_tv_login,com.usatoday.android.news:id/settings_preference_title,android.widget.TextView,"[39,1129][133,1191]",0.47619047619047616

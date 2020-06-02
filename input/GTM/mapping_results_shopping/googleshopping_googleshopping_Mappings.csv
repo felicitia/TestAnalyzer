@@ -1,0 +1,8 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[0,0][0,0]",3.0
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.google.android.apps.shopping.express:id/cart_action_button,android.widget.Button,"[610,2327][1324,2467]",3.0
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.google.android.apps.shopping.express:id/move_to_shopping_list,android.widget.TextView,"[420,1589][999,1757]",4.0
+id@com.google.android.apps.shopping.express:id/welcome_btn_get_started,com.google.android.apps.shopping.express:id/welcome_btn_get_started,android.widget.Button,"[508,2361][932,2542]",2.0
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.ImageView,"[1216,202][1384,370]",2.0
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",1.0
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.google.android.apps.shopping.express:id/search_panel_action_text,android.widget.TextView,"[1171,342][1440,552]",1.0
+id@com.google.android.apps.shopping.express:id/save_address_button,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.0

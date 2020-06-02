@@ -1,0 +1,9 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.contextlogic.wish:id/cart_fragment_cart_shipping_floating_done_button,android.widget.TextView,"[56,2596][1384,2621]",1.0
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",,android.widget.TextView,"[35,2030][1405,2085]",1.98
+id@android:id/text1,com.contextlogic.wish:id/product_feed_num_purchased_text,android.widget.TextView,"[35,1307][702,1370]",0.6666666666666666
+id@com.zappos.android.sixpmFlavor:id/menu_search,,android.widget.TextView,"[35,2030][1405,2085]",0.875
+id@android:id/button1,com.contextlogic.wish:id/fragment_filter_done,android.widget.TextView,"[889,2582][1405,2621]",1.0
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",,android.widget.TextView,"[35,2030][1405,2085]",0.8571428571428571
+id@com.zappos.android.sixpmFlavor:id/menu_sort,,android.widget.TextView,"[0,367][432,535]",0.5714285714285714
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,,android.widget.TextView,"[56,2372][715,2460]",0.5
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.98

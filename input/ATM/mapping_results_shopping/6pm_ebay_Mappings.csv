@@ -1,0 +1,10 @@
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.ebay.mobile:id/action_view_icon,android.widget.ImageView,"[1174,227][1258,311]",0.7875
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.ebay.mobile:id/menu_search,android.widget.TextView,"[964,185][1132,353]",1.01
+id@android:id/text1,com.ebay.mobile:id/button_filter_subelement,android.widget.CheckedTextView,"[280,595][1384,819]",2.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.slidingpanelayout.widget.SlidingPaneLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView,com.ebay.mobile:id/menu_image_search,android.widget.TextView,"[1104,185][1272,353]",0.9
+id@com.zappos.android.sixpmFlavor:id/menu_sort,com.ebay.mobile:id/button_sort,android.widget.Button,"[936,367][1172,563]",1.01
+id@com.zappos.android.sixpmFlavor:id/icon,com.ebay.mobile:id/action_view_icon,android.widget.ImageView,"[1314,227][1398,311]",0.9
+id@com.zappos.android.sixpmFlavor:id/search_src_text,com.ebay.mobile:id/search_box,android.widget.TextView,"[28,367][1076,535]",1.0
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.ebay.mobile:id/add_on_item_selected,android.widget.CheckBox,"[0,0][0,0]",0.9
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",com.ebay.mobile:id/design_menu_item_text,android.widget.CheckedTextView,"[56,706][994,874]",0.909
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.ebay.mobile:id/button_filter_subelement,android.widget.CheckedTextView,"[280,823][1384,1047]",2.0

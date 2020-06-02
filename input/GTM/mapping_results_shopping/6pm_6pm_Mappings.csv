@@ -1,0 +1,14 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.zappos.android.sixpmFlavor:id/add_update_save_btn,android.widget.Button,"[720,2610][1440,2621]",1.0
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",android:id/title,android.widget.TextView,"[252,1739][583,1815]",3.0
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[93,2438][1347,2606]",3.0
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[957,185][1125,353]",1.0
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,,android.widget.ImageView,"[1300,185][1440,353]",0.5263157894736842
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_1,,android.widget.ImageView,"[1300,185][1440,353]",0.75
+id@android:id/button1,android:id/button1,android.widget.Button,"[1076,2375][1305,2564]",1.0
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",com.zappos.android.sixpmFlavor:id/design_menu_item_text,android.widget.CheckedTextView,"[56,1155][924,1323]",1.0
+id@com.zappos.android.sixpmFlavor:id/menu_sort,com.zappos.android.sixpmFlavor:id/menu_sort,android.widget.TextView,"[789,185][957,353]",1.0
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.zappos.android.sixpmFlavor:id/menu_remove_all,android.widget.TextView,"[1272,185][1440,353]",1.0
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.zappos.android.sixpmFlavor:id/my_account_shipping,android.widget.TextView,"[0,1500][1440,1691]",2.0
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,,android.widget.ImageView,"[1300,185][1440,353]",0.5882352941176471
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],android:id/text1,android.widget.CheckedTextView,"[93,793][1347,1017]",2.0
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",continue,android.widget.Button,"[56,1550][1389,1711]",4.0

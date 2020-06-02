@@ -1,0 +1,7 @@
+id@com.contextlogic.home:id/create_account_fragment_last_name_text,,android.widget.TextView,"[28,1174][1052,1262]",0.8
+id@com.contextlogic.home:id/create_account_fragment_create_account_button,com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",1.98
+id@com.contextlogic.home:id/create_account_fragment_password_text,,android.widget.TextView,"[28,1174][1052,1262]",0.6666666666666666
+id@com.contextlogic.home:id/product_details_fragment_add_to_cart_button,com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,android.widget.TextView,"[915,2617][1405,2621]",1.0
+"xpath@//android.widget.Button[@text=""Remove""]",,android.widget.Button,"[192,1600][1248,1768]",0.99
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.0
+id@com.contextlogic.home:id/sign_in_fragment_sign_in_button,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.0

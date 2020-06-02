@@ -1,0 +1,19 @@
+id@com.contextlogic.geek:id/create_account_fragment_first_name_text,com.ebay.mobile:id/et_first_name,android.widget.EditText,"[56,916][1384,1065]",2.01
+id@com.contextlogic.geek:id/action_bar_item_icon,com.ebay.mobile:id/textview_item_title,android.widget.TextView,"[56,908][560,1132]",0.9
+id@com.contextlogic.geek:id/sign_in_fragment_email_text,com.ebay.mobile:id/button_classic,android.widget.Button,"[56,1980][1384,2148]",1.0
+id@com.contextlogic.geek:id/fragment_filter_done,com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",0.9
+id@com.contextlogic.geek:id/create_account_fragment_email_text,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",1.8
+id@com.contextlogic.geek:id/create_account_fragment_password_text,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",1.8
+id@com.contextlogic.geek:id/menu_view_profile_arrow,com.ebay.mobile:id/image_user_profile,android.widget.ImageView,"[56,227][329,500]",0.9
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",1.01
+id@com.contextlogic.geek:id/search_src_text,com.ebay.mobile:id/search_src_text,android.widget.EditText,"[196,234][1132,360]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",com.ebay.mobile:id/home,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,com.ebay.mobile:id/selection_capsule,android.widget.TextView,"[56,2391][392,2615]",1.0
+id@com.contextlogic.geek:id/sign_in_fragment_sign_in_button,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.ebay.mobile:id/menu_search,android.widget.TextView,"[936,185][1104,353]",1.01
+id@com.contextlogic.geek:id/create_account_fragment_confirm_email_text,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",1.8
+id@com.contextlogic.geek:id/create_account_fragment_create_account_button,com.ebay.mobile:id/bt_create_your_account,android.widget.Button,"[56,1629][1384,1797]",2.01
+id@com.contextlogic.geek:id/create_account_fragment_last_name_text,com.ebay.mobile:id/et_last_name,android.widget.EditText,"[56,1196][1384,1345]",2.01
+id@com.contextlogic.geek:id/sign_in_fragment_password_text,com.ebay.mobile:id/button_google,android.widget.Button,"[56,2176][1384,2344]",0.9
+id@com.contextlogic.geek:id/filter_fragment_row_main_text,com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",0.9
+id@com.contextlogic.geek:id/product_feed_image,com.ebay.mobile:id/search_image_btn,android.widget.ImageButton,"[1244,367][1412,535]",0.9

@@ -1,0 +1,15 @@
+id@com.ebay.mobile:id/et_last_name,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,485][1384,653]",0.9
+id@com.ebay.mobile:id/edit_text_username,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,423][1384,591]",1.0
+id@com.ebay.mobile:id/et_temp,com.alibaba.aliexpresshd:id/et_password,android.widget.EditText,"[252,709][1384,877]",1.01
+id@com.ebay.mobile:id/et_email,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,485][1384,653]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.ImageView,com.alibaba.aliexpresshd:id/tv_div_title_text,android.widget.TextView,"[56,367][385,563]",0.9
+id@com.ebay.mobile:id/bt_create_your_account,com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",2.0
+id@com.ebay.mobile:id/button_sign_in,com.alibaba.aliexpresshd:id/tv_signin_btn_label,android.widget.TextView,"[621,945][819,1021]",2.01
+id@com.ebay.mobile:id/home,com.alibaba.aliexpresshd:id/coupon_valid_period,android.widget.TextView,"[126,2512][433,2559]",1.0
+id@com.ebay.mobile:id/search_box,com.alibaba.aliexpresshd:id/search_hint,android.widget.TextView,"[210,206][433,332]",0.9
+id@com.ebay.mobile:id/et_first_name,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,485][1384,653]",0.9
+id@com.ebay.mobile:id/button_classic,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,485][1384,653]",1.0
+id@com.ebay.mobile:id/button_register,,android.widget.TextView,"[0,0][0,0]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.alibaba.aliexpresshd:id/search_refine_price,android.widget.TextView,"[446,1454][685,1520]",1.0
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",,android.widget.TextView,"[42,1163][308,1215]",1.01
+id@com.ebay.mobile:id/search_src_text,com.alibaba.aliexpresshd:id/abs__search_src_text,android.widget.EditText,"[210,199][1272,339]",1.8

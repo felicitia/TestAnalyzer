@@ -1,0 +1,6 @@
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.etsy.android:id/btn_remove,android.widget.Button,"[767,864][1013,1018]",0.9
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",1.0
+id@android:id/text1,,android.widget.TextView,"[0,1403][1440,1591]",2.01
+id@com.zappos.android.sixpmFlavor:id/icon,com.etsy.android:id/cart_icon,android.widget.ImageView,"[1314,227][1398,311]",0.9
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.etsy.android:id/button_cart,android.widget.Button,"[98,2578][1342,2621]",2.7
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],,android.widget.TextView,"[0,1215][1440,1403]",2.01

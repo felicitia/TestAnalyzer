@@ -1,0 +1,7 @@
+id@com.guardian:id/show_more,,android.widget.TextView,"[547,338][686,392]",1.0
+id@com.guardian:id/bBack,com.abc.abcnews:id/story_title,android.widget.TextView,"[37,466][1043,558]",1.0
+id@com.guardian:id/actionbar_home_button,,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.guardian:id/search_footer_text_view,com.abc.abcnews:id/drawer_search,android.widget.EditText,"[158,123][806,249]",0.9
+id@com.guardian:id/fabHome,,android.widget.ImageButton,"[0,70][147,217]",1.0
+id@com.guardian:id/bSavePage,com.abc.abcnews:id/menu_save_button,android.widget.TextView,"[954,80][1080,206]",1.0
+id@com.guardian:id/sfl_button,com.abc.abcnews:id/drawer_item_textview,android.widget.TextView,"[147,588][722,714]",1.0

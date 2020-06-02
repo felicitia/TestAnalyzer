@@ -1,0 +1,6 @@
+id@com.guardian:id/show_more,com.foxnews.android:id/tab_text,android.widget.TextView,"[0,0][0,0]",0.6166666666666666
+id@com.guardian:id/bSavePage,,android.widget.ImageView,"[456,1271][624,1439]",0.5
+id@com.guardian:id/bTextSize,com.foxnews.android:id/embedded_video_description,android.widget.TextView,"[0,1838][1080,2144]",2.4943510737628385
+id@com.guardian:id/bBack,com.foxnews.android:id/embedded_video_description,android.widget.TextView,"[0,1838][1080,2144]",1.3388888888888888
+id@com.guardian:id/fabHome,com.foxnews.android:id/related_headline,android.widget.TextView,"[74,1658][1038,1782]",1.9166666666666667
+id@com.guardian:id/sfl_button,com.foxnews.android:id/tab_text,android.widget.TextView,"[0,0][0,0]",0.5055555555555555

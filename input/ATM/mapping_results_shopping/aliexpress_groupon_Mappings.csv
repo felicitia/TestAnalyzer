@@ -1,0 +1,6 @@
+id@com.alibaba.aliexpresshd:id/et_email,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,799][1384,937]",1.0
+id@com.alibaba.aliexpresshd:id/search_switch_btn,com.groupon:id/post_search_term,android.widget.TextView,"[364,199][936,339]",0.9
+id@com.alibaba.aliexpresshd:id/et_password,com.groupon:id/fragment_log_in_sign_up_password,android.widget.EditText,"[56,972][1384,1110]",1.01
+id@com.alibaba.aliexpresshd:id/abs__search_src_text,com.groupon:id/search_edittext,android.widget.EditText,"[364,199][953,339]",0.9
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.groupon:id/done,android.widget.Button,"[195,2005][1245,2173]",1.0
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.groupon:id/categoryCardTitle,android.widget.TextView,"[969,689][1384,746]",2.0

@@ -1,0 +1,8 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,,android.widget.Button,"[0,0][0,0]",1.0
+id@android:id/text1,com.thirdrock.fivemiles:id/common_list_item_text,android.widget.CheckedTextView,"[28,965][1412,1153]",2.0
+id@com.zappos.android.sixpmFlavor:id/menu_search,,android.widget.TextView,"[294,236][1384,302]",0.99
+id@android:id/button1,com.thirdrock.fivemiles:id/btn_save_filter,android.widget.Button,"[56,2596][1384,2621]",1.0
+id@com.zappos.android.sixpmFlavor:id/menu_sort,,android.widget.TextView,"[924,907][1176,1005]",0.8
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.thirdrock.fivemiles:id/profile_edit_profile,android.widget.TextView,"[1096,199][1384,280]",0.9047619047619047
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.thirdrock.fivemiles:id/common_list_item_text,android.widget.CheckedTextView,"[28,1155][1412,1343]",2.0
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",1.98

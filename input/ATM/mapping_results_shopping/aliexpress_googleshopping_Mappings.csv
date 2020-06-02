@@ -1,0 +1,9 @@
+id@com.alibaba.aliexpresshd:id/edit_address_province,com.google.android.apps.shopping.express:id/address_city,android.widget.EditText,"[56,1400][1384,1581]",1.01
+id@com.alibaba.aliexpresshd:id/search_switch_btn,com.google.android.apps.shopping.express:id/search_bar,android.widget.EditText,"[56,199][1384,374]",0.9
+id@com.alibaba.aliexpresshd:id/edit_address_street_line1,com.google.android.apps.shopping.express:id/address_street,android.widget.EditText,"[56,916][1384,1097]",1.8
+id@com.alibaba.aliexpresshd:id/edit_address_tel_mobile,com.google.android.apps.shopping.express:id/address_recipient,android.widget.EditText,"[56,674][1384,855]",0.9
+id@com.alibaba.aliexpresshd:id/abs__search_src_text,com.google.android.apps.shopping.express:id/open_search_view_edit_text,android.widget.EditText,"[196,185][1104,353]",0.9
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.01
+id@com.alibaba.aliexpresshd:id/etfwc_base_edit_text,com.google.android.apps.shopping.express:id/address_apt_suite,android.widget.EditText,"[56,1158][1384,1339]",3.0
+id@com.alibaba.aliexpresshd:id/tv_account_setting,android:id/title,android.widget.TextView,"[56,1135][385,1201]",0.9
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.google.android.apps.shopping.express:id/category_card_title,android.widget.TextView,"[56,2172][520,2295]",2.0

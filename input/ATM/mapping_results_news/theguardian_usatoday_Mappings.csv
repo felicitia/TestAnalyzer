@@ -1,0 +1,5 @@
+id@com.guardian:id/etInput,com.usatoday.android.news:id/recent_searches_item,android.widget.TextView,"[0,346][1080,477]",1.01
+id@com.guardian:id/bTextSize,com.usatoday.android.news:id/button_articleTextSize,android.widget.TextView,"[702,80][828,206]",1.0
+id@com.guardian:id/actionbar_home_button,com.usatoday.android.news:id/image_search_back,android.widget.ImageButton,"[0,73][126,220]",0.9
+id@com.guardian:id/search_footer_text_view,com.usatoday.android.news:id/image_search_back,android.widget.ImageButton,"[0,73][126,220]",0.9
+id@com.guardian:id/bSavePage,com.usatoday.android.news:id/menuButtonBookmark,android.widget.TextView,"[954,80][1080,206]",1.0

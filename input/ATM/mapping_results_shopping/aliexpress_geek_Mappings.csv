@@ -1,0 +1,6 @@
+id@com.alibaba.aliexpresshd:id/et_email,com.contextlogic.geek:id/create_account_fragment_email_text,android.widget.EditText,"[28,386][1052,496]",1.01
+id@com.alibaba.aliexpresshd:id/search_switch_btn,,android.widget.TextView,"[1244,185][1440,353]",0.9
+id@com.alibaba.aliexpresshd:id/et_password,com.contextlogic.geek:id/sign_in_fragment_forgot_password_button,android.widget.TextView,"[799,662][1052,772]",1.0
+id@com.alibaba.aliexpresshd:id/abs__search_src_text,com.contextlogic.geek:id/search_src_text,android.widget.EditText,"[364,204][1412,330]",1.8
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.01
+id@com.alibaba.aliexpresshd:id/tv_account_setting,com.contextlogic.geek:id/settings_fragment_row_text,android.widget.TextView,"[56,807][1384,883]",1.8

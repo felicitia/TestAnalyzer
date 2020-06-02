@@ -1,0 +1,10 @@
+id@com.groupon:id/done,com.alibaba.aliexpresshd:id/tv_signin_btn_label,android.widget.TextView,"[621,945][819,1021]",0.99
+id@com.groupon:id/ic_shopping_cart,com.alibaba.aliexpresshd:id/tv_addToCart_1,android.widget.TextView,"[0,0][0,0]",0.94
+id@com.groupon:id/category_icon,com.alibaba.aliexpresshd:id/search_nav_rec_word,android.widget.TextView,"[84,737][430,794]",0.7833333333333333
+"xpath@//android.widget.TextView[@text=""NEW USER""]",com.alibaba.aliexpresshd:id/tv_register_btn_label,android.widget.TextView,"[363,965][1077,1041]",1.2976923076923077
+id@com.groupon:id/cta_button,com.alibaba.aliexpresshd:id/bt_buynow_1,android.widget.Button,"[825,2613][1440,2621]",0.99
+id@com.groupon:id/my_stuff,com.alibaba.aliexpresshd:id/search_nav_rec_word,android.widget.TextView,"[712,569][978,626]",0.9333333333333333
+"xpath@//android.widget.TextView[@text=""Customer Support""]",com.alibaba.aliexpresshd:id/smallLabel,android.widget.TextView,"[0,0][0,0]",0.7777777777777778
+id@com.groupon:id/done_button,com.alibaba.aliexpresshd:id/btn_apply_refine,android.widget.Button,"[1132,171][1440,339]",1.0
+"xpath@//android.widget.Button[@text=""Just show me the deals""]",com.alibaba.aliexpresshd:id/tv_forgot_password_label,android.widget.TextView,"[970,1109][1384,1255]",1.125
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",0.99

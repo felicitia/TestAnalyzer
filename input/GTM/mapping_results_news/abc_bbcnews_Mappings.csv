@@ -1,0 +1,4 @@
+id@com.abc.abcnews:id/setting_terms,android:id/title,android.widget.TextView,"[0,0][0,0]",0.5714285714285714
+id@com.abc.abcnews:id/drawer_search,,android.widget.ImageView,"[1272,185][1440,353]",0.8235294117647058
+id@com.abc.abcnews:id/setting_feedback,android:id/title,android.widget.TextView,"[0,0][0,0]",0.5
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,171][196,367]",2.0

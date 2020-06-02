@@ -1,0 +1,5 @@
+id@com.foxnews.android:id/save,com.foxnews.android:id/save,android.widget.ImageView,"[854,91][959,196]",1.0
+id@com.foxnews.android:id/settings_bttn,com.foxnews.android:id/settings_bttn,android.widget.TextView,"[42,1876][1038,2004]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Back""]",,android.widget.ImageButton,"[0,70][147,217]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],,android.widget.TextView,"[0,517][1080,663]",1.0
+id@com.foxnews.android:id/scale_text,com.foxnews.android:id/scale_text,android.widget.ImageView,"[730,109][828,177]",2.0

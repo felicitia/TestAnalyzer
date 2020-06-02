@@ -1,0 +1,3 @@
+id@com.foxnews.android:id/settings_bttn,com.cnn.mobile.android.phone:id/breakingNewsButton_System,android.widget.TextView,"[42,588][653,650]",0.99
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],,androidx.appcompat.app.a$c,"[263,212][452,338]",1.0
+id@com.foxnews.android:id/scale_text,,android.view.View,"[0,0][0,0]",1.4177871148459384

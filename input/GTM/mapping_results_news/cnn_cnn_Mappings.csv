@@ -1,0 +1,4 @@
+id@com.cnn.mobile.android.phone:id/deleteButton,com.cnn.mobile.android.phone:id/fabmenu,android.widget.ImageButton,"[858,1813][1069,2056]",1.0
+id@com.cnn.mobile.android.phone:id/tv_feedback_link,com.cnn.mobile.android.phone:id/tv_feedback_link,android.widget.Button,"[42,1746][1080,1893]",2.0
+id@com.cnn.mobile.android.phone:id/toolbar_save,com.cnn.mobile.android.phone:id/toolbar_save,android.widget.Button,"[984,104][1058,178]",2.0
+id@com.cnn.mobile.android.phone:id/tv_tv_login,com.cnn.mobile.android.phone:id/tv_tv_login,android.widget.Button,"[42,1596][1080,1743]",2.0

@@ -1,0 +1,9 @@
+id@com.thirdrock.fivemiles:id/btn_save_filter,android:id/button1,android.widget.Button,"[1076,2375][1305,2564]",1.0
+id@com.thirdrock.fivemiles:id/login_email,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.6
+id@com.thirdrock.fivemiles:id/login_last_name,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.5882352941176471
+id@com.thirdrock.fivemiles:id/login_first_name,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.5882352941176471
+id@com.thirdrock.fivemiles:id/profile_edit_profile,com.zappos.android.sixpmFlavor:id/menu_action_set_cover,android.widget.TextView,"[1272,381][1440,549]",1.1372549019607843
+id@com.thirdrock.fivemiles:id/ic_filter,com.zappos.android.sixpmFlavor:id/menu_filter,android.widget.TextView,"[621,185][789,353]",1.0
+id@com.thirdrock.fivemiles:id/register_register,continue,android.widget.Button,"[56,1550][1389,1711]",0.8235294117647058
+id@com.thirdrock.fivemiles:id/login_password,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",1.69
+"xpath@//android.view.View[@text=""Add new address""]",,android.widget.ImageView,"[1300,185][1440,353]",0.75

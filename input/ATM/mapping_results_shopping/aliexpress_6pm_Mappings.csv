@@ -1,0 +1,8 @@
+id@com.alibaba.aliexpresshd:id/select_all,com.zappos.android.sixpmFlavor:id/menu_remove_all,android.widget.TextView,"[1272,185][1440,353]",0.9
+id@com.alibaba.aliexpresshd:id/edit_address_province,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,android.widget.EditText,"[498,1445][1384,1583]",1.01
+id@com.alibaba.aliexpresshd:id/search_switch_btn,android:id/text1,android.widget.CheckedTextView,"[93,2137][1347,2361]",1.0
+id@com.alibaba.aliexpresshd:id/edit_address_street_line1,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_2,android.widget.EditText,"[56,1269][1384,1407]",3.0
+id@com.alibaba.aliexpresshd:id/edit_address_tel_mobile,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_name,android.widget.EditText,"[56,741][1384,879]",0.9
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_name,android.widget.EditText,"[56,741][1384,879]",1.8
+id@com.alibaba.aliexpresshd:id/etfwc_base_edit_text,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_2,android.widget.EditText,"[56,1269][1384,1407]",1.0
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,,android.widget.TextView,"[727,1067][1426,1627]",1.0

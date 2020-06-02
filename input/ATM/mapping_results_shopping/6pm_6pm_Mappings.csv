@@ -1,0 +1,20 @@
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.zappos.android.sixpmFlavor:id/my_account_shipping,android.widget.TextView,"[0,1500][1440,1691]",2.01
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_name,android.widget.EditText,"[56,741][1384,879]",3.6
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.zappos.android.sixpmFlavor:id/menu_remove_all,android.widget.TextView,"[1272,185][1440,353]",1.01
+id@com.zappos.android.sixpmFlavor:id/generic_add_to_fab,com.zappos.android.sixpmFlavor:id/generic_add_to_fab,android.widget.ImageButton,"[1188,2540][1384,2621]",0.909
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[957,185][1125,353]",1.01
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",android:id/title,android.widget.TextView,"[252,1739][583,1815]",3.01
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[93,2438][1347,2606]",3.01
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.zappos.android.sixpmFlavor:id/add_update_cancel_btn,android.widget.Button,"[0,2610][720,2621]",2.7
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.slidingpanelayout.widget.SlidingPaneLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView,com.zappos.android.sixpmFlavor:id/square_network_image,android.widget.ImageView,"[122,576][598,1108]",0.909
+id@com.zappos.android.sixpmFlavor:id/menu_sort,com.zappos.android.sixpmFlavor:id/menu_sort,android.widget.TextView,"[789,185][957,353]",1.01
+id@com.zappos.android.sixpmFlavor:id/icon,com.zappos.android.sixpmFlavor:id/icon,android.widget.ImageView,"[1125,181][1300,356]",0.909
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_1,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_2,android.widget.EditText,"[56,1269][1384,1407]",4.5
+id@com.zappos.android.sixpmFlavor:id/search_src_text,com.zappos.android.sixpmFlavor:id/search_src_text,android.widget.EditText,"[280,204][1148,330]",7.01
+id@android:id/button1,android:id/button1,android.widget.Button,"[1076,2375][1305,2564]",1.01
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.zappos.android.sixpmFlavor:id/add_to_cart_fab,android.widget.ImageButton,"[1160,2512][1356,2621]",0.909
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.ImageView,com.zappos.android.sixpmFlavor:id/departments_image,android.widget.ImageView,"[14,493][713,1053]",0.909
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_name,android.widget.EditText,"[56,741][1384,879]",3.6
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",com.zappos.android.sixpmFlavor:id/design_menu_item_text,android.widget.CheckedTextView,"[56,1155][924,1323]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],android:id/text1,android.widget.CheckedTextView,"[93,793][1347,1017]",2.01
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_name,android.widget.EditText,"[56,741][1384,879]",3.6

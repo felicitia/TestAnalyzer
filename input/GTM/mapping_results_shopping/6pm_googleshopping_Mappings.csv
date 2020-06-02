@@ -1,0 +1,10 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.0
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,1100][1370,1176]",1.865
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[0,0][0,0]",3.0
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.google.android.apps.shopping.express:id/smallLabel,android.widget.TextView,"[0,0][0,0]",0.99
+id@android:id/button1,com.google.android.apps.shopping.express:id/srp_grid_product_card_title_text,android.widget.TextView,"[610,2614][1384,2621]",0.5
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,1100][1370,1176]",0.8571428571428571
+id@com.zappos.android.sixpmFlavor:id/menu_sort,com.google.android.apps.shopping.express:id/srp_grid_product_card_title_text,android.widget.TextView,"[610,2614][1384,2621]",0.5263157894736842
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.google.android.apps.shopping.express:id/carbon_offset_learn_more_text,android.widget.TextView,"[147,2373][1377,2439]",0.5
+id@com.zappos.android.sixpmFlavor:id/my_account_shipping,com.google.android.apps.shopping.express:id/account_action_notification_center,android.widget.FrameLayout,"[1328,683][1356,851]",1.223529411764706
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",,android.widget.RadioButton,"[91,1245][164,1319]",1.8135294117647058

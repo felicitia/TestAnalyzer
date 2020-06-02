@@ -1,0 +1,7 @@
+id@com.ebay.mobile:id/image,com.google.android.apps.shopping.express:id/srp_grid_product_card_image,android.widget.ImageView,"[67,637][543,1113]",0.9
+id@com.ebay.mobile:id/textview_sign_in_status,com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,260][1370,336]",0.9
+id@com.ebay.mobile:id/home,,android.widget.ImageButton,"[0,171][196,367]",1.01
+id@com.ebay.mobile:id/search_box,com.google.android.apps.shopping.express:id/search_bar,android.widget.EditText,"[56,199][1384,374]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.google.android.apps.shopping.express:id/filter_item_title,android.widget.TextView,"[390,766][1440,976]",1.0
+id@com.ebay.mobile:id/button_sort,com.google.android.apps.shopping.express:id/search_panel_title_text,android.widget.TextView,"[639,342][1171,552]",1.0
+id@com.ebay.mobile:id/search_src_text,com.google.android.apps.shopping.express:id/open_search_view_edit_text,android.widget.EditText,"[196,185][1104,353]",1.0

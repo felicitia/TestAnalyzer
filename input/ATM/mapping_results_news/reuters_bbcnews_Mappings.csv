@@ -1,0 +1,8 @@
+id@com.thomsonreuters.reuters:id/menu_search_text,bbc.mobile.news.ww:id/search,android.widget.EditText,"[252,226][1412,311]",1.0
+id@com.thomsonreuters.reuters:id/settings_list_item_option,android:id/title,android.widget.TextView,"[0,1909][1440,2031]",1.01
+id@com.thomsonreuters.reuters:id/list_item_collection_name,bbc.mobile.news.ww:id/title,android.widget.TextView,"[796,231][1370,307]",1.01
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.ImageView,"[1272,185][1440,353]",2.01
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.thomsonreuters.reuters:id/settings_contact_us,android:id/summary,android.widget.TextView,"[53,2505][1293,2621]",1.0
+id@com.thomsonreuters.reuters:id/stream_large_item_view_image,bbc.mobile.news.ww:id/chip_item,android.widget.TextView,"[35,545][556,657]",0.9

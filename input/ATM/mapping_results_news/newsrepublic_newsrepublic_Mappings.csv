@@ -1,0 +1,8 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1259][1011,1385]",2.01
+id@com.mobilesrepublic.appy:id/top_more_title,com.mobilesrepublic.appy:id/top_more_title,android.widget.ImageView,"[954,80][1059,185]",0.909
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_settings,com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_history,android.view.View,"[0,275][588,422]",4.5
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_feedback,com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_history,android.view.View,"[0,275][588,422]",4.5
+id@com.mobilesrepublic.appy:id/siginin_back,com.mobilesrepublic.appy:id/siginin_back,android.widget.ImageView,"[26,85][121,180]",0.909
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_saved,com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_history,android.view.View,"[0,275][588,422]",4.5
+id@com.mobilesrepublic.appy:id/search_input,com.mobilesrepublic.appy:id/search_input,android.widget.EditText,"[180,118][643,180]",3.01
+id@com.mobilesrepublic.appy:id/back,com.mobilesrepublic.appy:id/back,android.widget.ImageView,"[11,102][137,196]",0.909

@@ -1,0 +1,13 @@
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_zip,com.contextlogic.home:id/shipping_address_form_zip_postal_text,android.widget.EditText,"[720,1513][1384,1659]",1.8
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.contextlogic.home:id/cart_fragment_cart_items_item_row_title,android.widget.TextView,"[462,778][1091,862]",0.75
+id@com.zappos.android.sixpmFlavor:id/generic_add_to_fab,com.contextlogic.home:id/address_book_footer_text,android.widget.TextView,"[0,544][1440,740]",0.9
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.contextlogic.home:id/menu_fragment_row_text,android.widget.TextView,"[175,1018][980,1102]",1.01
+id@android:id/text1,android:id/text1,android.widget.TextView,"[63,1257][552,1407]",2.01
+id@com.zappos.android.sixpmFlavor:id/add_update_save_btn,com.contextlogic.home:id/cart_fragment_cart_shipping_floating_done_button,android.widget.TextView,"[56,2596][1384,2621]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.slidingpanelayout.widget.SlidingPaneLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView,com.contextlogic.home:id/product_feed_image,android.widget.ImageView,"[35,570][702,1251]",0.9
+id@com.zappos.android.sixpmFlavor:id/icon,com.contextlogic.home:id/home_page_search_icon,android.widget.ImageView,"[224,242][336,295]",0.9
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_line_1,,android.widget.TextView,"[56,647][342,753]",2.7
+id@com.zappos.android.sixpmFlavor:id/search_src_text,com.contextlogic.home:id/home_page_search_icon,android.widget.ImageView,"[224,242][336,295]",0.9
+id@com.zappos.android.sixpmFlavor:id/add_to_cart_fab,com.contextlogic.home:id/product_details_fragment_add_to_cart_button,android.widget.TextView,"[915,2617][1405,2621]",2.7
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_phone,,android.widget.TextView,"[56,1659][354,1765]",2.01
+id@com.zappos.android.sixpmFlavor:id/add_update_shipping_address_address_city,com.contextlogic.home:id/shipping_address_form_city_text,android.widget.EditText,"[56,1513][692,1659]",1.8

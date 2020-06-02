@@ -1,0 +1,4 @@
+id@com.mobilesrepublic.appy:id/top_more_title,,android.widget.ImageView,"[1272,185][1440,353]",0.9
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_settings,com.thomsonreuters.reuters:id/list_item_collection_name,android.widget.TextView,"[0,1779][1216,1919]",0.9
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_saved,com.thomsonreuters.reuters:id/list_item_collection_name,android.widget.TextView,"[0,1497][1216,1637]",0.9
+id@com.mobilesrepublic.appy:id/search_input,com.thomsonreuters.reuters:id/menu_search_recent_clear,android.widget.TextView,"[1025,367][1440,430]",1.0

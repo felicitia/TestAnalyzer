@@ -1,0 +1,11 @@
+id@com.thirdrock.fivemiles:id/sign_in,com.groupon:id/done,android.widget.Button,"[195,2005][1245,2173]",1.0
+id@com.thirdrock.fivemiles:id/login_last_name,com.groupon:id/fragment_log_in_sign_up_name,android.widget.EditText,"[56,626][1384,764]",2.0
+id@com.thirdrock.fivemiles:id/txt_sort_order,,android.widget.TextView,"[759,395][1061,521]",0.9
+id@com.thirdrock.fivemiles:id/sign_up,com.groupon:id/done,android.widget.Button,"[195,2005][1245,2173]",0.9
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.groupon:id/filter_sheet_background_click_interceptor,android.view.View,"[0,367][1440,2582]",0.9
+id@com.thirdrock.fivemiles:id/login_password,com.groupon:id/fragment_log_in_sign_up_password,android.widget.EditText,"[56,799][1384,937]",1.0
+id@com.thirdrock.fivemiles:id/login_email,com.groupon:id/fragment_log_in_sign_up_email,android.widget.EditText,"[56,626][1384,764]",1.0
+id@com.thirdrock.fivemiles:id/login_login,com.groupon:id/done,android.widget.Button,"[195,2005][1245,2173]",1.0
+id@com.thirdrock.fivemiles:id/edt_keyword_search,com.groupon:id/search_edittext,android.widget.EditText,"[364,199][953,339]",1.0
+id@com.thirdrock.fivemiles:id/home_location_item_image,com.groupon:id/location_text_view,android.widget.TextView,"[1031,199][1216,339]",0.9
+id@com.thirdrock.fivemiles:id/login_first_name,com.groupon:id/fragment_log_in_sign_up_name,android.widget.EditText,"[56,626][1384,764]",2.0

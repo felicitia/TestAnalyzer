@@ -1,0 +1,9 @@
+id@com.guardian:id/search_footer_text_view,com.mobilesrepublic.appy:id/clear_history_text,android.widget.TextView,"[267,354][812,480]",1.236842105263158
+id@com.guardian:id/ivBackButton,com.mobilesrepublic.appy:id/clear_history_text,android.widget.TextView,"[267,354][812,480]",1.565
+id@com.guardian:id/show_more,com.mobilesrepublic.appy:id/login_platform_name,android.widget.TextView,"[1066,1044][1080,1098]",0.6166666666666666
+id@com.guardian:id/bSavePage,,android.view.View,"[0,0][0,0]",0.94
+id@com.guardian:id/bTextSize,,android.view.View,"[0,0][0,0]",1.951336898395722
+id@com.guardian:id/bBack,,android.view.View,"[0,0][0,0]",1.4663157894736842
+id@com.guardian:id/fabHome,com.mobilesrepublic.appy:id/legal_text,android.widget.TextView,"[651,1957][1080,2004]",1.481578947368421
+id@com.guardian:id/sfl_button,com.mobilesrepublic.appy:id/legal_text,android.widget.TextView,"[651,1957][1080,2004]",1.4663157894736842
+id@com.guardian:id/bOk,android:id/button1,android.widget.Button,"[811,1396][979,1538]",1.0

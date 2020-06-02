@@ -1,0 +1,4 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.abc.abcnews:id/drawer_search,bbc.mobile.news.ww:id/action_search,android.widget.TextView,"[1104,185][1272,353]",1.01
+id@com.abc.abcnews:id/setting_terms,android:id/summary,android.widget.TextView,"[53,1073][1293,1196]",1.0
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",bbc.mobile.news.ww:id/content_card_title,android.widget.TextView,"[667,821][1370,1016]",1.0

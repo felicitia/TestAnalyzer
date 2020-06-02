@@ -1,0 +1,7 @@
+id@com.contextlogic.wish:id/create_account_fragment_create_account_button,,android.widget.RadioButton,"[91,1245][164,1319]",1.8135294117647058
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.google.android.apps.shopping.express:id/smallLabel,android.widget.TextView,"[0,0][0,0]",0.99
+id@com.contextlogic.wish:id/sign_in_fragment_sign_in_button,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",0.99
+id@com.contextlogic.wish:id/sign_in_fragment_create_account_button,forgotPassword,android.widget.Button,"[56,2575][535,2621]",1.25
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[56,199][252,374]",2.0
+id@com.contextlogic.wish:id/cart_fragment_cart_shipping_floating_done_button,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.0

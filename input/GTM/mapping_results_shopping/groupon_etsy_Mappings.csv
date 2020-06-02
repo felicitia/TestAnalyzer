@@ -1,0 +1,8 @@
+id@com.groupon:id/done,com.etsy.android:id/button_signin,android.widget.Button,"[734,787][969,924]",0.99
+id@com.groupon:id/ic_shopping_cart,com.etsy.android:id/cart_icon,android.widget.ImageView,"[1314,227][1398,311]",0.99
+"xpath@//android.widget.TextView[@text=""NEW USER""]",com.etsy.android:id/switch_to_sign_in,android.widget.TextView,"[260,1583][820,1715]",1.0882352941176472
+id@com.groupon:id/cta_button,com.etsy.android:id/text_free_shipping,android.widget.TextView,"[112,2295][816,2361]",0.4
+id@com.groupon:id/my_stuff,com.etsy.android:id/search_taxonomy_text,android.widget.TextView,"[0,0][0,0]",0.99
+id@com.groupon:id/done_button,com.etsy.android:id/search_filters_done,android.widget.TextView,"[1205,655][1440,833]",1.0
+"xpath@//android.widget.Button[@text=""Just show me the deals""]",com.etsy.android:id/switch_to_register,android.widget.TextView,"[195,971][885,1103]",1.79
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,com.etsy.android:id/button_signin,android.widget.Button,"[734,787][969,924]",0.99

@@ -1,0 +1,3 @@
+id@com.foxnews.android:id/save,com.thomsonreuters.reuters:id/menu_save,android.widget.TextView,"[936,185][1104,353]",0.95
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],com.thomsonreuters.reuters:id/stream_normal_item_view_description,android.widget.TextView,"[0,0][0,0]",0.99
+id@com.foxnews.android:id/scale_text,com.thomsonreuters.reuters:id/article_header_bottom_text,android.widget.TextView,"[53,941][1387,2414]",1.725438596491228

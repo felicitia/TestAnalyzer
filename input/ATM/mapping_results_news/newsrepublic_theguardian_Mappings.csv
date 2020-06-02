@@ -1,0 +1,6 @@
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_settings,com.guardian:id/settings_button,android.widget.ImageView,"[21,1474][126,1579]",0.9
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_feedback,com.guardian:id/profile_button,android.widget.ImageView,"[21,1590][126,1695]",0.9
+id@com.mobilesrepublic.appy:id/siginin_back,com.guardian:id/actionbar_home_button,android.widget.ImageView,"[21,112][126,217]",0.9
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_saved,com.guardian:id/profile_button,android.widget.ImageView,"[21,1590][126,1695]",0.9
+id@com.mobilesrepublic.appy:id/search_input,com.guardian:id/article_title,android.widget.TextView,"[121,420][1059,545]",1.0
+id@com.mobilesrepublic.appy:id/back,com.guardian:id/iivBackButton,android.widget.ImageView,"[22,81][127,186]",0.9

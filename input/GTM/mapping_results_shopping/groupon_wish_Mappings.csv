@@ -1,0 +1,10 @@
+id@com.groupon:id/done,com.contextlogic.wish:id/sign_in_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2059][1384,2160]",0.99
+id@com.groupon:id/ic_shopping_cart,,android.widget.TextView,"[1048,185][1244,353]",0.6868421052631578
+id@com.groupon:id/category_icon,,android.widget.ImageButton,"[0,171][196,367]",0.7368421052631579
+"xpath@//android.widget.TextView[@text=""NEW USER""]",com.contextlogic.wish:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2100][1384,2210]",1.466190476190476
+id@com.groupon:id/cta_button,com.contextlogic.wish:id/product_details_fragment_add_to_cart_button,android.widget.TextView,"[915,2617][1405,2621]",1.0
+id@com.groupon:id/dialog_positive_button,,android.widget.Button,"[192,1602][1248,1770]",1.0
+id@com.groupon:id/my_stuff,,android.widget.TextView,"[56,555][1384,695]",0.7777777777777778
+id@com.groupon:id/quantity_button_text,com.contextlogic.wish:id/cart_fragment_quantity_dropdown_text,android.widget.TextView,"[1268,1122][1286,1196]",1.0
+"xpath@//android.widget.Button[@text=""Just show me the deals""]",com.contextlogic.wish:id/sign_in_fragment_create_account_button,android.widget.TextView,"[56,1863][1384,2003]",1.3714285714285714
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,com.contextlogic.wish:id/sign_in_fragment_terms_policy_full_ver,android.widget.TextView,"[56,2059][1384,2160]",0.99

@@ -1,0 +1,2 @@
+id@jp.gocro.smartnews.android:id/search_src_text,com.thomsonreuters.reuters:id/stream_large_item_view_headline,android.widget.TextView,"[0,1460][1440,1640]",0.8235294117647058
+id@jp.gocro.smartnews.android:id/searchTextView,com.thomsonreuters.reuters:id/stream_normal_item_view_description,android.widget.TextView,"[0,0][0,0]",1.425

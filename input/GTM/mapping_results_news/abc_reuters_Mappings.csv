@@ -1,0 +1,5 @@
+id@com.abc.abcnews:id/setting_terms,com.thomsonreuters.reuters:id/about_reuters_message,android.widget.TextView,"[228,2608][1103,2621]",1.5892857142857144
+id@com.abc.abcnews:id/drawer_search,com.thomsonreuters.reuters:id/stream_large_item_view_headline,android.widget.TextView,"[0,1460][1440,1640]",0.8235294117647058
+id@com.abc.abcnews:id/menu_save_button,com.thomsonreuters.reuters:id/menu_save,android.widget.TextView,"[936,185][1104,353]",1.0
+id@com.abc.abcnews:id/setting_feedback,com.thomsonreuters.reuters:id/about_reuters_message,android.widget.TextView,"[228,2608][1103,2621]",1.3333333333333333
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,171][196,367]",2.0

@@ -1,0 +1,14 @@
+id@com.ebay.mobile:id/button_sign_in,com.etsy.android:id/btn_sign_in_dialog,android.widget.Button,"[551,1117][881,1249]",2.0
+id@com.ebay.mobile:id/button_register,com.etsy.android:id/switch_to_register,android.widget.TextView,"[195,971][885,1103]",1.847142857142857
+id@com.ebay.mobile:id/button_sort,com.etsy.android:id/btn_menu,android.widget.ImageView,"[566,1343][692,1469]",0.7
+id@com.ebay.mobile:id/et_email,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",0.6666666666666666
+id@com.ebay.mobile:id/bt_continue,com.etsy.android:id/button_facebook_signin,android.widget.Button,"[199,963][881,1095]",0.99
+id@com.ebay.mobile:id/search_box,com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",0.5882352941176471
+id@com.ebay.mobile:id/button_classic,com.etsy.android:id/switch_to_sign_in,android.widget.TextView,"[260,1583][820,1715]",1.431578947368421
+id@com.ebay.mobile:id/et_temp,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",0.6666666666666666
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.etsy.android:id/btn_menu,android.widget.ImageView,"[566,1343][692,1469]",1.325077399380805
+id@com.ebay.mobile:id/et_first_name,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",0.8
+id@com.ebay.mobile:id/bt_create_your_account,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",1.847142857142857
+id@com.ebay.mobile:id/home,com.etsy.android:id/text_free_shipping,android.widget.TextView,"[112,2295][816,2361]",1.95
+id@com.ebay.mobile:id/et_last_name,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",1.3

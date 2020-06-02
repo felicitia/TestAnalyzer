@@ -1,0 +1,6 @@
+id@com.abc.abcnews:id/setting_terms,com.abc.abcnews:id/setting_terms,android.widget.TextView,"[26,1152][1054,1280]",3.0
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1259][1011,1385]",2.0
+id@com.abc.abcnews:id/menu_save_button,com.abc.abcnews:id/menu_save_button,android.widget.TextView,"[954,80][1080,206]",1.0
+id@com.abc.abcnews:id/setting_feedback,com.abc.abcnews:id/setting_feedback,android.widget.TextView,"[26,651][1054,779]",2.0
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.0
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,70][147,217]",2.0

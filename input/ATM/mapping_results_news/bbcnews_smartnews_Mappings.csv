@@ -1,0 +1,2 @@
+id@bbc.mobile.news.ww:id/search,jp.gocro.smartnews.android:id/search_src_text,android.widget.EditText,"[168,95][1059,190]",1.0
+id@bbc.mobile.news.ww:id/action_search,jp.gocro.smartnews.android:id/searchTextView,android.widget.TextView,"[147,91][933,175]",1.0

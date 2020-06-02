@@ -1,0 +1,2 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1196][1011,1322]",2.0
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,70][147,217]",2.0

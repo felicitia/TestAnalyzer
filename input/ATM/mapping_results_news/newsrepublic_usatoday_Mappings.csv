@@ -1,0 +1,5 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1196][1011,1322]",2.01
+id@com.mobilesrepublic.appy:id/top_more_title,com.usatoday.android.news:id/articleBodyTextView,android.widget.TextView,"[0,2131][1080,2144]",0.9
+id@com.mobilesrepublic.appy:id/bottom_tab_native_profile_menu_item_settings,com.usatoday.android.news:id/settings_preference_title,android.widget.TextView,"[139,274][376,336]",0.9
+id@com.mobilesrepublic.appy:id/search_input,com.usatoday.android.news:id/edit_text_search,android.widget.EditText,"[126,73][954,220]",2.0
+id@com.mobilesrepublic.appy:id/back,com.usatoday.android.news:id/image_search_back,android.widget.ImageButton,"[0,73][126,220]",0.9

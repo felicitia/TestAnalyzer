@@ -1,0 +1,2 @@
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],com.buzzfeed.android:id/explore_item_title,android.widget.TextView,"[0,1855][1080,1981]",0.875
+id@com.foxnews.android:id/scale_text,com.buzzfeed.android:id/description,android.widget.TextView,"[56,1640][1384,1923]",1.4251131221719457

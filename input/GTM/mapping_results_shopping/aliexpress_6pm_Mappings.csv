@@ -1,0 +1,8 @@
+id@com.alibaba.aliexpresshd:id/edit_address_street_line1,,android.widget.ImageView,"[1300,185][1440,353]",0.75
+id@com.alibaba.aliexpresshd:id/et_password,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.99
+id@com.alibaba.aliexpresshd:id/menu_delete,com.zappos.android.sixpmFlavor:id/html_textview,android.widget.TextView,"[0,2603][1440,2621]",0.99
+id@com.alibaba.aliexpresshd:id/et_email,auth--show-password-checkbox,android.widget.CheckBox,"[63,1389][147,1473]",0.6
+id@com.alibaba.aliexpresshd:id/etfwc_base_edit_text,,android.widget.ImageView,"[1300,185][1440,353]",0.8235294117647058
+id@com.alibaba.aliexpresshd:id/tv_account_setting,android:id/summary,android.widget.TextView,"[56,1862][1384,1985]",0.5714285714285714
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,,android.widget.TextView,"[727,493][1426,1053]",0.99
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.zappos.android.sixpmFlavor:id/add_update_save_btn,android.widget.Button,"[720,2610][1440,2621]",1.0

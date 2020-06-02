@@ -1,0 +1,16 @@
+id@com.contextlogic.home:id/cart_fragment_quantity_dropdown_icon,com.contextlogic.geek:id/cart_fragment_cart_items_checkout_button,android.widget.TextView,"[35,2617][1405,2621]",1.8
+id@com.contextlogic.home:id/menu_view_profile_arrow,,android.widget.TextView,"[308,394][567,460]",1.8
+id@com.contextlogic.home:id/product_details_fragment_add_to_cart_button,com.contextlogic.geek:id/product_details_fragment_overview_save_to_wishlist_button_image,android.widget.ImageView,"[1244,1922][1349,2027]",3.6
+id@com.contextlogic.home:id/sign_in_fragment_sign_in_button,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.01
+id@com.contextlogic.home:id/create_account_fragment_last_name_text,com.contextlogic.geek:id/create_account_fragment_first_name_text,android.widget.EditText,"[28,248][526,358]",3.6
+id@com.contextlogic.home:id/sign_in_fragment_password_text,com.contextlogic.geek:id/sign_in_fragment_forgot_password_button,android.widget.TextView,"[799,662][1052,772]",2.7
+id@com.contextlogic.home:id/create_account_fragment_create_account_button,com.contextlogic.geek:id/create_account_fragment_first_name_text,android.widget.EditText,"[28,248][526,358]",2.7
+id@com.contextlogic.home:id/product_feed_image,com.contextlogic.geek:id/product_feed_gridview,android.widget.ScrollView,"[0,367][1440,2621]",1.8
+id@com.contextlogic.home:id/create_account_fragment_password_text,com.contextlogic.geek:id/create_account_fragment_first_name_text,android.widget.EditText,"[28,248][526,358]",2.7
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.home:id/create_account_fragment_first_name_text,com.contextlogic.geek:id/create_account_fragment_last_name_text,android.widget.EditText,"[554,248][1052,358]",3.6
+id@com.contextlogic.home:id/sign_in_fragment_email_text,com.contextlogic.geek:id/sign_in_fragment_password_text,android.widget.EditText,"[28,386][1052,496]",1.8
+id@com.contextlogic.home:id/create_account_fragment_email_text,com.contextlogic.geek:id/create_account_fragment_confirm_email_text,android.widget.EditText,"[28,524][1052,634]",3.6
+"xpath@//android.widget.Button[@text=""Remove""]",,android.widget.Button,"[192,1600][1248,1768]",1.0
+"xpath@//android.widget.TextView[@text=""Manage Addresses""]",com.contextlogic.geek:id/settings_fragment_row_text,android.widget.TextView,"[56,615][1384,691]",0.9
+id@com.contextlogic.home:id/search_src_text,com.contextlogic.geek:id/search_src_text,android.widget.EditText,"[364,204][1412,330]",0.909

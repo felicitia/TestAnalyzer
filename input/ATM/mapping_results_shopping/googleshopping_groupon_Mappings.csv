@@ -1,0 +1,7 @@
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.groupon:id/done_button,android.widget.TextView,"[1199,1253][1440,1428]",1.01
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.groupon:id/facet_radio,android.widget.RadioButton,"[0,1600][1440,1768]",1.0
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.groupon:id/terms_view,android.widget.TextView,"[42,2441][1398,2547]",1.0
+id@com.google.android.apps.shopping.express:id/cart_action_icon,com.groupon:id/ic_shopping_cart,android.widget.ImageView,"[1300,227][1384,311]",0.9
+id@com.google.android.apps.shopping.express:id/open_search_view_edit_text,com.groupon:id/search_edittext,android.widget.EditText,"[364,199][953,339]",1.0
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,,android.widget.TextView,"[1075,395][1440,521]",1.0
+id@com.google.android.apps.shopping.express:id/srp_grid_product_card_image,com.groupon:id/deal_image,android.widget.ImageView,"[28,723][1412,1502]",0.9

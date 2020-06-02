@@ -1,0 +1,4 @@
+id@com.buzzfeed.android:id/icon,com.mobilesrepublic.appy:id/icon_category_edit,android.widget.ImageView,"[933,196][1080,322]",0.9
+id@com.buzzfeed.android:id/post_card_text,com.mobilesrepublic.appy:id/search_input,android.widget.EditText,"[180,118][948,180]",1.0
+id@com.buzzfeed.android:id/menu_search,com.mobilesrepublic.appy:id/search_tip_input,android.widget.TextView,"[159,122][564,176]",1.0
+id@com.buzzfeed.android:id/explore_item_title,com.mobilesrepublic.appy:id/item_image_0,android.widget.ImageView,"[42,527][764,1010]",0.9

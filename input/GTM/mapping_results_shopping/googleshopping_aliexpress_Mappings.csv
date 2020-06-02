@@ -1,0 +1,7 @@
+id@android:id/text1,com.alibaba.aliexpresshd:id/tv_survey_entrance,android.widget.TextView,"[56,805][1384,911]",1.275
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.alibaba.aliexpresshd:id/tv_product_list_tagged_title,android.widget.TextView,"[0,0][0,0]",1.3233333333333333
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.alibaba.aliexpresshd:id/tv_product_error,android.widget.TextView,"[175,1463][1384,1586]",2.49
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",com.alibaba.aliexpresshd:id/tv_seller_coupon,android.widget.TextView,"[1108,755][1384,821]",0.6868421052631578
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,,android.widget.TextView,"[1258,424][1384,481]",0.99
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.alibaba.aliexpresshd:id/btn_apply_refine,android.widget.Button,"[1132,171][1440,339]",1.0
+id@com.google.android.apps.shopping.express:id/save_address_button,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.0

@@ -1,0 +1,4 @@
+id@jp.gocro.smartnews.android:id/search_src_text,jp.gocro.smartnews.android:id/search_src_text,android.widget.EditText,"[168,95][1059,190]",2.01
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1007][1011,1133]",1.01
+id@jp.gocro.smartnews.android:id/searchTextView,jp.gocro.smartnews.android:id/searchTextView,android.widget.TextView,"[147,91][933,175]",2.01
+id@jp.gocro.smartnews.android:id/settingButton,jp.gocro.smartnews.android:id/settingButton,android.widget.ImageButton,"[954,70][1080,196]",0.909

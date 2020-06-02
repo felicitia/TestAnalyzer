@@ -1,0 +1,12 @@
+id@com.contextlogic.wish:id/address_book_footer_text,,android.widget.TextView,"[0,0][0,0]",2.0
+id@com.contextlogic.wish:id/shipping_address_form_zip_postal_text,com.google.android.apps.shopping.express:id/address_zip_code,android.widget.EditText,"[964,1663][1384,1844]",2.0
+id@com.contextlogic.wish:id/shipping_address_form_city_text,com.google.android.apps.shopping.express:id/address_city,android.widget.EditText,"[56,1400][1384,1581]",1.8
+id@com.contextlogic.wish:id/shipping_address_form_street_address_text,com.google.android.apps.shopping.express:id/address_street,android.widget.EditText,"[56,916][1384,1097]",1.8
+id@com.contextlogic.wish:id/cart_fragment_cart_shipping_floating_done_button,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.01
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",1.0
+id@com.contextlogic.wish:id/filter_fragment_row_main_text,com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",0.9
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[56,199][252,374]",2.01
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.google.android.apps.shopping.express:id/search_bar,android.widget.EditText,"[56,199][1384,374]",1.0
+id@com.contextlogic.wish:id/shipping_address_form_phone_text,com.google.android.apps.shopping.express:id/address_form_gate_code,android.widget.EditText,"[56,2168][1384,2349]",1.8
+id@com.contextlogic.wish:id/menu_view_profile_arrow,com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,260][1370,336]",0.9
+id@com.contextlogic.wish:id/search_src_text,com.google.android.apps.shopping.express:id/open_search_view_edit_text,android.widget.EditText,"[196,185][1104,353]",1.0

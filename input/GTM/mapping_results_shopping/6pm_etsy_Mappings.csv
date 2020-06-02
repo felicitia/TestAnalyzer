@@ -1,0 +1,9 @@
+"xpath@//android.widget.TextView[@text=""Terms of Use""]",com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",1.506578947368421
+id@android:id/text1,com.etsy.android:id/btn_menu,android.widget.ImageView,"[566,1343][692,1469]",1.7519047619047619
+id@com.zappos.android.sixpmFlavor:id/menu_search,com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",0.99
+id@android:id/button1,com.etsy.android:id/btn_menu,android.widget.ImageView,"[566,1343][692,1469]",0.6666666666666666
+"xpath@//android.widget.CheckedTextView[@text=""Account""]",com.etsy.android:id/menu_search,android.widget.TextView,"[1104,185][1272,353]",0.7058823529411765
+id@com.zappos.android.sixpmFlavor:id/menu_sort,com.etsy.android:id/btn_menu,android.widget.ImageView,"[566,1343][692,1469]",0.7
+id@com.zappos.android.sixpmFlavor:id/menu_remove_all,com.etsy.android:id/btn_remove,android.widget.Button,"[767,864][1013,1018]",0.5
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1],com.etsy.android:id/btn_menu,android.widget.ImageView,"[566,1343][692,1469]",0.6153846153846154
+"xpath@//android.widget.Button[@text=""Create your 6pm account""]",com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",1.847142857142857

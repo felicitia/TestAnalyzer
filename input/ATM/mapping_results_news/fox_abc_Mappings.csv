@@ -1,0 +1,2 @@
+id@com.foxnews.android:id/save,com.abc.abcnews:id/menu_save_button,android.widget.TextView,"[954,80][1080,206]",1.01
+id@com.foxnews.android:id/component_headline_item_container,com.abc.abcnews:id/headline_list_item_parent_container,android.view.ViewGroup,"[0,217][1080,561]",2.7

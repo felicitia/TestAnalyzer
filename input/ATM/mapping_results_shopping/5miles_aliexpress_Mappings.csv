@@ -1,0 +1,12 @@
+id@com.thirdrock.fivemiles:id/sign_in,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",2.01
+id@com.thirdrock.fivemiles:id/register_register,com.alibaba.aliexpresshd:id/btn_register,android.widget.Button,"[56,1869][1384,2037]",1.01
+id@com.thirdrock.fivemiles:id/ic_filter,,android.widget.TextView,"[1258,424][1384,481]",1.01
+id@com.thirdrock.fivemiles:id/profile_edit_profile,com.alibaba.aliexpresshd:id/tv_profile_name,android.widget.TextView,"[42,367][478,493]",0.9
+id@com.thirdrock.fivemiles:id/txt_sort_order,com.alibaba.aliexpresshd:id/search_action_text,android.widget.TextView,"[396,420][543,486]",0.9
+id@com.thirdrock.fivemiles:id/sign_up,com.alibaba.aliexpresshd:id/btn_register,android.widget.Button,"[56,1869][1384,2037]",1.01
+id@com.thirdrock.fivemiles:id/btn_save_filter,com.alibaba.aliexpresshd:id/btn_reset_refine,android.widget.Button,"[390,171][698,339]",0.9
+id@com.thirdrock.fivemiles:id/login_password,com.alibaba.aliexpresshd:id/et_password,android.widget.EditText,"[252,647][1384,815]",3.0
+id@com.thirdrock.fivemiles:id/login_email,com.alibaba.aliexpresshd:id/et_email,android.widget.EditText,"[252,485][1384,653]",1.01
+id@com.thirdrock.fivemiles:id/login_login,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",2.01
+id@com.thirdrock.fivemiles:id/edt_keyword_search,com.alibaba.aliexpresshd:id/tv_search_view_goback_,android.widget.ImageButton,"[0,171][168,367]",0.9
+id@com.thirdrock.fivemiles:id/home_location_item_image,com.alibaba.aliexpresshd:id/largeLabel,android.widget.TextView,"[0,0][0,0]",0.9

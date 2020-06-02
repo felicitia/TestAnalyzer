@@ -1,0 +1,7 @@
+id@com.alibaba.aliexpresshd:id/et_password,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",0.6666666666666666
+id@com.alibaba.aliexpresshd:id/search_switch_btn,com.etsy.android:id/search_filters_onsale,android.widget.Switch,"[1204,895][1384,990]",1.0
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.etsy.android:id/btn_sign_in_dialog,android.widget.Button,"[551,1117][881,1249]",2.0
+id@com.alibaba.aliexpresshd:id/menu_delete,com.etsy.android:id/btn_remove,android.widget.Button,"[767,864][1013,1018]",0.99
+id@com.alibaba.aliexpresshd:id/et_email,com.etsy.android:id/text_terms_of_use,android.widget.TextView,"[111,1443][969,1525]",0.6666666666666666
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.etsy.android:id/search_taxonomy_text,android.widget.TextView,"[0,0][0,0]",1.7592307692307694
+id@com.alibaba.aliexpresshd:id/btn_register,com.etsy.android:id/btn_register_dialog,android.widget.Button,"[199,1117][529,1249]",1.0

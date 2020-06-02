@@ -1,0 +1,4 @@
+id@com.abc.abcnews:id/setting_terms,com.foxnews.android:id/settings_link,android.widget.TextView,"[0,0][0,0]",1.865
+id@com.abc.abcnews:id/menu_save_button,com.foxnews.android:id/save,android.widget.ImageView,"[854,91][959,196]",1.0
+id@com.abc.abcnews:id/setting_feedback,com.foxnews.android:id/settings_provider,android.widget.TextView,"[42,413][1038,475]",0.803921568627451
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",com.foxnews.android:id/tab_text,android.widget.TextView,"[0,0][0,0]",0.6868421052631578

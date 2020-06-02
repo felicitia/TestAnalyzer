@@ -1,0 +1,8 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[93,2438][1347,2606]",3.0
+id@com.google.android.apps.shopping.express:id/cart_action_button,android:id/button3,android.widget.Button,"[135,2375][565,2564]",0.8571428571428571
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.zappos.android.sixpmFlavor:id/html_textview,android.widget.TextView,"[0,2603][1440,2621]",2.5316666666666667
+id@com.google.android.apps.shopping.express:id/address_zip_code,,android.widget.ImageView,"[1300,185][1440,353]",0.625
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.ImageView,"[1300,185][1440,353]",2.0
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,android:id/text1,android.widget.CheckedTextView,"[93,1913][1347,2137]",0.8
+id@com.google.android.apps.shopping.express:id/save_address_button,com.zappos.android.sixpmFlavor:id/add_update_save_btn,android.widget.Button,"[720,2610][1440,2621]",1.0
+id@com.google.android.apps.shopping.express:id/phone_number,,android.widget.ImageView,"[1300,185][1440,353]",0.5882352941176471

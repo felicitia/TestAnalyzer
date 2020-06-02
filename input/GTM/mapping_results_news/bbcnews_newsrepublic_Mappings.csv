@@ -1,0 +1,2 @@
+id@bbc.mobile.news.ww:id/action_search,com.mobilesrepublic.appy:id/search_tip_input,android.widget.TextView,"[159,122][564,176]",0.99
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton,,android.view.View,"[0,0][0,0]",0.94

@@ -1,0 +1,9 @@
+id@com.ebay.mobile:id/button_sign_in,com.google.android.apps.shopping.express:id/product_image,android.widget.ImageView,"[734,2586][1384,2596]",0.75
+id@com.ebay.mobile:id/button_register,forgotPassword,android.widget.Button,"[56,2575][535,2621]",1.25
+id@com.ebay.mobile:id/button_sort,com.google.android.apps.shopping.express:id/filter_item_title,android.widget.TextView,"[642,2006][1272,2082]",0.99
+id@com.ebay.mobile:id/bt_continue,,android.widget.RadioButton,"[91,1245][164,1319]",0.99
+id@com.ebay.mobile:id/search_box,com.google.android.apps.shopping.express:id/smallLabel,android.widget.TextView,"[0,0][0,0]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,1100][1370,1176]",0.8421052631578947
+id@com.ebay.mobile:id/button_classic,,android.widget.RadioButton,"[91,1245][164,1319]",1.3333333333333333
+id@com.ebay.mobile:id/bt_create_your_account,,android.widget.RadioButton,"[91,1245][164,1319]",1.8135294117647058
+id@com.ebay.mobile:id/home,com.google.android.apps.shopping.express:id/account_action_notification_center,android.widget.FrameLayout,"[1328,683][1356,851]",1.15

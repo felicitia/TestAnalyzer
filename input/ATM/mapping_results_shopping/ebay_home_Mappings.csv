@@ -1,0 +1,15 @@
+id@com.ebay.mobile:id/et_last_name,com.contextlogic.home:id/create_account_fragment_last_name_text,android.widget.EditText,"[734,962][1384,1102]",2.01
+id@com.ebay.mobile:id/edit_text_username,com.contextlogic.home:id/sign_in_fragment_email_text,android.widget.EditText,"[56,962][1384,1102]",1.0
+id@com.ebay.mobile:id/et_temp,com.contextlogic.home:id/sign_in_fragment_password_text,android.widget.EditText,"[56,1137][1384,1277]",1.01
+id@com.ebay.mobile:id/et_email,com.contextlogic.home:id/create_account_fragment_email_text,android.widget.EditText,"[56,1130][1384,1270]",1.0
+id@com.ebay.mobile:id/bt_create_your_account,com.contextlogic.home:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[0,0][0,0]",2.7
+id@com.ebay.mobile:id/image,com.contextlogic.home:id/product_feed_image,android.widget.ImageView,"[35,990][702,1671]",0.9
+id@com.ebay.mobile:id/textview_sign_in_status,com.contextlogic.home:id/product_feed_num_purchased_text,android.widget.TextView,"[0,0][0,0]",0.9
+id@com.ebay.mobile:id/button_sign_in,com.contextlogic.home:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.01
+id@com.ebay.mobile:id/home,,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.ebay.mobile:id/search_box,com.contextlogic.home:id/home_page_search_text,android.widget.TextView,"[364,224][921,313]",1.0
+id@com.ebay.mobile:id/et_first_name,com.contextlogic.home:id/create_account_fragment_first_name_text,android.widget.EditText,"[56,962][706,1102]",2.01
+id@com.ebay.mobile:id/button_classic,com.contextlogic.home:id/sign_in_fragment_terms_policy_full_ver,android.widget.TextView,"[0,0][0,0]",2.0
+id@com.ebay.mobile:id/button_register,com.contextlogic.home:id/sign_in_fragment_create_account_button,android.widget.TextView,"[56,1863][1384,2003]",3.0
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.contextlogic.home:id/home_page_search_icon,android.widget.ImageView,"[224,242][336,295]",0.9
+id@com.ebay.mobile:id/search_src_text,com.contextlogic.home:id/search_src_text,android.widget.EditText,"[336,204][1356,330]",1.0

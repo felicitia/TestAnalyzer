@@ -1,0 +1,10 @@
+id@com.groupon:id/done,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143
+id@com.groupon:id/ic_shopping_cart,com.google.android.apps.shopping.express:id/cart_action_button,android.widget.Button,"[610,2327][1324,2467]",0.94
+id@com.groupon:id/category_icon,com.google.android.apps.shopping.express:id/product_image,android.widget.ImageView,"[734,2586][1384,2596]",0.8421052631578947
+"xpath@//android.widget.TextView[@text=""NEW USER""]",,android.widget.RadioButton,"[91,1245][164,1319]",1.4605882352941175
+id@com.groupon:id/my_stuff,com.google.android.apps.shopping.express:id/product_image,android.widget.ImageView,"[734,2586][1384,2596]",0.9333333333333333
+id@com.groupon:id/quantity_button_text,com.google.android.apps.shopping.express:id/product_quantity,android.widget.TextView,"[1244,1371][1412,1539]",1.0
+"xpath@//android.widget.TextView[@text=""Customer Support""]",com.google.android.apps.shopping.express:id/design_menu_item_text,android.widget.CheckedTextView,"[84,455][1356,623]",1.375
+id@com.groupon:id/done_button,com.google.android.apps.shopping.express:id/search_panel_action_text,android.widget.TextView,"[1171,342][1440,552]",1.0
+"xpath@//android.widget.Button[@text=""Just show me the deals""]",,android.widget.Button,"[1225,902][1312,990]",1.615
+id@com.groupon:id/fragment_log_in_sign_up_groupon_button,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143

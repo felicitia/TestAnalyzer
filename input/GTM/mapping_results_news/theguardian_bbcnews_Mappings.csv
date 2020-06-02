@@ -1,0 +1,8 @@
+id@com.guardian:id/search_footer_text_view,bbc.mobile.news.ww:id/chip_item,android.widget.TextView,"[570,545][970,657]",1.3214285714285714
+id@com.guardian:id/ivBackButton,bbc.mobile.news.ww:id/chip_item,android.widget.TextView,"[984,545][1411,657]",0.5214285714285714
+id@com.guardian:id/bSavePage,,android.widget.TextView,"[56,1867][1384,2019]",0.45
+id@com.guardian:id/bTextSize,bbc.mobile.news.ww:id/content_card_title,android.widget.TextView,"[0,0][0,0]",2.1214285714285714
+id@com.guardian:id/etInput,bbc.mobile.news.ww:id/chip_item,android.widget.TextView,"[1425,545][1440,657]",0.5384615384615384
+id@com.guardian:id/bBack,,android.widget.TextView,"[56,1867][1384,2019]",0.95
+id@com.guardian:id/fabHome,bbc.mobile.news.ww:id/content_card_title,android.widget.TextView,"[0,0][0,0]",1.7382352941176469
+id@com.guardian:id/sfl_button,bbc.mobile.news.ww:id/title,android.widget.TextView,"[796,735][1370,811]",0.45

@@ -1,0 +1,8 @@
+id@com.guardian:id/search_footer_text_view,com.buzzfeed.android:id/search_voice_btn,android.widget.ImageView,"[1272,186][1412,350]",1.486842105263158
+id@com.guardian:id/ivBackButton,,android.view.View,"[160,1589][1280,1764]",0.575
+id@com.guardian:id/bSavePage,com.buzzfeed.android:id/title,android.widget.TextView,"[56,506][1384,738]",0.45
+id@com.guardian:id/actionbar_home_button,,android.widget.ImageButton,"[0,70][147,217]",0.99
+id@com.guardian:id/bTextSize,com.buzzfeed.android:id/description,android.widget.TextView,"[56,766][1384,1049]",2.2525210084033613
+id@com.guardian:id/bBack,com.buzzfeed.android:id/description,android.widget.TextView,"[56,1640][1384,1923]",1.2
+id@com.guardian:id/fabHome,com.buzzfeed.android:id/post_card_text,android.widget.TextView,"[28,2300][706,2621]",1.8626984126984125
+id@com.guardian:id/iivBackButton,,android.widget.ImageButton,"[0,172][196,368]",0.99

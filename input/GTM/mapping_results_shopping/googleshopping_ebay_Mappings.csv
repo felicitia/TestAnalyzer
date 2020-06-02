@@ -1,0 +1,3 @@
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.ebay.mobile:id/button_done,android.widget.Button,"[1199,171][1440,367]",0.99
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",0.99
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.ebay.mobile:id/button_done,android.widget.Button,"[1199,171][1440,367]",1.0

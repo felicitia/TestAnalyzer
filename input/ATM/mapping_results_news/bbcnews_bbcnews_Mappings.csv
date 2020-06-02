@@ -1,0 +1,4 @@
+id@bbc.mobile.news.ww:id/content_card_image,bbc.mobile.news.ww:id/content_card_image,android.widget.ImageView,"[42,807][639,1143]",0.909
+id@bbc.mobile.news.ww:id/search,bbc.mobile.news.ww:id/search,android.widget.EditText,"[252,226][1412,311]",4.01
+id@bbc.mobile.news.ww:id/action_search,bbc.mobile.news.ww:id/action_search,android.widget.TextView,"[1104,185][1272,353]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton,,android.widget.ImageButton,"[0,171][196,367]",2.01

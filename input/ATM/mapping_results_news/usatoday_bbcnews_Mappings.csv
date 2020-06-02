@@ -1,0 +1,5 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,,android.widget.TextView,"[56,1867][1384,2019]",1.0
+id@com.usatoday.android.news:id/search_the_app,bbc.mobile.news.ww:id/action_search,android.widget.TextView,"[1104,185][1272,353]",1.0
+id@com.usatoday.android.news:id/edit_text_search,bbc.mobile.news.ww:id/search,android.widget.EditText,"[252,226][1412,311]",2.0
+id@com.usatoday.android.news:id/button_articleTextSize,bbc.mobile.news.ww:id/article_ui_share,android.widget.TextView,"[1272,185][1440,353]",0.9
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.01

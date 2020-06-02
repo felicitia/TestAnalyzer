@@ -1,0 +1,17 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[0,0][0,0]",3.01
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,com.google.android.apps.shopping.express:id/search_panel_icon,android.widget.ImageView,"[390,398][586,496]",1.8
+id@com.google.android.apps.shopping.express:id/address_zip_code,com.google.android.apps.shopping.express:id/address_zip_code,android.widget.EditText,"[964,1663][1384,1844]",2.01
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.ImageView,"[1216,202][1384,370]",2.01
+id@com.google.android.apps.shopping.express:id/cart_action_button,com.google.android.apps.shopping.express:id/cart_action_button,android.widget.Button,"[610,1333][1324,1473]",3.01
+id@com.google.android.apps.shopping.express:id/browse_title_container,com.google.android.apps.shopping.express:id/inline_title_text,android.widget.TextView,"[0,402][1440,633]",0.9
+id@com.google.android.apps.shopping.express:id/save_address_button,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.01
+id@com.google.android.apps.shopping.express:id/address_street,com.google.android.apps.shopping.express:id/address_street,android.widget.EditText,"[56,916][1384,1097]",1.01
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.google.android.apps.shopping.express:id/move_to_shopping_list,android.widget.TextView,"[420,1589][999,1757]",4.01
+id@com.google.android.apps.shopping.express:id/welcome_btn_get_started,com.google.android.apps.shopping.express:id/welcome_btn_get_started,android.widget.Button,"[508,2361][932,2542]",2.01
+id@com.google.android.apps.shopping.express:id/address_city,com.google.android.apps.shopping.express:id/address_city,android.widget.EditText,"[56,1400][1384,1581]",1.01
+id@com.google.android.apps.shopping.express:id/cart_action_icon,com.google.android.apps.shopping.express:id/cart_action_icon,android.widget.ImageView,"[1244,244][1328,328]",0.909
+id@com.google.android.apps.shopping.express:id/open_search_view_edit_text,com.google.android.apps.shopping.express:id/open_search_view_edit_text,android.widget.EditText,"[196,185][1104,353]",3.01
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",1.01
+id@com.google.android.apps.shopping.express:id/phone_number,com.google.android.apps.shopping.express:id/phone_number,android.widget.EditText,"[56,1926][1384,2107]",2.01
+id@com.google.android.apps.shopping.express:id/srp_grid_product_card_image,com.google.android.apps.shopping.express:id/srp_grid_product_card_image,android.widget.ImageView,"[67,637][543,1113]",2.01
+id@com.google.android.apps.shopping.express:id/address_recipient,com.google.android.apps.shopping.express:id/address_recipient,android.widget.EditText,"[56,674][1384,855]",1.01

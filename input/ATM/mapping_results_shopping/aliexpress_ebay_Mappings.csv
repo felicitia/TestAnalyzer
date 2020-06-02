@@ -1,0 +1,7 @@
+id@com.alibaba.aliexpresshd:id/btn_register,com.ebay.mobile:id/button_register,android.widget.Button,"[56,1763][1384,1931]",0.9
+id@com.alibaba.aliexpresshd:id/et_email,com.ebay.mobile:id/et_email,android.widget.EditText,"[56,636][1384,785]",1.01
+id@com.alibaba.aliexpresshd:id/search_switch_btn,com.ebay.mobile:id/menu_search,android.widget.TextView,"[936,185][1104,353]",0.9
+id@com.alibaba.aliexpresshd:id/et_password,com.ebay.mobile:id/et_temp,android.widget.EditText,"[56,562][1384,711]",1.01
+id@com.alibaba.aliexpresshd:id/abs__search_src_text,com.ebay.mobile:id/search_src_text,android.widget.EditText,"[196,234][1132,360]",1.8
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.01
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.ebay.mobile:id/textview_category,android.widget.TextView,"[66,2325][706,2521]",1.0

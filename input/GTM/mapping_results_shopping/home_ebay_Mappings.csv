@@ -1,0 +1,6 @@
+id@com.contextlogic.home:id/create_account_fragment_last_name_text,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",1.2142857142857144
+id@com.contextlogic.home:id/create_account_fragment_create_account_button,com.ebay.mobile:id/bt_business,android.widget.TextView,"[56,1711][1384,1851]",1.98
+id@com.contextlogic.home:id/create_account_fragment_password_text,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",0.75
+id@com.contextlogic.home:id/product_details_fragment_add_to_cart_button,com.ebay.mobile:id/selection_capsule,android.widget.TextView,"[1148,2391][1384,2615]",0.99
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",android:id/title,android.widget.TextView,"[252,1409][745,1485]",1.565
+id@com.contextlogic.home:id/sign_in_fragment_sign_in_button,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.0

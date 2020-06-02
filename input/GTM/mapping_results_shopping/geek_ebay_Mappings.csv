@@ -1,0 +1,8 @@
+id@com.contextlogic.geek:id/sign_in_fragment_sign_in_button,com.ebay.mobile:id/button_sign_in,android.widget.Button,"[56,1119][1384,1287]",2.0
+id@com.contextlogic.geek:id/create_account_fragment_create_account_button,com.ebay.mobile:id/bt_create_your_account,android.widget.Button,"[56,1629][1384,1797]",2.0
+"xpath@//android.widget.TextView[@content-desc=""Search""]",com.ebay.mobile:id/menu_search,android.widget.TextView,"[936,185][1104,353]",1.0
+id@com.contextlogic.geek:id/fragment_filter_done,com.ebay.mobile:id/button_filter_subelement,android.widget.CheckedTextView,"[280,1279][1384,1503]",0.6666666666666666
+id@com.contextlogic.geek:id/product_details_fragment_add_to_cart_button,com.ebay.mobile:id/selection_capsule,android.widget.TextView,"[1148,2391][1384,2615]",0.99
+"xpath@//android.widget.TextView[@content-desc=""Filter""]",com.ebay.mobile:id/button_filter,android.widget.Button,"[1176,367][1440,563]",1.0
+id@com.contextlogic.geek:id/create_account_fragment_last_name_text,com.ebay.mobile:id/tv_legal_text,android.widget.TextView,"[70,1131][1384,1237]",1.2142857142857144
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",android:id/title,android.widget.TextView,"[252,1409][745,1485]",1.565

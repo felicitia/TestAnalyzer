@@ -1,0 +1,3 @@
+id@com.foxnews.android:id/settings_bttn,com.cnn.mobile.android.phone:id/tv_privacy_settings,android.widget.Button,"[42,1896][1080,2043]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],,androidx.appcompat.app.a$c,"[263,212][452,338]",1.01
+id@com.foxnews.android:id/big_top_item_container,,androidx.appcompat.app.a$c,"[0,212][263,338]",0.9

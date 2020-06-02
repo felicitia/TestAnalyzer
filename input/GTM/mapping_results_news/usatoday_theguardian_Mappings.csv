@@ -1,0 +1,5 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,com.guardian:id/bSavePage,android.widget.ImageView,"[964,93][1069,198]",0.5714285714285714
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",com.guardian:id/navigation_title,android.widget.TextView,"[0,2002][577,2128]",0.94
+id@com.usatoday.android.news:id/search_the_app,com.guardian:id/tvHeadline,android.widget.TextView,"[43,1705][766,1813]",2.462745098039216
+id@com.usatoday.android.news:id/settings_gear,com.guardian:id/iivAddToHomeButton,android.widget.ImageView,"[995,224][1058,287]",0.875
+id@com.usatoday.android.news:id/button_articleTextSize,com.guardian:id/bTextSize,android.widget.ImageView,"[732,93][837,198]",2.73

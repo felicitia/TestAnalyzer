@@ -1,0 +1,5 @@
+id@com.buzzfeed.android:id/menu_bookmark,,android.widget.TextView,"[37,1435][1043,1821]",0.75
+id@com.buzzfeed.android:id/menu_search,,android.widget.TextView,"[547,338][686,392]",0.7777777777777778
+id@com.buzzfeed.android:id/explore_item_title,com.abc.abcnews:id/cinematic_related_title_two,android.widget.TextView,"[88,1404][1041,1491]",0.99
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,70][147,217]",2.0
+id@com.buzzfeed.android:id/post_card_text,com.abc.abcnews:id/cinematic_related_title_one,android.widget.TextView,"[88,1281][1041,1368]",3.391523935002196

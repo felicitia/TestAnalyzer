@@ -1,0 +1,4 @@
+id@com.foxnews.android:id/settings_bttn,bbc.mobile.news.ww:id/title,android.widget.TextView,"[796,231][1370,307]",1.01
+"xpath@//android.widget.ImageButton[@content-desc=""Back""]",,android.widget.ImageButton,"[0,171][196,367]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.TextView[1],android:id/text1,android.widget.TextView,"[0,339][1050,507]",1.01
+id@com.foxnews.android:id/big_top_item_container,,androidx.appcompat.app.ActionBar$Tab,"[0,367][409,535]",0.9

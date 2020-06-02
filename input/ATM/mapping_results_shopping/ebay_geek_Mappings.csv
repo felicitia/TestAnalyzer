@@ -1,0 +1,14 @@
+id@com.ebay.mobile:id/et_last_name,com.contextlogic.geek:id/create_account_fragment_last_name_text,android.widget.EditText,"[554,248][1052,358]",2.01
+id@com.ebay.mobile:id/edit_text_username,com.contextlogic.geek:id/sign_in_fragment_email_text,android.widget.EditText,"[28,248][1052,358]",1.0
+id@com.ebay.mobile:id/et_temp,com.contextlogic.geek:id/sign_in_fragment_forgot_password_button,android.widget.TextView,"[799,662][1052,772]",1.0
+id@com.ebay.mobile:id/et_email,com.contextlogic.geek:id/create_account_fragment_email_text,android.widget.EditText,"[28,386][1052,496]",1.01
+id@com.ebay.mobile:id/bt_create_your_account,com.contextlogic.geek:id/create_account_fragment_create_account_button,android.widget.TextView,"[28,800][1052,910]",2.01
+id@com.ebay.mobile:id/image,com.contextlogic.geek:id/product_feed_image,android.widget.ImageView,"[35,570][702,1237]",0.9
+id@com.ebay.mobile:id/button_sign_in,com.contextlogic.geek:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[28,524][1052,634]",2.01
+id@com.ebay.mobile:id/home,,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.ebay.mobile:id/search_box,com.contextlogic.geek:id/menu_fragment_row_text,android.widget.TextView,"[224,838][980,914]",1.0
+id@com.ebay.mobile:id/et_first_name,com.contextlogic.geek:id/create_account_fragment_first_name_text,android.widget.EditText,"[28,248][526,358]",2.01
+id@com.ebay.mobile:id/button_classic,com.contextlogic.geek:id/sign_in_fragment_email_text,android.widget.EditText,"[28,248][1052,358]",1.0
+id@com.ebay.mobile:id/button_register,com.contextlogic.geek:id/sign_in_fragment_create_account_button,android.widget.TextView,"[425,1037][654,1136]",2.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,,android.widget.TextView,"[1048,185][1244,353]",0.9
+id@com.ebay.mobile:id/search_src_text,com.contextlogic.geek:id/search_src_text,android.widget.EditText,"[364,204][1412,330]",1.0

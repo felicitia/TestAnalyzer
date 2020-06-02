@@ -1,0 +1,12 @@
+id@com.contextlogic.home:id/shipping_address_form_street_address_text,com.google.android.apps.shopping.express:id/address_street,android.widget.EditText,"[56,916][1384,1097]",1.8
+id@com.contextlogic.home:id/cart_fragment_quantity_dropdown_icon,com.google.android.apps.shopping.express:id/inline_title_text,android.widget.TextView,"[0,402][965,633]",0.9
+id@com.contextlogic.home:id/menu_view_profile_arrow,com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,260][1370,336]",0.9
+id@com.contextlogic.home:id/product_feed_image,com.google.android.apps.shopping.express:id/srp_grid_product_card_image,android.widget.ImageView,"[67,637][543,1113]",1.8
+id@com.contextlogic.home:id/cart_fragment_cart_shipping_floating_done_button,com.google.android.apps.shopping.express:id/save_address_button,android.widget.Button,"[1076,2454][1384,2621]",1.01
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.contextlogic.home:id/shipping_address_form_zip_postal_text,com.google.android.apps.shopping.express:id/address_zip_code,android.widget.EditText,"[964,1663][1384,1844]",1.8
+id@com.contextlogic.home:id/shipping_address_form_phone_text,com.google.android.apps.shopping.express:id/address_form_gate_code,android.widget.EditText,"[56,2168][1384,2349]",1.8
+"xpath@//android.widget.TextView[@text=""Manage Addresses""]",android:id/title,android.widget.TextView,"[56,423][358,489]",1.0
+id@com.contextlogic.home:id/search_src_text,com.google.android.apps.shopping.express:id/primary_banner_action_button,android.widget.Button,"[56,918][393,1098]",1.0
+id@com.contextlogic.home:id/shipping_address_form_city_text,com.google.android.apps.shopping.express:id/address_city,android.widget.EditText,"[56,1400][1384,1581]",1.8
+id@com.contextlogic.home:id/address_book_footer_text,,android.widget.TextView,"[0,0][0,0]",2.0

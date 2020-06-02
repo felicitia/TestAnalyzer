@@ -1,0 +1,6 @@
+id@com.ebay.mobile:id/image,com.zappos.android.sixpmFlavor:id/square_network_image,android.widget.ImageView,"[122,576][598,1108]",0.9
+id@com.ebay.mobile:id/home,,android.widget.ImageButton,"[0,171][196,367]",1.0
+id@com.ebay.mobile:id/search_box,com.zappos.android.sixpmFlavor:id/menu_search,android.widget.TextView,"[957,185][1125,353]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,android:id/text1,android.widget.CheckedTextView,"[93,793][1347,1017]",2.0
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.zappos.android.sixpmFlavor:id/category_women,android.widget.Button,"[28,499][489,692]",0.9
+id@com.ebay.mobile:id/button_sort,com.zappos.android.sixpmFlavor:id/menu_sort,android.widget.TextView,"[789,185][957,353]",1.01

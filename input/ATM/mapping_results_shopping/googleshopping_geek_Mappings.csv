@@ -1,0 +1,6 @@
+id@com.google.android.apps.shopping.express:id/search_panel_action_text,,android.widget.TextView,"[1244,185][1440,353]",0.9
+id@com.google.android.apps.shopping.express:id/move_to_shopping_list,com.contextlogic.geek:id/cart_fragment_cart_items_summary_row_name,android.widget.TextView,"[56,1528][1245,1604]",0.875
+id@com.google.android.apps.shopping.express:id/cart_action_icon,com.contextlogic.geek:id/action_bar_item_icon,android.widget.ImageView,"[908,213][1020,325]",0.9
+id@com.google.android.apps.shopping.express:id/open_search_view_edit_text,com.contextlogic.geek:id/fragment_search_recently_viewed_view_all,android.widget.TextView,"[1257,682][1405,739]",1.8
+id@com.google.android.apps.shopping.express:id/filter_drawer_text,,android.widget.TextView,"[1048,185][1244,353]",1.0
+id@com.google.android.apps.shopping.express:id/srp_grid_product_card_image,com.contextlogic.geek:id/product_feed_image,android.widget.ImageView,"[35,570][702,1237]",1.8

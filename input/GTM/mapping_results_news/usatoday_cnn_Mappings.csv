@@ -1,0 +1,5 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,,android.view.View,"[0,0][0,0]",0.9090909090909091
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.view.View,"[0,0][0,0]",0.94
+id@com.usatoday.android.news:id/search_the_app,,android.view.View,"[0,0][0,0]",1.4558823529411766
+id@com.usatoday.android.news:id/settings_gear,,android.view.View,"[0,0][0,0]",0.875
+id@com.usatoday.android.news:id/button_articleTextSize,,android.view.View,"[0,0][0,0]",2.1013071895424837

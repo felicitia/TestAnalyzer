@@ -1,0 +1,8 @@
+id@android:id/text1,android:id/text1,android.widget.CheckedTextView,"[69,1259][1011,1385]",2.01
+"xpath@//android.widget.ImageButton[@content-desc=""Drawer Opened""]",,android.widget.ImageButton,"[0,70][147,217]",2.01
+id@com.abc.abcnews:id/headline_list_item_parent_container,com.abc.abcnews:id/headline_list_item_interest_name,android.widget.TextView,"[52,269][659,330]",2.7
+id@com.abc.abcnews:id/drawer_search,com.abc.abcnews:id/drawer_search,android.widget.EditText,"[158,123][806,249]",1.01
+id@com.abc.abcnews:id/setting_feedback,com.abc.abcnews:id/setting_feedback,android.widget.TextView,"[26,651][1054,779]",2.01
+id@com.abc.abcnews:id/setting_terms,com.abc.abcnews:id/setting_terms,android.widget.TextView,"[26,1152][1054,1280]",3.01
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.abc.abcnews:id/menu_save_button,com.abc.abcnews:id/menu_save_button,android.widget.TextView,"[954,80][1080,206]",1.01

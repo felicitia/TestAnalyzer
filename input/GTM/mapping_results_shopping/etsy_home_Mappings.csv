@@ -1,0 +1,12 @@
+id@com.etsy.android:id/cart_icon,com.contextlogic.home:id/product_details_fragment_overview_title,android.widget.TextView,"[0,2066][1440,2473]",2.3590909090909093
+id@com.etsy.android:id/legal_row,,android.widget.ImageButton,"[0,171][196,367]",0.5
+id@com.etsy.android:id/button_register,com.contextlogic.home:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[0,0][0,0]",0.8235294117647058
+id@com.etsy.android:id/edit_last_name,com.contextlogic.home:id/login_fragment_terms_policy_full_ver,android.widget.TextView,"[0,0][0,0]",1.3
+id@com.etsy.android:id/btn_remove,,android.widget.TextView,"[56,2251][1384,2311]",0.6666666666666666
+id@com.etsy.android:id/btn_link,com.contextlogic.home:id/home_page_search_text,android.widget.TextView,"[364,224][921,313]",1.3015873015873014
+id@com.etsy.android:id/btn_register_dialog,com.contextlogic.home:id/sign_in_fragment_create_account_button,android.widget.TextView,"[56,1863][1384,2003]",0.8235294117647058
+id@com.etsy.android:id/button_cart,com.contextlogic.home:id/product_details_fragment_overview_title,android.widget.TextView,"[0,2066][1440,2473]",1.3233333333333333
+id@com.etsy.android:id/button_signin,com.contextlogic.home:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.0
+id@com.etsy.android:id/filters_text_view,,android.widget.TextView,"[0,367][432,535]",0.4
+id@com.etsy.android:id/menu_search,,android.widget.TextView,"[1338,367][1440,535]",1.7511961722488039
+id@com.etsy.android:id/btn_sign_in_dialog,com.contextlogic.home:id/sign_in_fragment_sign_in_button,android.widget.TextView,"[56,1425][1384,1565]",2.0

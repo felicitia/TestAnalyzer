@@ -1,0 +1,9 @@
+id@com.alibaba.aliexpresshd:id/et_password,com.alibaba.aliexpresshd:id/tv_register_agreement,android.widget.TextView,"[56,1129][1384,1309]",0.75
+id@com.alibaba.aliexpresshd:id/search_switch_btn,com.alibaba.aliexpresshd:id/search_switch_btn,android.widget.Switch,"[1218,1943][1384,2038]",1.0
+id@com.alibaba.aliexpresshd:id/btn_sign_in,com.alibaba.aliexpresshd:id/btn_sign_in,android.widget.Button,"[56,2079][1384,2247]",2.0
+id@com.alibaba.aliexpresshd:id/menu_delete,com.alibaba.aliexpresshd:id/menu_delete,android.widget.TextView,"[1272,185][1440,353]",1.0
+id@com.alibaba.aliexpresshd:id/et_email,com.alibaba.aliexpresshd:id/tv_register_agreement,android.widget.TextView,"[56,1129][1384,1309]",0.6666666666666666
+id@com.alibaba.aliexpresshd:id/tv_account_setting,com.alibaba.aliexpresshd:id/tv_account_setting,android.widget.TextView,"[56,410][206,481]",1.0
+id@com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,com.alibaba.aliexpresshd:id/tv_pic_text_mix_item_category_name,android.widget.TextView,"[210,2453][1004,2621]",4.0
+id@com.alibaba.aliexpresshd:id/btn_address_add,com.alibaba.aliexpresshd:id/btn_address_add,android.widget.Button,"[56,2213][1384,2392]",1.0
+id@com.alibaba.aliexpresshd:id/btn_register,com.alibaba.aliexpresshd:id/btn_register,android.widget.Button,"[56,1869][1384,2037]",1.0

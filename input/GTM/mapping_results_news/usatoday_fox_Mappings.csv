@@ -1,0 +1,4 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,com.foxnews.android:id/embedded_video_title,android.widget.TextView,"[0,1680][1080,1817]",0.99
+id@com.usatoday.android.news:id/search_the_app,com.foxnews.android:id/related_headline,android.widget.TextView,"[74,1154][1038,1278]",2.25
+id@com.usatoday.android.news:id/settings_gear,com.foxnews.android:id/tab_text,android.widget.TextView,"[0,0][0,0]",0.875
+id@com.usatoday.android.news:id/button_articleTextSize,com.foxnews.android:id/embedded_video_description,android.widget.TextView,"[0,1838][1080,2144]",2.4054621848739495

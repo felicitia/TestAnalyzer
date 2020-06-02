@@ -1,0 +1,5 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,,android.widget.TextView,"[56,1867][1384,2019]",0.99
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.0
+id@com.usatoday.android.news:id/search_the_app,bbc.mobile.news.ww:id/content_card_title,android.widget.TextView,"[0,0][0,0]",1.4
+id@com.usatoday.android.news:id/settings_gear,,androidx.appcompat.app.ActionBar$Tab,"[0,367][409,535]",0.7368421052631579
+id@com.usatoday.android.news:id/button_articleTextSize,,android.widget.TextView,"[56,2075][1384,2156]",2.1058823529411765

@@ -1,0 +1,3 @@
+id@com.thirdrock.fivemiles:id/ic_filter,com.zappos.android.sixpmFlavor:id/menu_filter,android.widget.TextView,"[621,185][789,353]",1.01
+id@com.thirdrock.fivemiles:id/btn_save_filter,android:id/button1,android.widget.Button,"[1076,2375][1305,2564]",1.01
+id@com.thirdrock.fivemiles:id/home_location_item_image,com.zappos.android.sixpmFlavor:id/item_almost_oos,android.widget.TextView,"[10,1027][122,1108]",0.9

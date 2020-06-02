@@ -1,0 +1,2 @@
+id@bbc.mobile.news.ww:id/content_card_image,com.foxnews.android:id/author_image,android.widget.ImageView,"[250,911][313,974]",0.9
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.view.ViewGroup/android.widget.ImageButton,,android.widget.ImageButton,"[0,70][147,217]",1.01

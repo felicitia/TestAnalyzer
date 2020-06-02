@@ -1,0 +1,3 @@
+id@com.guardian:id/bTextSize,com.foxnews.android:id/scale_text,android.widget.ImageView,"[730,109][828,177]",1.0
+id@com.guardian:id/bBack,,android.widget.ImageButton,"[0,70][147,217]",0.7200000000000001
+id@com.guardian:id/bSavePage,com.foxnews.android:id/save,android.widget.ImageView,"[854,91][959,196]",1.0

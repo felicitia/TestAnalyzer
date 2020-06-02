@@ -1,0 +1,4 @@
+id@com.usatoday.android.news:id/menuButtonBookmark,com.guardian:id/bSavePage,android.widget.ImageView,"[964,93][1069,198]",1.0
+id@com.usatoday.android.news:id/search_the_app,com.guardian:id/tvTrail,android.widget.TextView,"[43,825][932,1023]",2.0
+id@com.usatoday.android.news:id/edit_text_search,com.guardian:id/iv_search,android.widget.ImageView,"[163,107][226,170]",1.0
+id@com.usatoday.android.news:id/button_articleTextSize,com.guardian:id/bTextSize,android.widget.ImageView,"[732,93][837,198]",1.0

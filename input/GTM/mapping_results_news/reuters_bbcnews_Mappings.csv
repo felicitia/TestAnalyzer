@@ -1,0 +1,5 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Open Menu""]",,android.widget.ImageButton,"[0,171][196,367]",2.0
+id@com.thomsonreuters.reuters:id/menu_search_text,bbc.mobile.news.ww:id/chip_item,android.widget.TextView,"[570,545][970,657]",0.75
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.0
+"xpath@//android.widget.ImageView[@content-desc=""More options""]",,android.widget.ImageView,"[1272,185][1440,353]",2.0
+id@com.thomsonreuters.reuters:id/list_item_collection_name,bbc.mobile.news.ww:id/chip_item,android.widget.TextView,"[570,545][970,657]",0.6666666666666666

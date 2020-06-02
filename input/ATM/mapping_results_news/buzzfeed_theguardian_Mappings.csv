@@ -1,0 +1,8 @@
+id@com.buzzfeed.android:id/usernameEditText,com.guardian:id/email,android.widget.EditText,"[42,534][1038,676]",1.0
+id@com.buzzfeed.android:id/signin,com.guardian:id/actionbar_item_text_center,android.widget.TextView,"[137,81][1059,239]",1.0
+id@com.buzzfeed.android:id/passwordEditText,com.guardian:id/password,android.widget.EditText,"[42,687][1038,829]",1.01
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",com.guardian:id/actionbar_home_button,android.widget.ImageView,"[21,112][126,217]",1.0
+id@com.buzzfeed.android:id/post_card_text,com.guardian:id/article_title,android.widget.TextView,"[121,2084][1059,2144]",3.0
+id@com.buzzfeed.android:id/menu_search,com.guardian:id/search_header_divider,android.view.View,"[42,1387][1038,1390]",0.9
+id@com.buzzfeed.android:id/explore_item_title,,android.widget.TextView,"[755,228][984,282]",1.0
+id@com.buzzfeed.android:id/loginButton,com.guardian:id/actionbar_item_text_center,android.widget.TextView,"[137,81][1059,239]",1.0

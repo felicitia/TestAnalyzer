@@ -1,0 +1,11 @@
+id@com.etsy.android:id/cart_icon,com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,1100][1370,1176]",1.2558823529411764
+id@com.etsy.android:id/button_register,,android.widget.Button,"[1274,979][1361,1067]",0.6666666666666666
+id@com.etsy.android:id/btn_remove,com.google.android.apps.shopping.express:id/proceed_to_checkout,android.widget.Button,"[56,710][1384,836]",0.6666666666666666
+id@com.etsy.android:id/btn_register_dialog,forgotPassword,android.widget.Button,"[56,2575][535,2621]",0.6666666666666666
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.TextView,com.google.android.apps.shopping.express:id/category_card_title,android.widget.TextView,"[632,2172][1096,2295]",1.2483660130718954
+id@com.etsy.android:id/search_filters_sort_by_text,com.google.android.apps.shopping.express:id/srp_grid_product_card_title_text,android.widget.TextView,"[610,2614][1384,2621]",0.5
+id@com.etsy.android:id/button_signin,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143
+id@com.etsy.android:id/filters_text_view,com.google.android.apps.shopping.express:id/filter_drawer_text,android.widget.TextView,"[1247,453][1384,519]",0.99
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[3]/android.view.ViewGroup/android.widget.ImageView[1],com.google.android.apps.shopping.express:id/srp_grid_product_card_title_text,android.widget.TextView,"[610,2614][1384,2621]",0.45
+id@com.etsy.android:id/menu_search,com.google.android.apps.helprtc:id/title,android.widget.TextView,"[734,1100][1370,1176]",1.506578947368421
+id@com.etsy.android:id/btn_sign_in_dialog,,android.widget.Button,"[1225,902][1312,990]",0.7142857142857143

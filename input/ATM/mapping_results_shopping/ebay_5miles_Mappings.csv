@@ -1,0 +1,18 @@
+id@com.ebay.mobile:id/et_last_name,com.thirdrock.fivemiles:id/login_last_name,android.widget.EditText,"[762,702][1356,860]",2.01
+id@com.ebay.mobile:id/edit_text_username,com.thirdrock.fivemiles:id/login_email,android.widget.EditText,"[84,543][1356,701]",1.0
+id@com.ebay.mobile:id/et_temp,com.thirdrock.fivemiles:id/login_password,android.widget.EditText,"[84,1178][1356,1336]",1.0
+id@com.ebay.mobile:id/et_email,com.thirdrock.fivemiles:id/login_email,android.widget.EditText,"[84,940][1356,1098]",1.01
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.ImageView,com.thirdrock.fivemiles:id/category_parent_name,android.widget.TextView,"[0,367][350,504]",0.9
+id@com.ebay.mobile:id/bt_create_your_account,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",2.7
+id@com.ebay.mobile:id/image,com.thirdrock.fivemiles:id/appinstall_image,android.widget.ImageView,"[28,404][392,660]",0.9
+id@com.ebay.mobile:id/button_sign_in,com.thirdrock.fivemiles:id/sign_in,android.widget.Button,"[741,2561][1370,2621]",2.01
+id@com.ebay.mobile:id/home,,android.widget.TextView,"[0,0][0,0]",1.0
+id@com.ebay.mobile:id/search_box,,android.widget.TextView,"[280,236][590,302]",1.0
+id@com.ebay.mobile:id/et_first_name,com.thirdrock.fivemiles:id/login_first_name,android.widget.EditText,"[84,702][678,860]",2.01
+id@com.ebay.mobile:id/button_classic,com.thirdrock.fivemiles:id/txt_terms,android.widget.TextView,"[105,2439][1335,2621]",2.0
+id@com.ebay.mobile:id/button_register,com.thirdrock.fivemiles:id/lbl_login_with_phone,android.widget.TextView,"[268,2600][1171,2621]",1.0
+xpath@/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.CheckedTextView,com.thirdrock.fivemiles:id/common_list_item_text,android.widget.CheckedTextView,"[28,1155][1412,1343]",2.0
+"xpath@//android.widget.TextView[@content-desc=""Categories button""]",com.thirdrock.fivemiles:id/home_toolbar_location,android.widget.ImageView,"[1146,199][1286,339]",0.9
+id@com.ebay.mobile:id/button_sort,,android.widget.TextView,"[56,549][699,727]",1.0
+id@com.ebay.mobile:id/bt_continue,com.thirdrock.fivemiles:id/btn_google_login,android.widget.TextView,"[56,2372][1384,2512]",1.0
+id@com.ebay.mobile:id/search_src_text,com.thirdrock.fivemiles:id/edt_keyword_search,android.widget.EditText,"[305,227][1314,311]",2.0

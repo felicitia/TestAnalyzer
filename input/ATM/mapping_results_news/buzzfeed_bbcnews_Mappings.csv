@@ -1,0 +1,4 @@
+"xpath@//android.widget.ImageButton[@content-desc=""Navigate up""]",,android.widget.ImageButton,"[0,171][196,367]",2.01
+id@com.buzzfeed.android:id/post_card_text,bbc.mobile.news.ww:id/content_card_title,android.widget.TextView,"[667,1955][1370,2150]",2.0
+id@com.buzzfeed.android:id/menu_search,bbc.mobile.news.ww:id/action_search,android.widget.TextView,"[1104,185][1272,353]",1.0
+id@com.buzzfeed.android:id/explore_item_title,android:id/text1,android.widget.TextView,"[0,0][0,0]",1.01
