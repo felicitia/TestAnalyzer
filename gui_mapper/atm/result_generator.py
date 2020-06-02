@@ -302,7 +302,7 @@ def convert_gt_test(gt_test, tgt_app, ui_dump_dir):
 
 
 # output final results for each app pair (will append to the file if run multiple times)
-def evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir):
+def evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir, gui_mapper):
     with open(os.path.join(test_case_dir, src_app + '.csv'), 'r') as test_input:
         # with open('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/atm.csv', 'a') as result_output:
         with open(output_file, 'a') as result_output:
@@ -361,7 +361,7 @@ def evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_p
                 current_result.append(gt_test)
                 current_result.append(src_app)
                 current_result.append(tgt_app)
-                current_result.append('atm')
+                current_result.append(gui_mapper)
                 current_result.append(correct)
                 current_result.append(incorrect)
                 current_result.append(missed)
@@ -558,7 +558,7 @@ def find_node_by_xpath(xpath, app, ui_dump_dir):
     # print('current node is None')
     return None
 
-def evaluate_atm_mapping_batch(test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir):
+def evaluate_atm_mapping_batch(test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir, gui_mapper):
     # app_list = os.listdir('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/')
     app_list = os.listdir(test_case_dir)
     count = 0
@@ -570,7 +570,7 @@ def evaluate_atm_mapping_batch(test_case_dir, output_file, gt_file_prefix, mappi
             if not tgt_file.endswith('.csv'):
                 continue
             tgt_app = tgt_file.split('.')[0]
-            evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir)
+            evaluate_atm_mapping(src_app, tgt_app, test_case_dir, output_file, gt_file_prefix, mapping_results_dir, ui_dump_dir, gui_mapper)
             count += 1
             print('finished##### ', count, '/100 ', src_app, tgt_app)
 
@@ -580,8 +580,9 @@ if __name__ == "__main__":
     # a = ['aa', 'bbb', 'ccc']
     # b = ['bb', 'aa', 'ccc']
     # result header = 'method,src_events,transferred,gt_events,source,target,gui_mapper,correct,incorrect,missed,nonExist,num_correct,num_incorrect,num_missed,num_nonExist,accuracy_precision,accuracy_recall,accuracy,distance'
-    evaluate_atm_mapping_batch('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/',
-                               '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/atm_news.csv',
-                               '../ground_truth_mapping/news/GT_',
-                               '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results_news/',
-                               '/Users/yixue/Documents/Research/FrUITeR/Develop/TestBenchmark-Jave-client/screenshots/news/')
+    evaluate_atm_mapping_batch('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/shopping/',
+                               '/Users/yixue/Documents/Research/FrUITeR/Results/GTM/gtm_shopping.csv',
+                               '../ground_truth_mapping/GUI Mapping Ground Truth - ',
+                               '/Users/yixue/Documents/Research/FrUITeR/Results/GTM/mapping_results_shopping/',
+                               '/Users/yixue/Documents/Research/FrUITeR/Develop/TestBenchmark-Jave-client/screenshots/shopping/',
+                               'gtm')

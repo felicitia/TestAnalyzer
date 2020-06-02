@@ -78,6 +78,7 @@ def get_events_from_tests_all(test_file):
     ids = set()  # resource-id or xpath set, starting with id@ or xpath@
     with open(test_file, 'r') as csv_input:
         reader = csv.reader(csv_input)
+        next(reader) # skip header
         for row in reader:
             event_array = json.loads(row[1])
             for event in event_array:
@@ -277,12 +278,12 @@ def output_mapping_batch(test_case_dir, mapping_results_dir, merged_scores_dir, 
             print('finished##### ', count, '/100 ', src_app, tgt_app)
 
 if __name__ == "__main__":
-    # check_if_done('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/raw_scores_news', '.csv')
+    # check_if_done('/Users/yixue/Documents/Research/FrUITeR/Results/GTM/raw_scores_shopping', '.csv')
+    #
+    # merge_scores('/Users/yixue/Documents/Research/FrUITeR/Results/GTM/raw_scores_shopping',
+    # '/Users/yixue/Documents/Research/FrUITeR/Results/GTM/merged_scores_shopping')
 
-    # merge_scores('/Users/yixue/Documents/Research/FrUITeR/Results/ATM/raw_scores_news',
-    # '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores_news')
-
-    output_mapping_batch('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/news/',
-                         '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/mapping_results_news/',
-                         '/Users/yixue/Documents/Research/FrUITeR/Results/ATM/merged_scores_news/',
-                         '/Users/yixue/Documents/Research/FrUITeR/Develop/TestBenchmark-Jave-client/screenshots/news/')
+    output_mapping_batch('/Users/yixue/Documents/Research/FrUITeR/Develop/ProcessedTest_CSV/shopping/',
+                         '/Users/yixue/Documents/Research/FrUITeR/Results/GTM/mapping_results_shopping/',
+                         '/Users/yixue/Documents/Research/FrUITeR/Results/GTM/merged_scores_shopping/',
+                         '/Users/yixue/Documents/Research/FrUITeR/Develop/TestBenchmark-Jave-client/screenshots/shopping/')
